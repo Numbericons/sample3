@@ -1,0 +1,365 @@
+{
+  "resourcePath": "",
+  "fileDefinition": {
+    "name": "Walmart EDI 850",
+    "description": "Purchase Order",
+    "version": 1,
+    "format": "delimited/x12",
+    "delimited": {
+      "rowSuffix": "~",
+      "rowDelimiter": "\n",
+      "colDelimiter": "*"
+    },
+    "rules": [
+      {
+        "maxOccurrence": 2,
+        "required": true,
+        "skipRowSuffix": true,
+        "elements": [
+          {
+            "name": "ISA",
+            "value": "ISA"
+          },
+          {
+            "name": "ISA01",
+            "value": "{{{[Authorization Information Qualifier]}}}"
+          },
+          {
+            "name": "ISA02",
+            "value": "{{{[Authorization Information]}}}"
+          },
+          {
+            "name": "ISA03",
+            "value": "{{{[Security Information Qualifier]}}}"
+          },
+          {
+            "name": "ISA04",
+            "value": "{{{[Security Information]}}}"
+          },
+          {
+            "name": "ISA05",
+            "value": "{{{[Interchange ID Qualifier]}}}"
+          },
+          {
+            "name": "ISA06",
+            "value": "{{{[Interchange Sender ID]}}}"
+          },
+          {
+            "name": "ISA07",
+            "value": "{{{[Interchange ID Qualifier(ISA07)]}}}"
+          },
+          {
+            "name": "ISA08",
+            "value": "{{{[Interchange Receiver ID]}}}"
+          },
+          {
+            "name": "ISA09",
+            "value": "{{{[Interchange Date]}}}"
+          },
+          {
+            "name": "ISA10",
+            "value": "{{{[Interchange Time]}}}"
+          },
+          {
+            "name": "ISA11",
+            "value": "{{{[Repetition Separator]}}}"
+          },
+          {
+            "name": "ISA12",
+            "value": "{{{[Interchange Control Version Number]}}}"
+          },
+          {
+            "name": "ISA13",
+            "value": "{{{[Interchange Control Number]}}}"
+          },
+          {
+            "name": "ISA14",
+            "value": "{{{[Acknowledgment Requested]}}}"
+          },
+          {
+            "name": "ISA15",
+            "value": "{{{[Interchange Usage Indicator]}}}"
+          },
+          {
+            "name": "ISA16",
+            "value": "{{{[Component Element Separator]}}}"
+          }
+        ],
+        "children": [
+          {
+            "maxOccurrence": 1,
+            "required": true,
+            "skipRowSuffix": true,
+            "elements": [
+              {
+                "name": "GS",
+                "value": "GS"
+              },
+              {
+                "name": "GS01",
+                "value": "{{{[Functional Identifier Code]}}}"
+              },
+              {
+                "name": "GS02",
+                "value": "{{{[Application Sender's Code]}}}"
+              },
+              {
+                "name": "GS03",
+                "value": "{{{[Application Receiver's Code]}}}"
+              },
+              {
+                "name": "GS04",
+                "value": "{{{[Date]}}}"
+              },
+              {
+                "name": "GS05",
+                "value": "{{{[Time]}}}"
+              },
+              {
+                "name": "GS06",
+                "value": "{{{[Group Control Number]}}}"
+              },
+              {
+                "name": "GS07",
+                "value": "{{{[Responsible Agency Code]}}}"
+              },
+              {
+                "name": "GS08",
+                "value": "{{{[Version / Release / Industry Identifier Code]}}}"
+              }
+            ],
+            "children": [
+              {
+                "maxOccurrence": 1,
+                "required": true,
+                "skipRowSuffix": true,
+                "elements": [
+                  {
+                    "name": "ST",
+                    "value": "ST"
+                  },
+                  {
+                    "name": "ST01",
+                    "value": "{{{[Transaction Set Identifier Code]}}}"
+                  },
+                  {
+                    "name": "ST02",
+                    "value": "{{{[Transaction Set Control Number]}}}"
+                  }
+                ],
+                "children": [
+                  {
+                    "maxOccurrence": 1,
+                    "required": true,
+                    "skipRowSuffix": true,
+                    "elements": [
+                      {
+                        "name": "BMG",
+                        "value": "BMG"
+                      },
+                      {
+                        "name": "BMG01",
+                        "value": "{{{[Transaction Set Purpose Code (BMG01)]}}}"
+                      },
+                      {
+                        "name": "BMG02",
+                        "value": "{{{[Description (BMG02)]}}}"
+                      },
+                      {
+                        "name": "BMG03",
+                        "value": "{{{[Transaction Type Code (BMG03)]}}}"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "name": "N1",
+                        "maxOccurrence": 1000,
+                        "container": true,
+                        "children": [
+                          {
+                            "required": false,
+                            "skipRowSuffix": true,
+                            "elements": [
+                              {
+                                "name": "N1",
+                                "value": "N1"
+                              },
+                              {
+                                "name": "N101",
+                                "value": "{{{[Entity Identifier Code]}}}"
+                              },
+                              {
+                                "name": "N102",
+                                "value": "{{{[Name]}}}"
+                              },
+                              {
+                                "name": "N103",
+                                "value": "{{{[Identifier Code Qualifier]}}}"
+                              },
+                              {
+                                "name": "N104",
+                                "value": "{{{[Identifier Code]}}}"
+                              }
+                            ]
+                          }
+                        ],
+                        "relativeDataPath": "N1"
+                      },
+                      {
+                        "name": "REF",
+                        "maxOccurrence": 1000,
+                        "container": true,
+                        "children": [
+                          {
+                            "required": false,
+                            "skipRowSuffix": true,
+                            "elements": [
+                              {
+                                "name": "REF",
+                                "value": "REF"
+                              },
+                              {
+                                "name": "REF01",
+                                "value": "{{{[Reference Identification Qualifier]}}}"
+                              },
+                              {
+                                "name": "REF02",
+                                "value": "{{{[Reference Identification]}}}"
+                              }
+                            ]
+                          }
+                        ],
+                        "relativeDataPath": "REF"
+                      },
+                      {
+                        "name": "MIT",
+                        "maxOccurrence": 5,
+                        "container": true,
+                        "children": [
+                          {
+                            "required": false,
+                            "skipRowSuffix": true,
+                            "elements": [
+                              {
+                                "name": "MIT",
+                                "value": "MIT"
+                              },
+                              {
+                                "name": "MIT01",
+                                "value": "{{{[Reference Identification]}}}"
+                              },
+                              {
+                                "name": "MIT02",
+                                "value": "{{{[Description]}}}"
+                              },
+                              {
+                                "name": "MIT03",
+                                "value": "{{{[Page Width]}}}"
+                              },
+                              {
+                                "name": "MIT04",
+                                "value": "{{{[Page Length Lines]}}}"
+                              }
+                            ]
+                          }
+                        ],
+                        "relativeDataPath": "MIT"
+                      },
+                      {
+                        "name": "MSG",
+                        "maxOccurrence": 10,
+                        "container": true,
+                        "children": [
+                          {
+                            "required": false,
+                            "skipRowSuffix": true,
+                            "elements": [
+                              {
+                                "name": "MSG",
+                                "value": "MSG"
+                              },
+                              {
+                                "name": "MSG01",
+                                "value": "{{{[Free-Form Message Text]}}}"
+                              },
+                              {
+                                "name": "MSG02",
+                                "value": "{{{[Printer Carriage Control Code]}}}"
+                              },
+                              {
+                                "name": "MSG03",
+                                "value": "{{{[Number]}}}"
+                              }
+                            ]
+                          }
+                        ],
+                        "relativeDataPath": "MSG"
+                      }
+                    ]
+                  }
+                ],
+                "closeRule": {
+                  "maxOccurrence": 1,
+                  "required": false,
+                  "skipRowSuffix": true,
+                  "elements": [
+                    {
+                      "name": "SE",
+                      "value": "SE"
+                    },
+                    {
+                      "name": "SE01",
+                      "value": "{{{[Number of Included Segments]}}}"
+                    },
+                    {
+                      "name": "SE02",
+                      "value": "{{{[Transaction Set Control Number(SE02)]}}}"
+                    }
+                  ]
+                }
+              }
+            ],
+            "closeRule": {
+              "maxOccurrence": 1,
+              "required": false,
+              "skipRowSuffix": true,
+              "elements": [
+                {
+                  "name": "GE",
+                  "value": "GE"
+                },
+                {
+                  "name": "GE01",
+                  "value": "{{{[Number of Transaction Sets Included]}}}"
+                },
+                {
+                  "name": "GE02",
+                  "value": "{{{[Group Control Number(GE02)]}}}"
+                }
+              ]
+            }
+          }
+        ],
+        "closeRule": {
+          "maxOccurrence": 1,
+          "required": false,
+          "skipRowSuffix": true,
+          "elements": [
+            {
+              "name": "IEA",
+              "value": "IEA"
+            },
+            {
+              "name": "IEA01",
+              "value": "{{{[Number of Included Functional Groups]}}}"
+            },
+            {
+              "name": "IEA02",
+              "value": "{{{[Interchange Control Number(IEA02)]}}}"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

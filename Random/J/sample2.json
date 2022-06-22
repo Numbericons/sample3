@@ -1,0 +1,163 @@
+"OrderItems": [
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949597,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXI"
+    },
+    "ItemIdentifier": {
+      "Sku": "XL Teal_BF21",
+      "Id": 72464
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 51.6,
+    "WeightMetric": 23.4058,
+    "Notes": "1",
+    "_links": []
+  },
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949598,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXM"
+    },
+    "ItemIdentifier": {
+      "Sku": "IR Kayak Seat",
+      "Id": 58172
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 3.2,
+    "WeightMetric": 1.4515,
+    "Notes": "2",
+    "_links": []
+  },
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949599,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXQ"
+    },
+    "ItemIdentifier": {
+      "Sku": "IR Kayak Blade_20",
+      "Id": 70558
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 1,
+    "WeightMetric": 0.4536,
+    "Notes": "3",
+    "_links": []
+  },
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949600,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXU"
+    },
+    "ItemIdentifier": {
+      "Sku": "IR Epump_20",
+      "Id": 70734
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 4.85,
+    "WeightMetric": 2.2,
+    "Notes": "4",
+    "_links": []
+  },
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949601,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXY"
+    },
+    "ItemIdentifier": {
+      "Sku": "IR Carry Strap",
+      "Id": 62081
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 0.3,
+    "WeightMetric": 0.1361,
+    "Notes": "5",
+    "_links": []
+  },
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949602,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXc"
+    },
+    "ItemIdentifier": {
+      "Sku": "Rod Holder",
+      "Id": 66680
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 2,
+    "WeightMetric": 0.9072,
+    "Notes": "6",
+    "_links": []
+  },
+  {
+    "ReadOnly": {
+      "OrderItemId": 1949603,
+      "FullyAllocated": true,
+      "UnitIdentifier": {
+        "Name": "Each",
+        "Id": 1
+      },
+      "OriginalPrimaryQty": 1,
+      "IsOrderQtySecondary": false,
+      "RowVersion": "AAAAAAKsTXg"
+    },
+    "ItemIdentifier": {
+      "Sku": "IR Phone Case",
+      "Id": 70443
+    },
+    "Qualifier": "",
+    "Qty": 1,
+    "WeightImperial": 0.1,
+    "WeightMetric": 0.0454,
+    "Notes": "7",
+    "_links": []
+  }
+],

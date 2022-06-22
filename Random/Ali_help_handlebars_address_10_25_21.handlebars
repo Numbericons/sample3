@@ -1,0 +1,50 @@
+<Address>
+<Line1>{{#if Addressee}}{{#compare Attention "=="""}}{{shipAddr1}}{{else}}{{Addressee}}{{/compare}}{{/if}}</Line1>
+{{#if Attention}}{{#if Addressee}}<Line2>{{#if Addressee}}{{#compare Attention "=="""}}{{shipAddr2}}{{else}}{{shipAddr1}}{{/compare}}{{/if}}</Line2>{{/if}}{{/if}}
+{{#if shipAddr2}}{{#if Attention}}<Line3>{{#if Addressee}}{{#compare Attention "=="""}}{{else}}{{shipAddr2}}{{/compare}}{{/if}}</Line3>{{/if}}{{/if}}
+<City>{{shipCity}}</City>
+<MainDivisionCode>{{shipState}}</MainDivisionCode>
+<CountryCode>US</CountryCode>
+<PostalCode>{{shipZip}}</PostalCode>
+</Address>
+
+if (addressee)
+{
+	if (attention)
+	{
+		 line1 = Addressee
+		 line2 = shipAddr1
+		 line3  = shipAddr2
+	}
+	else
+	{
+		line1 = shipAddr1
+		line2 = shipAddr2
+		line3 = null
+	}
+}
+else
+{
+	line1 = shipAddr1
+	line2  = shipAddr2
+}
+
+<Address>
+  {{#if Addressee}}
+    {{#if Attention}}
+      <Line1>{{Addressee}}</Line1>
+      <Line2>{{shipAddr1}}</Line2>
+      {{if shipAddr2}}<Line3>{{shipAddr2}}</Line3>{{/if}}
+    {{else}}
+      <Line1>{{shipAddr1}}</Line1>
+      {{if shipAddr2}}<Line2>{{shipAddr2}}</Line2>{{/if}}
+    {{/if}}
+  {{else}}
+    <Line1>{{shipAddr1}}</Line1>
+    {{if shipAddr2}}<Line2>{{shipAddr2}}</Line2>{{/if}}
+  {{/if}}
+  <City>{{shipCity}}</City>
+  <MainDivisionCode>{{shipState}}</MainDivisionCode>
+  <CountryCode>US</CountryCode>
+  <PostalCode>{{shipZip}}</PostalCode>
+</Address>

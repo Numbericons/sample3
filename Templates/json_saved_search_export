@@ -1,0 +1,18 @@
+'{' || '"number": ' || '"' || { number } || '"' || ',' || '"name": ' || '"' || { name } || '"' || '}'
+
+'{' || '"number": ' || '"' || {number} || '"' || ',' || '"name": ' || '"' || {name} ||'"' || '}'
+
+TO_CHAR({inventorydetail.internalid})  || ',\"caseSerialNum\":'
+
+'number: ' || {number} || 'name: ' || {name}
+
+function preSavePage (options) {
+  options.data[0].parsed = JSON.parse(options.data[0]["Formula (Text)"])
+  options.data[0].parsed.newKey = "Hellllooooo World!"
+  return {
+    data: options.data,
+    errors: options.errors,
+    abort: false,
+    newErrorsAndRetryData: []
+  }
+}

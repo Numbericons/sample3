@@ -1,0 +1,9 @@
+{{#if items[*].parent_item_id}}
+  {{#compare items[*].parent_item.product_type “!=” “bundle”}} 
+    {{subtract items[*].parent_item.base_original_price (divide (multiply items[*].parent_item.base_original_price items[*].parent_item.tax_percent) 100)}}
+  {{else}}
+    {{subtract items[*].base_original_price (divide (multiply items[*].base_original_price items[*].tax_percent) 100)}}
+  {{/compare}}
+{{else}}
+  {{subtract items[*].base_original_price (divide (multiply items[*].base_original_price items[*].tax_percent) 100)}}
+{{/if}}

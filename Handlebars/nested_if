@@ -1,0 +1,19 @@
+<Address>
+  {{#if Addressee}}
+    {{#if Attention}}
+      <Line1>{{Addressee}}</Line1>
+      <Line2>{{shipAddr1}}</Line2>
+      {{if shipAddr2}}<Line3>{{shipAddr2}}</Line3>{{/if}}
+    {{else}}
+      <Line1>{{shipAddr1}}</Line1>
+      {{if shipAddr2}}<Line2>{{shipAddr2}}</Line2>{{/if}}
+    {{/if}}
+  {{else}}
+    <Line1>{{shipAddr1}}</Line1>
+    {{if shipAddr2}}<Line2>{{shipAddr2}}</Line2>{{/if}}
+  {{/if}}
+  <City>{{shipCity}}</City>
+  <MainDivisionCode>{{shipState}}</MainDivisionCode>
+  <CountryCode>US</CountryCode>
+  <PostalCode>{{shipZip}}</PostalCode>
+</Address>

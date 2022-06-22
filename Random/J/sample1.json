@@ -1,0 +1,162 @@
+{
+  "data": [
+    {
+      "record": {
+        "ReadOnly": {
+          "OrderId": 763093,
+          "AsnCandidate": 0,
+          "RouteCandidate": 0,
+          "FullyAllocated": true,
+          "ExportModuleIds": "",
+          "DeferNotification": false,
+          "IsClosed": true,
+          "ProcessDate": "2017-11-08T09:52:00",
+          "LabelsExported": false,
+          "LoadedState": 0,
+          "RouteSent": false,
+          "AsnSent": false,
+          "PkgsExported": false,
+          "Packages": [],
+          "OutboundSerialNumbers": [],
+          "ParcelLabelType": 0,
+          "CustomerIdentifier": {
+            "Name": "iRocker Inc",
+            "Id": 268
+          },
+          "FacilityIdentifier": {
+            "Name": "Toronto",
+            "Id": 1
+          },
+          "WarehouseTransactionSourceType": 1,
+          "TransactionEntryType": 1,
+          "CreationDate": "2017-11-08T09:49:00",
+          "CreatedByIdentifier": {
+            "Name": "Preeti",
+            "Id": 625
+          },
+          "LastModifiedDate": "2017-11-08T09:51:00",
+          "Status": 1
+        },
+        "OrderItems": [
+          {
+            "ReadOnly": {
+              "OrderItemId": 632221,
+              "FullyAllocated": true,
+              "UnitIdentifier": {
+                "Name": "Each",
+                "Id": 1
+              },
+              "OriginalPrimaryQty": 1,
+              "IsOrderQtySecondary": false,
+              "RowVersion": "AAAAAAEo1rQ"
+            },
+            "ItemIdentifier": {
+              "Sku": "Pallets",
+              "Id": 53573
+            },
+            "Qualifier": "",
+            "Qty": 1,
+            "Notes": "",
+            "FulfillInvSalePrice": 0,
+            "FulfillInvDiscountPct": 0,
+            "FulfillInvDiscountAmt": 0,
+            "_links": []
+          }
+        ],
+        "ReferenceNum": "Amazon Return Nov-7",
+        "Description": "",
+        "PoNum": "",
+        "Notes": "Shipping Labels provided by customer",
+        "NumUnits1": 1,
+        "Unit1Identifier": {
+          "Name": "Carton",
+          "Id": 2
+        },
+        "NumUnits2": 0,
+        "Unit2Identifier": {
+          "Name": "Pallet",
+          "Id": 4
+        },
+        "TotalWeight": 1,
+        "TotalVolume": 0.0006,
+        "AsnNumber": "",
+        "AddFreightToCod": false,
+        "UpsIsResidential": false,
+        "ShippingNotes": "",
+        "MasterBillOfLadingId": "",
+        "InvoiceNumber": "",
+        "FulfillInvInfo": {},
+        "RoutingInfo": {
+          "IsCod": false,
+          "IsInsurance": false,
+          "RequiresDeliveryConf": false,
+          "RequiresReturnReceipt": false,
+          "ScacCode": "",
+          "Carrier": "FedEX ",
+          "Account": "",
+          "ShipPointZip": "",
+          "LoadNumber": "",
+          "BillOfLading": "",
+          "TrackingNumber": "",
+          "TrailerNumber": "",
+          "SealNumber": "",
+          "DoorNumber": ""
+        },
+        "Billing": {
+          "BillingCharges": [
+            {
+              "ChargeType": 3,
+              "Subtotal": 0,
+              "Details": []
+            },
+            {
+              "ChargeType": 4,
+              "Subtotal": 10,
+              "Details": [
+                {
+                  "WarehouseTransactionPriceCalcId": 2468679,
+                  "NumUnits": 1,
+                  "ChargeLabel": "3rd Party/Collect Shipping",
+                  "UnitDescription": "Order",
+                  "ChargePerUnit": 10,
+                  "GlAcctNum": "",
+                  "Sku": "",
+                  "PtItem": "3rd Party/Collect Shipping",
+                  "PtItemDescription": "3rd Party/Collect Shipping",
+                  "PtArAcct": "",
+                  "SystemGenerated": false
+                }
+              ]
+            }
+          ]
+        },
+        "ShipTo": {
+          "IsQuickLookup": false,
+          "ContactId": 886929,
+          "CompanyName": "iRockerSUP.com",
+          "Address1": "11290 St. Johns Industrial Pkwy North",
+          "Address2": "Unit 6",
+          "City": "Jacksonville",
+          "State": "FL",
+          "Zip": "32246",
+          "Country": "US",
+          "PhoneNumber": "",
+          "EmailAddress": "",
+          "AddressStatus": 0
+        },
+        "SavedElements": [],
+        "ParcelOption": {
+          "OrderId": 763093,
+          "DeliveryConfirmationType": "",
+          "DeliveredDutyPaid": 0,
+          "DryIceWeight": 0,
+          "InsuranceAmount": 0,
+          "InsuranceType": 0,
+          "InternationalContentsType": "",
+          "InternationalNonDelivery": "",
+          "ResidentialFlag": false,
+          "SaturdayDeliveryFlag": false
+        },
+        "_links": []
+      }
+    },

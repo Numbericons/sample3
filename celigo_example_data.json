@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "company": "Brck 'n Mrtr",
+  "poNum": 5555555555,
+  "items": [
+    {
+      "sku": "brown pants",
+      "price": 40
+    },
+    {
+      "sku": "blue shirt",
+      "price": 25
+    }
+  ]
+}
+
+[
+  { 
+    "id": 1,
+    "company": "Samantha's Vintage",
+    "poNum": 12345678,
+    "items": [
+      { "sku": "brown pants", "price": 40 }, 
+      { "sku": "blue shirt", "price": 25 }
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Righteous Rugs",
+    "poNum": 987654321,
+    "items": [
+      { "sku": "Small rug", "price": 200 },
+      { "sku": "Large rug", "price": 300 }
+    ]
+  },
+]
