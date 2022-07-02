@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "arr": [
+        {
+          "quantity": 2,
+          "item": "UYF0140A",
+          "Description": "NEO® Undercounter Ice Maker, cube-style, air-cooled, self contained, 26\"W x 28\"D x 38-1/2\"H, production capacity up to 137 lb/24 hours at 70°/50° (100 lb AHRI certified at 90°70°), 90 lb ice storage capacity, electronic controls, full bin and service indicators, production delay of (4, 12, or 24 hours), Alpha-San anti-microbial protection, forward sliding storage bin for access to refrigeration components, sealed foodzone with removable water trough, distribution tube and damper door, half-dice size cubes, 6\" adjustable legs with flanged feet (painted gray), 0.42 HP, NSF, cULus, CE ",
+          "Price": 2065.15,
+          "Externalid": "9ce1dddc-136f-4c53-ada0-a5ccd29af681",
+          "Itemname": "UYF0140A",
+          "Status": "Active",
+          "modelforfield": "UYF0140A",
+          "Number": "1"
+        },
+        {
+          "quantity": 2,
+          "item": "WARRANTY-ICE-SC",
+          "Description": "3 year parts & labor (Machine), 5 year parts & labor (Evaporator), 5 year parts & 3 years labor (Compressor), standard (nc) ",
+          "Price": 0,
+          "Externalid": "bd5dd1aa-1911-43f5-8feb-2f6c6647e7c3",
+          "Itemname": "WARRANTYICESC",
+          "Status": "Active",
+          "modelforfield": "WARRANTY-ICE-SC",
+          "Number": "1"
+        },
+        {
+          "quantity": 2,
+          "item": "noitem",
+          "Description": "(-161B) 115v/60/1-ph, 5.0 amps, cord with NEMA 5-15P",
+          "Price": 0,
+          "Externalid": "Nothinghere",
+          "Itemname": "noitemname",
+          "Status": "Active",
+          "modelforfield": "",
+          "Number": "1"
+        },
+        {
+          "quantity": 2,
+          "item": "noitem",
+          "Description": "Surcharge 5% ",
+          "Price": 103.26,
+          "Externalid": "Nothinghere",
+          "Itemname": "noitemname",
+          "Status": "Active",
+          "modelforfield": "",
+          "Number": "1"
+        },
+        {
+          "quantity": 0,
+          "item": "noitem",
+          "Description": "** Current lead time is mid to end of July",
+          "Price": 0,
+          "Externalid": "Nothinghere",
+          "Itemname": "noitemname",
+          "Status": "Active",
+          "modelforfield": "",
+          "Number": "1"
+        },
+        {
+          "quantity": 1,
+          "item": "FREIGHT ",
+          "Description": "Estimated standard delivery charges by Fedex Priority w/call before. Quote #1287294012",
+          "Price": 445.99,
+          "Externalid": "33eaa5bf-7d11-455e-b4f7-c0ff7ecd9229",
+          "Itemname": "FREIGHT ",
+          "Status": "Active",
+          "modelforfield": "FREIGHT ",
+          "Number": "2"
+        }
+      ],
+      "ContactID": "Aimee Chanhnourack",
+      "Prospect": "Swanel Beverage",
+      "CustinternalID": "",
+      "Project": "PRICESMART 12773626",
+      "ExternalID": "668ab4a4-a133-469a-9cda-84b8a10fad5a",
+      "lines": 6
+    }
+  ],
+  "errors": []
+}

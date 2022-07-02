@@ -1,0 +1,79 @@
+{
+    "id": "bebfd029-db51-0000-0000-0000a5d10100",
+    "employeeNumber": "1057",
+    "badgeNumber": null,
+    "firstName": "Mia",
+    "middleName": null,
+    "lastName": "Luber",
+    "email": {
+    "type": "Work",
+    "emailAddress": "mluber@bpimedia.com"
+    },
+    "employmentDateData": {
+    "hireDate": "2016-10-04T00:00:00Z",
+    "adjustedHireDate": null,
+    "terminationDate": null,
+    "terminationReason": null,
+    "reHireDate": null,
+    "seniorityDate": null
+    },
+    "positionData": {
+    "jobTitle": "Controller",
+    "effectiveStartDate": null,
+    "effectiveEndDate": null,
+    "payGroupId": "0d14a4ba-991c-0000-0000-0000a5d10100",
+    "manager": {
+    "id": "a5438dd4-80c2-0000-0000-0000a5d10100",
+    "employeeNumber": "1137",
+    "employee": {
+    "id": "a5438dd4-80c2-0000-0000-0000a5d10100",
+    "url": "/v1/employees/a5438dd4-80c2-0000-0000-0000a5d10100"
+    }
+    }
+    },
+    "statusData": {
+    "isFullTime": true,
+    "status": "Active",
+    "flsa": "Unknown",
+    "type": "Regular"
+    },
+    "workLocation": {
+    "streetLine1": "1445 New York Ave NW, Floor 5",
+    "type": "Physical",
+    "city": "Washington",
+    "county": "District of Columbia",
+    "state": "DC",
+    "zipCode": "20005",
+    "country": "USA"
+    },
+    "earnings": {
+    "id": "bebfd029-db51-0000-0000-0000a5d10100",
+    "url": "/v1/employees/bebfd029-db51-0000-0000-0000a5d10100/earnings"
+    },
+    "deductions": {
+    "id": "bebfd029-db51-0000-0000-0000a5d10100",
+    "url": "/v1/employees/bebfd029-db51-0000-0000-0000a5d10100/deductions"
+    },
+    "taxes": {
+    "id": "bebfd029-db51-0000-0000-0000a5d10100",
+    "url": "/v1/employees/bebfd029-db51-0000-0000-0000a5d10100/taxes"
+    },
+    "directDeposits": {
+    "id": "bebfd029-db51-0000-0000-0000a5d10100",
+    "url": "/v1/employees/bebfd029-db51-0000-0000-0000a5d10100/directDeposits"
+    },
+    "payRates": {
+    "id": "bebfd029-db51-0000-0000-0000a5d10100",
+    "url": "/v1/employees/bebfd029-db51-0000-0000-0000a5d10100/payRates"
+    },
+    "customFields": null,
+    "legalEntity": {
+    "id": "119205",
+    "url": "/v1/legalEntities/119205"
+    },
+    "person": {
+    "id": "39afba9a-8100-4918-85b3-178e1317fb3e",
+    "url": "/v1/tenants/172290/persons/39afba9a-8100-4918-85b3-178e1317fb3e"
+    },
+    "organizations": null
+    }

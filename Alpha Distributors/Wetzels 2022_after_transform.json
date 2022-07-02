@@ -1,0 +1,1700 @@
+{
+  "arr": [
+    {
+      "quantity": 1,
+      "item": "T-35-HC",
+      "Description": "Refrigerator, reach-in, two-section, stainless steel doors, (6) PVC coated adjustable wire shelves, interior lighting, stainless steel front, aluminum sides, aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1/3 HP, 115v/60/1-ph, 5.6 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA",
+      "Price": 4913.61435,
+      "Externalid": "fc0d8ceb-c10d-dd11-a23a-00304834a8c9",
+      "Itemname": "T-35-HC",
+      "Status": "Active",
+      "modelforfield": "T-35-HC",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22"
+    },
+    {
+      "quantity": 1,
+      "item": "T-23-HC",
+      "Description": "Refrigerator, reach-in, one-section, (1) solid door, (3) PVC coated adjustable wire shelves, interior lighting, stainless steel door, stainless steel front, aluminum sides, clear coated aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1/4 HP, 115v/60/1-ph, 2.2 amps, NEMA 5-15P, cULus, UL EPH Classified, CE, Made in USA, ENERGY STAR®",
+      "Price": 3779.65467,
+      "Externalid": "3db50227-d54b-4817-a769-c82a08ba1bb4",
+      "Itemname": "T-23-HC",
+      "Status": "Active",
+      "modelforfield": "T-23-HC",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "NOTE: Commonly stocked model in right and left hinge; verify availability with factory",
+      "Price": 0,
+      "Externalid": "1185e6e8-215c-42aa-ad9f-818828fae0a5",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Door hinged right standard",
+      "Price": 0,
+      "Externalid": "ff9bd5f6-ab23-4786-8f7e-784051c656a1",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "STG1R-1S-HC",
+      "Description": "SPEC SERIES® Refrigerator, reach-in, one-section, (1) stainless steel door with lock, cam-lift hinges, digital temperature control, (3) gray shelves, LED interior lights, stainless steel front, aluminum sides, aluminum interior, 5\" castors, R290 Hydrocarbon refrigerant, 1/4 HP, 115v/60/1-ph, 3.8 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA, ENERGY STAR®",
+      "Price": 4225.455225,
+      "Externalid": "7de2d794-b061-49c0-bdff-0d14c6ecb33c",
+      "Itemname": "STG1R-1S-HC",
+      "Status": "Active",
+      "modelforfield": "STG1R-1S-HC",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "f48c7a61-2472-49df-bf66-9d0d594fc0b8",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Door hinged right standard",
+      "Price": 0,
+      "Externalid": "ff9bd5f6-ab23-4786-8f7e-784051c656a1",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(3) vinyl shelves and shelf supports standard per section",
+      "Price": 0,
+      "Externalid": "bbadeaa0-56ac-4a23-9797-5caf0fef5688",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "5\" castors, set of 4, standard",
+      "Price": 0,
+      "Externalid": "fff8ab61-5317-4bd6-b686-c432abbae6fa",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "T-49-HC",
+      "Description": "Refrigerator, reach-in, two-section, (2) stainless steel doors, (6) PVC coated adjustable wire shelves, interior lighting, stainless steel front, aluminum sides, aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1/2 HP, 115v/60/1-ph, 5.4 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA, ENERGY STAR®",
+      "Price": 5026.88376,
+      "Externalid": "50d7e9a3-b213-4583-913e-29989467419d",
+      "Itemname": "T-49-HC",
+      "Status": "Active",
+      "modelforfield": "T-49-HC",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22ALT (THIS IS A 2 DOOR )"
+    },
+    {
+      "quantity": 1,
+      "item": "STG2R-2S-HC",
+      "Description": "SPEC SERIES® Refrigerator, reach-in, two-section, (2) stainless steel doors with locks, cam-lift hinges, digital temperature control, (6) gray shelves, LED interior lights, stainless steel front, aluminum sides, aluminum interior, 5\" castors, R290 Hydrocarbon refrigerant, 1/2 HP, 115v/60/1-ph, 5.9 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA",
+      "Price": 5621.07357,
+      "Externalid": "cf322862-8f7a-4921-9d6c-b19bb9829de7",
+      "Itemname": "STG2R-2S-HC",
+      "Status": "Active",
+      "modelforfield": "STG2R-2S-HC",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "f48c7a61-2472-49df-bf66-9d0d594fc0b8",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(3) vinyl shelves and shelf supports standard per section",
+      "Price": 0,
+      "Externalid": "bbadeaa0-56ac-4a23-9797-5caf0fef5688",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "5\" castors, set of 4, standard",
+      "Price": 0,
+      "Externalid": "fff8ab61-5317-4bd6-b686-c432abbae6fa",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "22 ALT (THIS IS A 2 DOOR)"
+    },
+    {
+      "quantity": 1,
+      "item": "T-23F-HC",
+      "Description": "Freezer, reach-in, one-section, -10°F, (1) solid door, (3) PVC coated adjustable wire shelves, interior lighting, stainless steel door, stainless steel front, aluminum sides, clear coated aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1/2 HP, 115v/60/1-ph, 3.7 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA, ENERGY STAR®",
+      "Price": 4722.195375,
+      "Externalid": "3bc70226-56b6-4fbc-aa63-6e2e5edf0bdc",
+      "Itemname": "T-23F-HC",
+      "Status": "Active",
+      "modelforfield": "T-23F-HC",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "NOTE: Commonly stocked model in right and left hinge; verify availability with factory",
+      "Price": 0,
+      "Externalid": "1185e6e8-215c-42aa-ad9f-818828fae0a5",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Door hinged right standard",
+      "Price": 0,
+      "Externalid": "ff9bd5f6-ab23-4786-8f7e-784051c656a1",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25"
+    },
+    {
+      "quantity": 1,
+      "item": "STG2F-2S-HC",
+      "Description": "SPEC SERIES® Freezer, reach-in, two-section, -10°F, (2) stainless steel doors with locks, cam-lift hinges, digital temperature control, (6) gray shelves, LED interior lights, stainless steel front, aluminum sides, aluminum interior, 5\" castors, R290 Hydrocarbon refrigerant, 1-1/4 HP, 115v/60/1-ph, 9.4 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA, ENERGY STAR®",
+      "Price": 7080.603705,
+      "Externalid": "ccacd87b-f692-e011-bf97-001018721196",
+      "Itemname": "STG2F-2S-HC",
+      "Status": "Active",
+      "modelforfield": "STG2F-2S-HC",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "f48c7a61-2472-49df-bf66-9d0d594fc0b8",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(3) vinyl shelves and shelf supports standard per section",
+      "Price": 0,
+      "Externalid": "bbadeaa0-56ac-4a23-9797-5caf0fef5688",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "5\" castors, set of 4, standard",
+      "Price": 0,
+      "Externalid": "fff8ab61-5317-4bd6-b686-c432abbae6fa",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "T-49F-HC",
+      "Description": "Freezer, reach-in, two-section, -10°F, (2) stainless steel doors, (6) PVC coated adjustable wire shelves, interior lighting, stainless steel front, aluminum sides, aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1 HP, 115v/60/1-ph, 9.6 amps, NEMA 5-15P, Made in USA, cULus, UL EPH Classified, ENERGY STAR®",
+      "Price": 6622.14735,
+      "Externalid": "83f16abf-8529-44d8-9ee6-388000539fa7",
+      "Itemname": "T-49F-HC",
+      "Status": "Active",
+      "modelforfield": "T-49F-HC",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT (2 DOOR FREEZER)"
+    },
+    {
+      "quantity": 1,
+      "item": "T-35-HC",
+      "Description": "Refrigerator, reach-in, two-section, stainless steel doors, (6) PVC coated adjustable wire shelves, interior lighting, stainless steel front, aluminum sides, aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1/3 HP, 115v/60/1-ph, 5.6 amps, NEMA 5-15P, cULus, UL EPH Classified, Made in USA",
+      "Price": 4913.61435,
+      "Externalid": "fc0d8ceb-c10d-dd11-a23a-00304834a8c9",
+      "Itemname": "T-35-HC",
+      "Status": "Active",
+      "modelforfield": "T-35-HC",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "T-49F-HC",
+      "Description": "Freezer, reach-in, two-section, -10°F, (2) stainless steel doors, (6) PVC coated adjustable wire shelves, interior lighting, stainless steel front, aluminum sides, aluminum interior with stainless steel floor, 4\" castors, R290 Hydrocarbon refrigerant, 1 HP, 115v/60/1-ph, 9.6 amps, NEMA 5-15P, Made in USA, cULus, UL EPH Classified, ENERGY STAR®",
+      "Price": 6622.14735,
+      "Externalid": "83f16abf-8529-44d8-9ee6-388000539fa7",
+      "Itemname": "T-49F-HC",
+      "Status": "Active",
+      "modelforfield": "T-49F-HC",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Note: Due to the continued supply chain issues in the industry all True pricing is tentative based on final production dates. Any units ordered that will be produced on or after October 1st, 2022 may be subject to additional pricing escalators. Please contact your True representative for final lead times.",
+      "Price": 0,
+      "Externalid": "9aa99c07-c9ab-4e17-b1cf-2c734040f40a",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Self-contained refrigeration standard",
+      "Price": 0,
+      "Externalid": "f813ccb5-a858-401a-b082-dd67324ef60e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 7 year compressor (self-contained only), please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "db84adf2-bc9a-4d8e-a804-4e3bb1ec34b2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Warranty - 5 year parts and labor, please visit www.Truemfg.com for specifics",
+      "Price": 0,
+      "Externalid": "d5d18129-305b-4f2f-adaa-546aa16075bf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Left door hinged left, right door hinged right standard",
+      "Price": 0,
+      "Externalid": "7369f835-aae0-406e-897b-0262c4d90ccf",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "4\" stem castors, standard (adds 5\" to OA height)",
+      "Price": 0,
+      "Externalid": "f0770f73-7248-dd11-ba0d-001ec95274b6",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "25 ALT"
+    },
+    {
+      "quantity": 0,
+      "item": "",
+      "Description": "\r\nHI Michelle,\r\n\r\nWE HAVE MATCHED THE ITEM #'S YOU HAVE ON YOUR REQUEST. I DO WANT TO POINT OUT THOUGH THAT THESE ARE NOT ALL APPLES TO APPLES UNITS. SOME ARE SINGLE OR DOUBLE DOOR REFRIGERATORS AS OTHERS ARE SINGLE DOUBLE DOOR FREEZERS. \r\n\r\nIF YOU'D LIKE ME TO RENUMBER I CAN SO THIS DOESN'T CAUSE CONFUSION. ",
+      "Price": 0,
+      "Externalid": null,
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": ""
+    },
+    {
+      "quantity": 1,
+      "item": "IYT0450AX",
+      "Description": "Indigo NXT™ Series Ice Maker, cube-style, air-cooled, self-contained condenser, 30\"W x 24\"D x 21-1/2\"H, production capacity up to 490 lb/24 hours at 70°/50° (378 lb AHRI certified at 90°/70°), easyTouch display with 13 different language options, date/time stamp display, automatic reminder/alert icon, one touch asset information, automatic detection of accessories, continuous operating status, programmable production options (time, weight, day or night), one touch cleaning with displayed instructions, Alpha-San anti-microbial protection, acoustical ice sensing probe, self-diagnostic technology, DuraTech™ exterior, half-dice size cubes, R410A refrigerant, NSF, cULus, CE, ENERGY STAR® ",
+      "Price": 2726.5295925,
+      "Externalid": "2500db4d-793b-e011-bf97-001018721196",
+      "Itemname": "IYT0450AX",
+      "Status": "Active",
+      "modelforfield": "IYT0450AX",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-ICE-SC",
+      "Description": "3 year parts & labor (Machine), 5 year parts & labor (Evaporator), 5 year parts & 3 years labor (Compressor), standard (nc) ",
+      "Price": 0,
+      "Externalid": "bd5dd1aa-1911-43f5-8feb-2f6c6647e7c3",
+      "Itemname": "WARRANTY-ICE-SC",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-ICE-SC",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(-161) 115v/60/1-ph, 11.9 amps",
+      "Price": 0,
+      "Externalid": "af67a456-31d2-49c0-9aa0-841ddb27ac31",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "X",
+      "Description": "Factory Built-In LuminIce II Virus & Bacteria Inhibitor, comes pre-installed in ice machine (Add \"X\" to end of Indigo model number) ",
+      "Price": 0,
+      "Externalid": "a0614d33-7029-4abd-aee6-a24fff985baa",
+      "Itemname": "X",
+      "Status": "Active",
+      "modelforfield": "X",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-LUMINICE",
+      "Description": "3 year parts & labor warranty, standard (nc) ",
+      "Price": 0,
+      "Externalid": "b5560316-5154-4ed0-a2b3-c61cd22fdb5f",
+      "Itemname": "WARRANTY-LUMINICE",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-LUMINICE",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "D570",
+      "Description": "Ice Bin, 30\"W x 34\"D x 50\"H, with side-hinged front-opening door, side grips, 532 lbs. application capacity, AHRI certified 17.9 cu. ft., for top-mounted ice maker, Duratech exterior, NSF ",
+      "Price": 1132.261794,
+      "Externalid": "2bc95218-d85a-44d7-9252-9968b499b4b5",
+      "Itemname": "D570",
+      "Status": "Active",
+      "modelforfield": "D570",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-BIN/DISP",
+      "Description": "3 year parts & labor warranty, standard (nc) ",
+      "Price": 0,
+      "Externalid": "e5808774-2933-4151-8ef2-c83584f70091",
+      "Itemname": "WARRANTY-BIN/DISP",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-BIN/DISP",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Legs, 6\" adjustable stainless steel, standard",
+      "Price": 0,
+      "Externalid": "0b01a202-c10d-dd11-a23a-00304834a8c9",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Surcharge 5% ",
+      "Price": 204.189569325,
+      "Externalid": "2b7d1f7e-481d-4f33-a9b5-45c21c561a9e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "START UP",
+      "Description": "MANITOWOC START UP\r\nDONE BY A MANITOWOC AUTHORIZED SERVICE AGENT.\r\nAGENT WILL GO OUT TO SITE AND CHECK THAT ALL FINAL CONNECTIONS ARE \r\nCORRECT AND WILL TURN ON MACHINE.\r\nPLEASE NOTE WE WILL NEED A WEEK NOTICE TO ARRANGE ALONG WITH CONTACT NAME AND ADDRESS OF LOCATION ",
+      "Price": 225,
+      "Externalid": null,
+      "Itemname": "START UP",
+      "Status": "Active",
+      "modelforfield": "START UP",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "EV932401",
+      "Description": "Insurice® Water Filtration System, Insurice® Single-i2000², Single, (1) i2000² Micro-Pure® II Precoat primary filtration cartridge, reduces chlorine, taste & odor, inhibits scale, outlet pressure gauge, flushing valve, 9,000 gallons, 1.67 gpm, 0.5 micron, 3/8\" inlet, 3/8\" outlet, NSF 42 & 53 (EV932401)",
+      "Price": 261.12,
+      "Externalid": "21ce6867-c00d-dd11-a23a-00304834a8c9",
+      "Itemname": "EV932401",
+      "Status": "Active",
+      "modelforfield": "EV932401",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "ZZSURCHARGE1",
+      "Description": "Energy/Transportation Surcharge 7% ",
+      "Price": 32.067,
+      "Externalid": "c0ac37b5-9cc0-469b-8eab-9036ff355d6e",
+      "Itemname": "ZZSURCHARGE1",
+      "Status": "Inactive",
+      "modelforfield": "ZZSURCHARGE1",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "UYF0240A",
+      "Description": "NEO® Undercounter Ice Maker, cube-style, air-cooled, self contained, 26\"W x 28\"D x 38-1/2\"H, production capacity up to 219 lb/24 hours at 70°/50° (160 lb AHRI certified at 90°70°), 90 lbs ice 90 lb ice storage capacity, electronic controls, full bin and service indicators, production delay of (4, 12, or 24 hours), Alpha-San anti-microbial protection, forward sliding storage bin for access to refrigeration components, sealed foodzone with removable water trough, distribution tube and damper door, half-dice size cubes, 6\" adjustable legs with flanged feet (painted gray), 1/3 HP, NSF, cULus, ",
+      "Price": 2287.27680525,
+      "Externalid": "602a8485-7780-4e76-bf61-559dce29c96b",
+      "Itemname": "UYF0240A",
+      "Status": "Active",
+      "modelforfield": "UYF0240A",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-ICE-SC",
+      "Description": "3 year parts & labor (Machine), 5 year parts & labor (Evaporator), 5 year parts & 3 years labor (Compressor), standard (nc) ",
+      "Price": 0,
+      "Externalid": "bd5dd1aa-1911-43f5-8feb-2f6c6647e7c3",
+      "Itemname": "WARRANTY-ICE-SC",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-ICE-SC",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(-161B) 115v/60/1-ph, 7.0 amps, cord with NEMA 5-15P",
+      "Price": 0,
+      "Externalid": "d90628f6-6146-4363-a20d-805836e1bc50",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "K00063",
+      "Description": "Casters, 2.5\", for use with NEO, Q-Series (not QM), & D-170 bin, (4) each, non-locking swivel ",
+      "Price": 150.78827025,
+      "Externalid": "8efaa102-c10d-dd11-a23a-00304834a8c9",
+      "Itemname": "K00063",
+      "Status": "Active",
+      "modelforfield": "K00063",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Surcharge 5% ",
+      "Price": 133.153253775,
+      "Externalid": "2b7d1f7e-481d-4f33-a9b5-45c21c561a9e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "START UP",
+      "Description": "MANITOWOC START UP\r\nDONE BY A MANITOWOC AUTHORIZED SERVICE AGENT.\r\nAGENT WILL GO OUT TO SITE AND CHECK THAT ALL FINAL CONNECTIONS ARE \r\nCORRECT AND WILL TURN ON MACHINE.\r\nPLEASE NOTE WE WILL NEED A WEEK NOTICE TO ARRANGE ALONG WITH CONTACT NAME AND ADDRESS OF LOCATION ",
+      "Price": 225,
+      "Externalid": null,
+      "Itemname": "START UP",
+      "Status": "Active",
+      "modelforfield": "START UP",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "EV932401",
+      "Description": "Insurice® Water Filtration System, Insurice® Single-i2000², Single, (1) i2000² Micro-Pure® II Precoat primary filtration cartridge, reduces chlorine, taste & odor, inhibits scale, outlet pressure gauge, flushing valve, 9,000 gallons, 1.67 gpm, 0.5 micron, 3/8\" inlet, 3/8\" outlet, NSF 42 & 53 (EV932401)",
+      "Price": 261.12,
+      "Externalid": "21ce6867-c00d-dd11-a23a-00304834a8c9",
+      "Itemname": "EV932401",
+      "Status": "Active",
+      "modelforfield": "EV932401",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "UYF0310A",
+      "Description": "NEO® Undercounter Ice Maker, cube-style, air-cooled, self contained, 30\"W x 28\"D x 38-1/2\", production capacity up to 290 lb/24 hours at 70°/50° (235 lb AHRI certified at 90°70°), 119 lb ice storage capacity, electronic controls, full bin and service indicators, production delay of (4, 12, or 24 hours), Alpha-San anti-microbial protection, forward sliding storage bin for access to refrigeration components, sealed foodzone with removable water trough, distribution tube and damper door, half-dice size cubes, 6\" adjustable legs with flanged feet (painted gray), 3/4 HP, NSF, cULus, CE ",
+      "Price": 2823.32717775,
+      "Externalid": "52bdf4e7-9665-4cd3-8229-5052d542be8f",
+      "Itemname": "UYF0310A",
+      "Status": "Active",
+      "modelforfield": "UYF0310A",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-ICE-SC",
+      "Description": "3 year parts & labor (Machine), 5 year parts & labor (Evaporator), 5 year parts & 3 years labor (Compressor), standard (nc) ",
+      "Price": 0,
+      "Externalid": "bd5dd1aa-1911-43f5-8feb-2f6c6647e7c3",
+      "Itemname": "WARRANTY-ICE-SC",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-ICE-SC",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(-161B) 115v/60/1-ph, 10.0 amps, cord with NEMA 5-15P",
+      "Price": 0,
+      "Externalid": "847b6439-498e-4038-9851-4c7fa8d282c2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "K00063",
+      "Description": "Casters, 2.5\", for use with NEO, Q-Series (not QM), & D-170 bin, (4) each, non-locking swivel ",
+      "Price": 150.78827025,
+      "Externalid": "8efaa102-c10d-dd11-a23a-00304834a8c9",
+      "Itemname": "K00063",
+      "Status": "Active",
+      "modelforfield": "K00063",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Surcharge 5% ",
+      "Price": 159.9557724,
+      "Externalid": "2b7d1f7e-481d-4f33-a9b5-45c21c561a9e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "START UP",
+      "Description": "MANITOWOC START UP\r\nDONE BY A MANITOWOC AUTHORIZED SERVICE AGENT.\r\nAGENT WILL GO OUT TO SITE AND CHECK THAT ALL FINAL CONNECTIONS ARE \r\nCORRECT AND WILL TURN ON MACHINE.\r\nPLEASE NOTE WE WILL NEED A WEEK NOTICE TO ARRANGE ALONG WITH CONTACT NAME AND ADDRESS OF LOCATION ",
+      "Price": 225,
+      "Externalid": null,
+      "Itemname": "START UP",
+      "Status": "Active",
+      "modelforfield": "START UP",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "EV932401",
+      "Description": "Insurice® Water Filtration System, Insurice® Single-i2000², Single, (1) i2000² Micro-Pure® II Precoat primary filtration cartridge, reduces chlorine, taste & odor, inhibits scale, outlet pressure gauge, flushing valve, 9,000 gallons, 1.67 gpm, 0.5 micron, 3/8\" inlet, 3/8\" outlet, NSF 42 & 53 (EV932401)",
+      "Price": 261.12,
+      "Externalid": "21ce6867-c00d-dd11-a23a-00304834a8c9",
+      "Itemname": "EV932401",
+      "Status": "Active",
+      "modelforfield": "EV932401",
+      "Number": "24"
+    },
+    {
+      "quantity": 1,
+      "item": "IYT0620AX",
+      "Description": "Indigo NXT™ Series Ice Maker, cube-style, air-cooled, self-contained condenser, 22\"W x 24-1/2\"D x 21-1/2\"H, production capacity up to 575 lb/24 hours at 70°/50° (465 lb AHRI certified at 90°/70°), easyTouch display with 13 different language options, date/time stamp display, automatic reminder/alert icon, one touch asset information, automatic detection of accessories, continuous operating status, programmable production options (time, weight, day or night), one touch cleaning with displayed instructions, Alpha-San anti-microbial protection, acoustical ice sensing probe, self-diagnostic technology, DuraTech™ exterior, half-dice size cubes, R410 refrigerant, NSF, cULus, CE, ENERGY STAR® ",
+      "Price": 3002.6533815,
+      "Externalid": "1e4e3500-b2f5-4703-9a6d-0aacbb11a389",
+      "Itemname": "IYT0620AX",
+      "Status": "Active",
+      "modelforfield": "IYT0620AX",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-ICE-SC",
+      "Description": "3 year parts & labor (Machine), 5 year parts & labor (Evaporator), 5 year parts & 3 years labor (Compressor), standard (nc) ",
+      "Price": 0,
+      "Externalid": "bd5dd1aa-1911-43f5-8feb-2f6c6647e7c3",
+      "Itemname": "WARRANTY-ICE-SC",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-ICE-SC",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "(-161) 115v/60/1-ph, 12.2 amps",
+      "Price": 0,
+      "Externalid": "1a0e6bc4-efd5-49ef-95a7-303acbfaf5c2",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "X",
+      "Description": "Factory Built-In LuminIce II Virus & Bacteria Inhibitor, comes pre-installed in ice machine (Add \"X\" to end of Indigo model number) ",
+      "Price": 0,
+      "Externalid": "a0614d33-7029-4abd-aee6-a24fff985baa",
+      "Itemname": "X",
+      "Status": "Active",
+      "modelforfield": "X",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-LUMINICE",
+      "Description": "3 year parts & labor warranty, standard (nc) ",
+      "Price": 0,
+      "Externalid": "b5560316-5154-4ed0-a2b3-c61cd22fdb5f",
+      "Itemname": "WARRANTY-LUMINICE",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-LUMINICE",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "D420",
+      "Description": "Ice Bin, 22\"W, 34\"D x 50\"H, with side-hinged front-opening door, side grips, 383 lbs. application capacity, AHRI certified 12.9 cu. ft., for top-mounted ice maker, Duratech exterior, NSF ",
+      "Price": 1030.450788,
+      "Externalid": "9abc5b3f-db73-4699-803f-5bebad239b17",
+      "Itemname": "D420",
+      "Status": "Active",
+      "modelforfield": "D420",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "WARRANTY-BIN/DISP",
+      "Description": "3 year parts & labor warranty, standard (nc) ",
+      "Price": 0,
+      "Externalid": "e5808774-2933-4151-8ef2-c83584f70091",
+      "Itemname": "WARRANTY-BIN/DISP",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-BIN/DISP",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Legs, 6\" adjustable stainless steel, standard",
+      "Price": 0,
+      "Externalid": "0b01a202-c10d-dd11-a23a-00304834a8c9",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "",
+      "Description": "Surcharge 5% ",
+      "Price": 212.905208475,
+      "Externalid": "2b7d1f7e-481d-4f33-a9b5-45c21c561a9e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "START UP",
+      "Description": "MANITOWOC START UP\r\nDONE BY A MANITOWOC AUTHORIZED SERVICE AGENT.\r\nAGENT WILL GO OUT TO SITE AND CHECK THAT ALL FINAL CONNECTIONS ARE \r\nCORRECT AND WILL TURN ON MACHINE.\r\nPLEASE NOTE WE WILL NEED A WEEK NOTICE TO ARRANGE ALONG WITH CONTACT NAME AND ADDRESS OF LOCATION ",
+      "Price": 225,
+      "Externalid": null,
+      "Itemname": "START UP",
+      "Status": "Active",
+      "modelforfield": "START UP",
+      "Number": "14"
+    },
+    {
+      "quantity": 1,
+      "item": "EV932401",
+      "Description": "Insurice® Water Filtration System, Insurice® Single-i2000², Single, (1) i2000² Micro-Pure® II Precoat primary filtration cartridge, reduces chlorine, taste & odor, inhibits scale, outlet pressure gauge, flushing valve, 9,000 gallons, 1.67 gpm, 0.5 micron, 3/8\" inlet, 3/8\" outlet, NSF 42 & 53 (EV932401)",
+      "Price": 261.12,
+      "Externalid": "21ce6867-c00d-dd11-a23a-00304834a8c9",
+      "Itemname": "EV932401",
+      "Status": "Active",
+      "modelforfield": "EV932401",
+      "Number": "14"
+    },
+    {
+      "quantity": 0,
+      "item": "",
+      "Description": "\r\n\r\nSAME WITH THE MANITOWOC- I HAVE MATCHED YOUR ITEM NUMBERS BUT THEY ARE ALL THE SAME WHICH MAY CAUSE CONFUSION.\r\nIF YOU'D LIKE ME TO REVISE PLEASE LET US KNOW.",
+      "Price": 0,
+      "Externalid": null,
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": ""
+    }
+  ],
+  "Con": [
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "cea9e784-1d0f-4678-ac5f-1c0f8631d777",
+      "lName": "",
+      "fname": "",
+      "Prospect": "WETZEL'S PRETZELS 2022 PRICING"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "705a341e-eb6c-4240-9cab-80bfbcaeb3a4",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "lName": "Polaski",
+      "fname": "Brian",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+      "lName": "Davis",
+      "fname": "Michelle",
+      "Prospect": "Edward Don Woodridge"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "d24f26b3-9813-4d6d-937f-34467983e53b",
+      "lName": "",
+      "fname": "",
+      "Prospect": "True Mfg. - General Foodservice"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "4a96f04c-de05-4373-99f5-f1e96f5c6c47",
+      "lName": null,
+      "fname": null,
+      "Prospect": "TRUE"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "dcbb2bc0-005b-4135-939d-58878dda2acf",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "c1f95342-fdeb-4a96-bcc9-9fac1afb8da4",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "b67ad391-f725-4a55-b86c-ea603ac9809c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "a26bee89-bb44-4095-83f0-ae7e45bd67fe",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    },
+    {
+      "ConID": "f914207c-fa96-4280-ad9f-daaf306ff895",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Everpure"
+    }
+  ],
+  "ContactID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+  "Prospect": "e2ce4f1d-ff33-4601-80cf-5e4ddd62c29d",
+  "CustinternalID": "",
+  "aa": [
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "c11cab9c-38a3-4848-918f-a5c1836df2d5",
+      "ContactType": "Sales"
+    }
+  ],
+  "Project": "WETZEL'S PRETZELS 2022 PRICING",
+  "ExternalID": "c9bfb7d3-4f37-493f-91d1-ba8c502b8d85"
+}

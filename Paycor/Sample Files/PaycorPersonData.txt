@@ -1,0 +1,99 @@
+{
+    "id": "bee3bce1-2cb0-4dcc-8f06-1d5c542b9b9c",
+    "prefix": "Ms",
+    "firstName": "Connie",
+    "middleName": null,
+    "lastName": "Allen",
+    "suffix": "None",
+    "legalFirstName": null,
+    "legalLastName": null,
+    "email": null,
+    "demographicData": {
+    "birthDate": "1986-01-01T00:00:00",
+    "gender": "Female",
+    "ethnicity": "White",
+    "maritalStatus": "Married",
+    "maidenName": null
+    },
+    "benefitData": {
+    "isTobaccoUser": false,
+    "disability": "No"
+    },
+    "emergencyContactData": [
+    {
+    "id": "e9ba64bb-de7d-4c96-9e84-1d5c54d45ecf",
+    "firstName": "David",
+    "middleName": null,
+    "lastName": "Allen",
+    "phones": [
+    {
+    "countryCode": "+1",
+    "areaCode": "312",
+    "phoneNumber": "2248763",
+    "type": "Mobile"
+    }
+    ],
+    "order": 1,
+    "relationship": "Spouse"
+    }
+    ],
+    "militaryData": {
+    "veteran": "No",
+    "dischargeDate": null,
+    "isArmedForcesServiceMedalVeteran": false,
+    "isDisabledVeteran": false,
+    "isOtherProtectedVeteran": false,
+    "isRecentlySeparatedVeteran": false,
+    "isVietnamEra": false,
+    "isSpecialDisabled": false
+    },
+    "socialMediaData": [
+    {
+    "type": "LinkedIn",
+    "url": "http://www.linkedin.com/MyURL193"
+    },
+    {
+    "type": "Twitter",
+    "url": "http://www.twitter.com/mytwitter193"
+    }
+    ],
+    "employeeAssignments": [
+    {
+    "employees": {
+    "id": "213f1abe-7484-0000-0000-000019b90300",
+    "url": "/v1/employees/213f1abe-7484-0000-0000-000019b90300"
+    }
+    }
+    ],
+    "addresses": [
+    {
+    "streetLine1": "970 Purcell Avenue",
+    "streetLine2": "",
+    "suite": "",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "county": "Hamilton",
+    "zipCode": "45205",
+    "type": "Primary"
+    }
+    ],
+    "phones": [
+    {
+    "countryCode": "",
+    "areaCode": "812",
+    "phoneNumber": "4579639",
+    "type": "Mobile"
+    },
+    {
+    "countryCode": "",
+    "areaCode": "513",
+    "phoneNumber": "8796666",
+    "type": "Work"
+    }
+    ],
+    "tenants": {
+    "id": "267238",
+    "url": "/v1/tenants/267238"
+    }
+    }

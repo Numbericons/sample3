@@ -1,0 +1,176 @@
+/**
+
+ *@NApiVersion 2.1
+
+ *@NScriptType clientScript
+
+ * @NModuleScope SameAccount
+
+ * @Author: Sam Durst
+
+ * @param {Record} scriptContext.currentRecord - Record
+
+ * @param {string} scriptContext.sublistId - Sublist name
+
+ * @param {string} scriptContext.sublistFieldId - Sublist field
+
+ */
+
+define(['N/search', 'N/ui/dialog', 'N/record', 'N/log', 'N/currentRecord', 'N/error'],
+
+    function (search, dialog, record, log, currentRecord, error) {
+
+
+
+        function getSearch(customer) {
+
+
+
+            const searchArr = [];
+
+            // get Customer
+
+
+
+
+            log.debug('customer', customer);
+
+
+
+
+            // Customer Item search
+
+            var customerSearchObj = search.create({
+
+                type: "customer",
+
+                filters:
+
+                    [
+
+                        ["internalid", "anyof", customer]
+
+                    ],
+
+                columns:
+
+                    [
+
+                        search.createColumn({
+
+                            name: "pricingitem",
+
+                            summary: "GROUP",
+
+                            label: "Pricing Item"
+
+                        })
+
+                    ]
+
+            });
+
+            var searchResultCount = customerSearchObj.runPaged().count;
+
+            log.debug("customerSearchObj result count", searchResultCount);
+
+            customerSearchObj.run().each(function (result) {
+
+                // .run().each has a limit of 4,000 results
+
+
+
+                const items = result.getValue(result.columns[0]);
+
+                log.debug('items', items);
+
+                searchArr.push({ 'item': items })
+
+                return true;
+
+
+
+            });
+
+
+
+            return searchArr
+
+        }
+
+
+
+        function validateLine(scriptContext) {
+
+            const rec = scriptContext.currentRecord;
+
+            const sublistName = scriptContext.sublistId;
+
+            const customer = rec.getValue('entity')
+
+            log.debug('customer', customer);
+
+            if (sublistName === 'item') {
+
+                //Get line Item
+
+                const actualItem = rec.getCurrentSublistValue({
+
+                    sublistId: 'item',
+
+                    fieldId: 'item'
+
+                });
+
+
+
+                var array = getSearch(customer);
+
+
+
+                log.debug('actualItem', actualItem);
+
+
+
+                let result = array.filter(t => t.item === actualItem);
+
+
+
+                if ((result == 'undefined') || (result == '')) {
+
+
+
+                    //alert('hello');
+
+
+
+                    dialog.alert({
+
+                        title: 'Notice',
+
+                        message: 'This item is not within the customer item list. Refer to KCG Customer Item Pricing.'
+
+                    })
+
+
+
+                }
+
+
+
+            }
+
+
+
+            return true;
+
+        }
+
+        return {
+
+            validateLine: validateLine
+
+        }
+
+    });
+

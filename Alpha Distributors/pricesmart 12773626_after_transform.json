@@ -1,0 +1,165 @@
+{
+  "arr": [
+    {
+      "quantity": 2,
+      "item": "UYF0140A",
+      "Description": "NEO® Undercounter Ice Maker, cube-style, air-cooled, self contained, 26\"W x 28\"D x 38-1/2\"H, production capacity up to 137 lb/24 hours at 70°/50° (100 lb AHRI certified at 90°70°), 90 lb ice storage capacity, electronic controls, full bin and service indicators, production delay of (4, 12, or 24 hours), Alpha-San anti-microbial protection, forward sliding storage bin for access to refrigeration components, sealed foodzone with removable water trough, distribution tube and damper door, half-dice size cubes, 6\" adjustable legs with flanged feet (painted gray), 0.42 HP, NSF, cULus, CE ",
+      "Price": 2065.145625,
+      "Externalid": "9ce1dddc-136f-4c53-ada0-a5ccd29af681",
+      "Itemname": "UYF0140A",
+      "Status": "Active",
+      "modelforfield": "UYF0140A",
+      "Number": "1"
+    },
+    {
+      "quantity": 2,
+      "item": "WARRANTY-ICE-SC",
+      "Description": "3 year parts & labor (Machine), 5 year parts & labor (Evaporator), 5 year parts & 3 years labor (Compressor), standard (nc) ",
+      "Price": 0,
+      "Externalid": "bd5dd1aa-1911-43f5-8feb-2f6c6647e7c3",
+      "Itemname": "WARRANTY-ICE-SC",
+      "Status": "Active",
+      "modelforfield": "WARRANTY-ICE-SC",
+      "Number": "1"
+    },
+    {
+      "quantity": 2,
+      "item": "",
+      "Description": "(-161B) 115v/60/1-ph, 5.0 amps, cord with NEMA 5-15P",
+      "Price": 0,
+      "Externalid": "1069edb3-eda8-4165-b82e-a14e2c6d0f41",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "1"
+    },
+    {
+      "quantity": 2,
+      "item": "",
+      "Description": "Surcharge 5% ",
+      "Price": 103.25728125,
+      "Externalid": "2b7d1f7e-481d-4f33-a9b5-45c21c561a9e",
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "1"
+    },
+    {
+      "quantity": 0,
+      "item": "",
+      "Description": "** Current lead time is mid to end of July",
+      "Price": 0,
+      "Externalid": null,
+      "Itemname": "",
+      "Status": "Active",
+      "modelforfield": "",
+      "Number": "1"
+    },
+    {
+      "quantity": 1,
+      "item": "FREIGHT ",
+      "Description": "Estimated standard delivery charges by Fedex Priority w/call before. Quote #1287294012",
+      "Price": 445.99,
+      "Externalid": "33eaa5bf-7d11-455e-b4f7-c0ff7ecd9229",
+      "Itemname": "FREIGHT ",
+      "Status": "Active",
+      "modelforfield": "FREIGHT ",
+      "Number": "2"
+    }
+  ],
+  "Con": [
+    {
+      "ConID": "a51aaa25-f426-428d-bb4e-526533c79a3e",
+      "lName": "",
+      "fname": "",
+      "Prospect": "PRICESMART 12773626"
+    },
+    {
+      "ConID": "a51aaa25-f426-428d-bb4e-526533c79a3e",
+      "lName": "",
+      "fname": "",
+      "Prospect": "PRICESMART 12773626"
+    },
+    {
+      "ConID": "a51aaa25-f426-428d-bb4e-526533c79a3e",
+      "lName": "",
+      "fname": "",
+      "Prospect": "PRICESMART 12773626"
+    },
+    {
+      "ConID": "a51aaa25-f426-428d-bb4e-526533c79a3e",
+      "lName": "",
+      "fname": "",
+      "Prospect": "PRICESMART 12773626"
+    },
+    {
+      "ConID": "a51aaa25-f426-428d-bb4e-526533c79a3e",
+      "lName": "",
+      "fname": "",
+      "Prospect": "PRICESMART 12773626"
+    },
+    {
+      "ConID": "e39162f3-b4b5-4755-9c06-80f9ebc4af01",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+      "lName": "Chanhnourack",
+      "fname": "Aimee",
+      "Prospect": "Alpha Distributors"
+    },
+    {
+      "ConID": "801f94e0-45a5-4c1b-9a9d-585331d7315c",
+      "lName": "Drewno",
+      "fname": "Dan",
+      "Prospect": "Swanel Beverage"
+    },
+    {
+      "ConID": "26f14301-ef14-42ba-8b40-777c39d80eab",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Manitowoc"
+    },
+    {
+      "ConID": "d6165d72-51ac-4be3-8067-fa83785e6243",
+      "lName": null,
+      "fname": null,
+      "Prospect": "Manitowc"
+    },
+    {
+      "ConID": "cf75b433-6af6-4d5a-8e12-e4846112a57c",
+      "lName": "",
+      "fname": "",
+      "Prospect": "Custom"
+    }
+  ],
+  "ContactID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+  "Prospect": "801f94e0-45a5-4c1b-9a9d-585331d7315c",
+  "CustinternalID": "",
+  "aa": [
+    {
+      "ContactAddressID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+      "ContactType": "Sales"
+    },
+    {
+      "ContactAddressID": "fabe54f6-7be2-4f9c-8a0c-ae57a2e1bcc3",
+      "ContactType": "Sales"
+    }
+  ],
+  "Project": "PRICESMART 12773626",
+  "ExternalID": "668ab4a4-a133-469a-9cda-84b8a10fad5a"
+}
