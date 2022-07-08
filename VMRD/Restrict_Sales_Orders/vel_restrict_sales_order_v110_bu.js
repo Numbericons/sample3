@@ -64,5 +64,5 @@ define(
     return {
       pageInit: pageInit,
     };
-  },
+  }
 );
