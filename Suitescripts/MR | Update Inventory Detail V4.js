@@ -1,13 +1,13 @@
 /**
  *@NApiVersion 2.1
  *@NScriptType MapReduceScript
- *@Author  Shubham Kaila
+ *@Author 
  */
 /***********************************************************************
  * File:        SK_ZO_MHI_Update_Inventory_Detail_V2.js
  * Date:        3/4/2021
  * Summary:
- * Author:      Shubham Kaila, Zachary Oliver
+ * Author:      Zachary Oliver
  * Updates:     Clean up code
  ***********************************************************************/
 define(['N/record', 'N/search', 'N/runtime', 'N/error', 'N/task', 'N/file', './MHI_lib_task', './lodash'], (record, search, runtime, error, task, file, mhiLibTask) => {
