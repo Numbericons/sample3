@@ -1,0 +1,73 @@
+curl --location --request POST 'https://744518-sb1.suitetalk.api.netsuite.com/services/rest/record/v1/invoice' \ --header 'Authorization: OAuth realm="744518_SB1",oauth_consumer_key=“{CUSTOMER_KEY}",oauth_token=“{OAUTH_TOKEN}",oauth_signature_method="HMAC-SHA256",oauth_timestamp="1658328408",oauth_nonce="CRXRPokaSu1",oauth_version="1.0",oauth_signature=“{OAUTH_SIGNATURE}"' \ --header 'Content-Type: application/json' \ --header 'Cookie: NS_ROUTING_VERSION=LAGGING' \ --data-raw '{     "tranid": "AJV28-28 - 438409 CENTRAL DISTRIBUTORS",     "otherrefnum": "AJV282",     "entity": {         "id": 13949     },     "customform": {         "id": 165     },
+    "custbody_vel_job_number": {
+        "id": 2807
+    },
+    "postingperiod": {
+        "id": 51
+    },
+    "externalid": "job_10028",
+    "memo": "Test Memo",
+    "custbody_avi_header_inv_desc": "AB",
+    "trandate": "2022-07-05",
+    "custbody_avi_invoice_totalinvcqty": 5,
+    "startdate": "2022-07-02",
+    "enddate": "2023-07-02",
+    "custbody_avi_fleet_disclaimer": "Thank You For Your Business! If you have any questions regarding this invoice, please contact your  account representative at (513) 554-4700. Go Paperless Send your email address and account information to: msnyder@advertisingvehicles.com, and receive all of your invoices and statements electronically.",
+    "duedate": "2022-07-15",
+    "salesrep": {
+        "refName": "Hopton, Brian"
+    },
+    "saleseffectivedate": "2022-07-02",
+    "subsidiary": {
+        "id": 2
+    },
+    "custbody_avi_salesrep": {
+        "refName": "Hopton, Brian"
+    },
+    "shippingaddress": {
+        "addr1": "Test addr1",
+        "addr2": "Test addr2",
+        "addr3": "Test addr3",
+        "addressee": "Shipping Test addressee",
+        "addrphone": "(900) 890-5678",
+        "addrtext": " Shipping Test Address Neetu, ",
+        "attention": "Address attention",
+        "city": "Kansas City",
+        "country": {
+            "id": "US"
+        },
+        "state": "Missouri",
+        "zip": 64105
+    },
+    "billingaddress": {
+        "addr1": "Test addr1",
+        "addr2": "Test addr2",
+        "addr3": "Test addr3",
+        "addressee": "Test addressee",
+        "addrphone": "(900) 890-5678",
+        "addrtext": "Test Address Neetu, ",
+        "attention": "Address attention",
+        "city": "Kansas City",
+        "country": {
+            "id": "US"
+        },
+        "state": "Missouri",
+        "zip": 64105
+    },
+    "item": {
+        "items": [
+            {
+                "item": {
+                    "externalId": "Budweiser 170530"
+                },
+                "quantity": 2
+            },
+            {
+                "item": {
+                    "id": 849
+                },
+                "quantity": 5
+            }
+        ]
+    }
+}'

@@ -1,0 +1,196 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+	<link name="NotoSans" type="font" subtype="truetype" src="${nsfont.NotoSans_Regular}" src-bold="${nsfont.NotoSans_Bold}" src-italic="${nsfont.NotoSans_Italic}" src-bolditalic="${nsfont.NotoSans_BoldItalic}" bytes="2" />
+	<#if .locale == "zh_CN">
+		<link name="NotoSansCJKsc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKsc_Regular}" src-bold="${nsfont.NotoSansCJKsc_Bold}" bytes="2" />
+	<#elseif .locale == "zh_TW">
+		<link name="NotoSansCJKtc" type="font" subtype="opentype" src="${nsfont.NotoSansCJKtc_Regular}" src-bold="${nsfont.NotoSansCJKtc_Bold}" bytes="2" />
+	<#elseif .locale == "ja_JP">
+		<link name="NotoSansCJKjp" type="font" subtype="opentype" src="${nsfont.NotoSansCJKjp_Regular}" src-bold="${nsfont.NotoSansCJKjp_Bold}" bytes="2" />
+	<#elseif .locale == "ko_KR">
+		<link name="NotoSansCJKkr" type="font" subtype="opentype" src="${nsfont.NotoSansCJKkr_Regular}" src-bold="${nsfont.NotoSansCJKkr_Bold}" bytes="2" />
+	<#elseif .locale == "th_TH">
+		<link name="NotoSansThai" type="font" subtype="opentype" src="${nsfont.NotoSansThai_Regular}" src-bold="${nsfont.NotoSansThai_Bold}" bytes="2" />
+	</#if>
+    <macrolist>
+        <macro id="nlheader">
+            <table style="width: 100%; font-size: 10pt;"><tr>
+	<td rowspan="3" style="padding: 0;margin-top: -20px;"><img src="https://3624332.app.netsuite.com/core/media/media.nl?id=5108&amp;c=3624332&amp;h=-xJ1bgkE8Ef-W8YRZoaV1DUJ68JXsG2bnaoyGDFLfO1NEnpQ" style="float: left; margin: 3px;width:155px;height:85px;" /></td>
+	<td align="right" style="padding: 0;"><span style="font-size: 24pt;">${record@title}</span></td>
+	</tr>
+	<tr>
+	<td align="right" style="padding: 0;">
+      <table style="width: 75%;border: 1px black;" align="right">
+        <tr>
+        <td style="font-size: 10pt; padding: 5px; font-weight: bold;background-color: black; color: white;">Date</td>
+		<td style="font-size: 10pt; padding: 5px; font-weight: bold;background-color: black; color: white;">Cust. ID</td>
+		<td style="font-size: 10pt; padding: 5px; font-weight: bold;background-color: black; color: white;">Invoice #</td>
+	</tr>
+     <tr>
+        <td style="font-size: 9pt;padding: 5px;">${record.trandate}</td>
+		<td style="font-size: 9pt;padding: 5px;border-left: 1px black;">${record.entity.entityid}</td>
+		<td style="font-size: 9pt;padding: 5px;border-left: 1px black;">${record.tranid}</td>
+	</tr>
+  	</table>
+      </td>
+	</tr>
+          </table>
+        </macro>
+        <macro id="nlfooter">
+            <table style="width: 100%; font-size: 8pt;"><tr>
+	<td style="padding: 0;"><barcode codetype="code128" showtext="true" value="${record.tranid}"/></td>
+	<td align="right" style="padding: 0;"><pagenumber/> of <totalpages/></td>
+	</tr></table>
+        </macro>
+      
+      <macro id="nlwatermark">
+        <table>
+		<tr>
+          <#if (record.custbodycustbody_vel_paid_cc?is_boolean && record.custbodycustbody_vel_paid_cc) || (record.custbodycustbody_vel_paid_cc?is_string && record.custbodycustbody_vel_paid_cc == 'T')><td><p rotate="-25" font-size="90pt" color="#C0C0C0" style= "vertical-align: middle;margin-top: 390px;margin-left: -85px;"><br />PAID IN FULL</p></td></#if>
+          </tr>
+        </table></macro>
+    </macrolist>
+
+    <style type="text/css">* {
+		<#if .locale == "zh_CN">
+			font-family: NotoSans, NotoSansCJKsc, sans-serif;
+		<#elseif .locale == "zh_TW">
+			font-family: NotoSans, NotoSansCJKtc, sans-serif;
+		<#elseif .locale == "ja_JP">
+			font-family: NotoSans, NotoSansCJKjp, sans-serif;
+		<#elseif .locale == "ko_KR">
+			font-family: NotoSans, NotoSansCJKkr, sans-serif;
+		<#elseif .locale == "th_TH">
+			font-family: NotoSans, NotoSansThai, sans-serif;
+		<#else>
+			font-family: NotoSans, sans-serif;
+		</#if>
+		}
+		table {
+			font-size: 8pt;
+			table-layout: fixed;
+		}
+        th {
+            font-weight: bold;
+            font-size: 8pt;
+            vertical-align: middle;
+            padding: 5px 6px 3px;
+            background-color: black;
+            color: #FFFFFF;
+        }
+        td {
+            padding: 4px 6px;
+          	font-size: 8pt;
+        }
+		td p { align:left }
+</style>
+</head>
+      <body header="nlheader" header-height="10%" footer="nlfooter" footer-height="10pt" padding="0.5in 0.5in 0.5in 0.5in" size="Letter" background-macro="nlwatermark">
+    <table style="width: 100%;"><tr>
+<td margin-top= "-24px" font-size="8pt"><b>P.O Box 502<br />Pullman, WA 99163<br />Fed. ID No. ${companyInformation.employerid}<br />E-mail: finance@vmrd.com<br />Phone: ${companyInformation.phone}<br />Fax: ${companyInformation.fax}<br />Web Site: ${companyInformation.url}</b></td>
+	</tr>
+  </table>
+
+  <table style="width: 100%; margin-top: 6px;"><tr>
+	<td colspan="3" style="font-size: 10pt; padding: 5px; font-weight: bold;border: 1px ridge;background-color: black; color: white;">${record.billaddress@label}</td>
+    <td colspan="1">&nbsp;</td>
+	<td colspan="3" style="font-size: 10pt; padding: 5px; font-weight: bold;border: 1px ridge;background-color: black; color: white;">${record.shipaddress@label}</td>
+	</tr>
+	<tr>
+	<td colspan="3" style="padding: 5px;border: 1px black;line-height: 125%;">${record.billaddress}</td>
+    <td colspan="1">&nbsp;</td>
+	<td colspan="3" style="padding: 5px;border: 1px black;line-height: 125%;">${record.shipaddress}</td>
+	</tr></table>
+
+<table style="width: 100%; margin-top: 10px;border: 1px black;"><tr>
+	<th>Order #</th>
+	<th>Ship Date</th>
+	<th>Incoterm</th>
+  	<th>Ship Via</th>
+	</tr>
+	<tr>
+	<td style="padding: 5px;">${record.createdfrom}</td>
+	<td style="padding: 5px;border-left: 1px black;">${record.createdfrom.shipdate}</td>
+	<td style="padding: 5px;border-left: 1px black;">${record.custbody_vmrd_incoterm}</td>
+    <td style="padding: 5px;border-left: 1px black;">${record.shipmethod}</td>
+	</tr></table>
+
+<table style="width: 100%; margin-top: 0px;border: 1px black;"><tr>
+	<th>Location</th>
+  	<th>Ordered By</th>
+  	<th>PO #</th>
+	<th>Terms</th>
+	<th>Sales Rep</th>
+	</tr>
+	<tr>
+    <td style="padding: 5px;">${record.location}</td>
+    <td style="padding: 5px;border-left: 1px black;">${record.custbody_vmrd_ordered_by}</td>
+	<td style="padding: 5px;border-left: 1px black;">${record.otherrefnum}</td>
+	<td style="padding: 5px;border-left: 1px black;">${record.terms}</td>
+	<td style="padding: 5px;border-left: 1px black;">${record.salesrep}</td>
+	</tr></table>
+<#if record.item?has_content>
+
+<table style="width: 100%; margin-top: 0px;border: 1px black;"><!-- start items --><#list record.item as item><#if item_index==0>
+<thead>
+	<tr>
+	<th colspan="8" style="padding: 5px;">Item</th>
+	<th colspan="5" style="padding: 5px;">Inv. Detail</th>
+    <th align="center" colspan="3" style="padding: 5px;">Qty Ord</th>
+    <th align="center" colspan="2" style="padding: 5px;">Units</th>
+	<th align="center" colspan="3" style="padding: 5px;">Qty Ship</th>
+	<th align="center" colspan="4" style="padding: 5px">Rate</th>
+	<th align="center" colspan="4" style="padding: 5px;">Amount</th>
+	</tr>
+</thead>
+</#if><tr>
+	<td colspan="8"><span style="font-weight: bold; color: #333333;" line-height="85%">${item.custcol_vmrd_item_name}</span><br />${item.description}</td>
+	<td colspan="5" line-height="85%" style="border-left: 1px black;">${item.inventorydetail}</td>
+	<td align="right" colspan="3" line-height="85%" style="border-left: 1px black;">${item.quantityordered}</td>
+    <td align="left" colspan="2" line-height="85%" style="border-left: 1px black;">${item.units}</td>
+    <td align="right" colspan="3" line-height="85%" style="border-left: 1px black;">${item.quantity}</td>
+	<td align="right" colspan="4" line-height="85%" style="border-left: 1px black;">${item.rate}</td>
+	<td align="right" colspan="4" line-height="85%" style="border-left: 1px black;">${item.amount}</td>
+	</tr>
+	</#list><!-- end items --></table>
+</#if>
+<table style="page-break-inside: avoid; width: 100%; margin-top: 10px;">
+  <tr>
+  <td rowspan="7" colspan="12" style="vertical-align: middle;font-size: 9pt;">Thank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7tThank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7tThank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7tThank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7tThank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7tThank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7tThank you for your business.%sdji21COdadgOLW*POkm2EB1^^4Sa)gjasD5RhS0upPyT77XsU7t</td>
+  </tr>
+  <tr>
+	<td colspan="12">&nbsp;</td>
+	<td colspan="8" align="right" style="font-weight: bold; color: #333333;border-left: 1px black;border-top: 1px black;padding-top: 5px;">${record.subtotal@label}</td>
+	<td colspan="5" align="right" style="border-right: 1px black;border-top: 1px black;border-left: 1px black;padding-top: 5px;">${record.subtotal}</td>
+	</tr>
+	<tr>
+	<td colspan="12">&nbsp;</td>
+	<td colspan="8" align="right" style="font-weight: bold; color: #333333;border-left: 1px black;">Shipping (${record.shipmethod})</td>
+	<td colspan="5" align="right" style="border-right: 1px black;border-left: 1px black;">${(record.shippingcost - record.handlingcost)?string.currency}</td>
+	</tr>
+  	<tr>
+	<td colspan="12">&nbsp;</td>
+	<td colspan="8" align="right" style="font-weight: bold; color: #333333;border-left: 1px black;">Handling</td>
+	<td colspan="5" align="right" style="border-right: 1px black;border-left: 1px black;">${record.handlingcost}</td>
+	</tr>
+	<tr>
+	<td colspan="12">&nbsp;</td>
+	<td colspan="8" align="right" style="font-weight: bold; color: #333333;border-left: 1px black;">${record.taxtotal@label} (${record.taxrate}%)</td>
+	<td colspan="5" align="right" style="border-right: 1px black;border-left: 1px black;">${record.taxtotal}</td>
+	</tr>
+	<tr>
+	<td colspan="12">&nbsp;</td>
+	<td colspan="8" align="right" style="font-weight: bold;border-left: 1px black;">${record.total@label}</td>
+	<td colspan="5" align="right" style="border-right: 1px black;border-left: 1px black;">${record.total}</td>
+	</tr>
+  	<tr>
+	<td colspan="12">&nbsp;</td>
+	<td colspan="8" align="right" style="font-weight: bold; color: #333333;border-left: 1px black;border-bottom: 1px black;padding-bottom: 5px;">Amount Paid</td>
+	<td colspan="5" align="right" style="border-right: 1px black;border-bottom: 1px black;border-left: 1px black;padding-bottom: 5px;">${record.amountpaid}</td>
+	</tr>
+  </table>
+
+<p font-size="7.5pt">VMRD, Inc. warrants that the products listed are as described as to the quantity and contents states on the label at the time of delivery to the customer.<br /><br />VMRD, INC. MAKES NO OTHER WARRANTIES AND HEREBY DISCLAIMS, AND BUYER HEREBY WAIVES, ALL OTHER WARRANTIES, REPRESENTATIONS, OR CONDITIONS, WHETHER WRITTEN OR ORAL, EXPRESS OR IMPLIED BY STATUTE, USAGE, OR CUSTOM, INCLUDING WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. BUYER FURTHER WAIVES ANY WARRANTY, REPRESENTATION, OR CONDITION THAT THE PRODUCT WILL BE FREE FROM ERROR IN COMPOSITION OR OPERATION. Buyer agrees that its rememdy for any defects in the product workmanship or operation, or for any other matter whatsoever related to this product is limited to replacement of the product or refund of the purchase price. VMRD, Inc. is not liable for indirect, special, incidental, consequential or punitive damages due to property damage, personal injury, or economic loss caused by the use, inability to use, or malfunction of this product.<br /><br />Please pay from this invoice. Please reference your Customer ID and Invoice Number with payment for more efficient processing. All prices are US dollars.</p>
+</body>
+</pdf>
