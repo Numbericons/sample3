@@ -2,6 +2,8 @@
      * Print Shelf Label for Items
      *
      * Author: Zachary Oliver
+     * 
+     * Version: v112
      *
      * @NApiVersion 2.1
      * @NScriptType Suitelet
@@ -56,7 +58,7 @@
             }
 
             const getUnits = (item_record) => {
-                var units = item_record.getValue('saleunit');
+                var units = item_record.getValue('unitstype');
                 
                 var unitRec = record.load({
                     type: record.Type.UNITS_TYPE,
@@ -162,27 +164,41 @@
                 }
             }
 
+            const dateFormat = () => {
+              let date = new Date;
+
+              var year = date.getFullYear();
+              var month = date.getMonth() + 1;
+              var day = date.getDate();
+
+              if (month.toString().length === 1) month = '0' + month.toString();
+              if (day.toString().length === 1) day = '0' + day.toString();
+
+              return `${year}${month}${day}`;
+            }
+
             const createText = (itemRec) => {
-                var text =  '<tr>';
+                var text =  '<table><tr>';
                 item = setItem(itemRec);
+                const itemOffset = item.pricing.qtyPrice ? '-115px' : '-105px';
                 
-                text += `<td colspan="12" height= "60px" style="font-size: 10pt;">${item.display}</td>`;
+                text += `<td colspan="12" height= "21px" style="font-size: 10pt;">${item.display}</td>`;
                 text += '</tr><tr>';
-                text += `<td colspan="1" height= "60px" style="font-size: 16pt; margin-top: -20px;">$${item.pricing.retailPrice}</td>`;
-                // text += '</tr><tr>';
-                text += `<td colspan="1" height= "60px" style="font-size: 16pt; margin-left: 40px; margin-top: -20px;">${item.unitText}</td>`;
-                // text += '</tr><tr>';
+                text += `<td colspan="1" height= "15px" style="font-size: 16pt; margin-right: 30px;">$${item.pricing.retailPrice}</td>`;
+                text += `<td colspan="1" height= "15px" style="font-size: 14pt; margin: 2px 20px 0px -65px;">${item.unitText}</td>`;
 
                 if (item.pricing.qtyPrice) {
-                    text += `<td colspan="1" height= "60px" style="font-size: 16pt; margin: -35px 0px 25px 20px; background-color: #e9e8e8; padding: 5px 15px 0px 15px;">Buy ${item.pricing.qtyBreak} for <br style="line-height: 5px;"/><p style="margin:10px;"></p>$${item.pricing.qtyPrice} ${item.unitText}</td>`;
+                    text += `<td colspan="1" height= "0px" style="font-size: 16pt; line-height: 1px; margin-top: -8px; background-color: #e9e8e8; padding: 10px 15px 5px 10px;"><p style="font-size: 10pt;">Buy ${item.pricing.qtyBreak} ${item.unitText} for </p><p style="font-size: 16pt; margin-top: -2px">$${item.pricing.qtyPrice} ${item.unitText}</p></td>`;
+                  } else {
+                  text += `<td colspan="1" height= "0px" width= "120px" style="font-size: 16pt; line-height: 1px; margin-top: -8px; background-color: white; padding: 10px 15px 10px 15px;"><p style="font-size: 10pt;"></p><p style="font-size: 16pt;"></p></td>`;
                 }
                 text += '</tr><tr>';
-                text += `<td colspan="12" height= "60px" style="font-size: 8pt; margin-top: -20px;">${item.vendor}</td>`;
+                text += `<td colspan="1" height= "25px" style="font-size: 8pt; margin-top: -3px;">${dateFormat()}</td>`;
                 text += '</tr><tr>';
-                text += `<td colspan="6" height= "60px" style="font-size: 14pt; margin-left:-12px; margin-top: -65px;"><barcode codetype="code128"  showtext="false" value="${item.id}"/></td>`;
+                text += `<td colspan="1" height= "22px" style="font-size: 14pt; margin: -17px 0px 0px -10px;"><barcode codetype="code128" height="17px" showtext="false" value="${item.id}"/></td>`;
                 text += '</tr><tr>';
-                text += `<td colspan="12" height= "60px" style="font-size: 14pt; margin-top: -95px;">${item.id}</td>`;
-                text += '</tr>';
+                text += `<td colspan="1" height= "25px" style="font-size: 14pt; margin-top: -19px">${item.id}</td>`;
+                text += '</tr></table>';
 
                 return text;
             }
