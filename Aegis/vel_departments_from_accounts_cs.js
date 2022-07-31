@@ -8,7 +8,7 @@
       */
 
       /*  Author: Zachary Oliver
-      **  Version: v101
+      **  Version: v110
       */
 
       function runSearch(id) {
@@ -78,10 +78,6 @@
       }
 
       function departmentChange(context, currentRecord) {
-        // var lineIdx = currentRecord.getCurrentSublistIndex({
-        //   sublistId: 'line'
-        // });
-
         var accountDept = currentRecord.getCurrentSublistValue({
           sublistId: 'line',
           fieldId: 'custpage_account_dept_user_ev'
@@ -101,10 +97,6 @@
 
         var account = findSLAccount(currentRecord);
         console.log('account found: ' + account);
-
-        //get account department list from results
-        //  set options for acc dept [x]
-        //    save acc dept naturally - also transfer to department selected
 
         account.each(function(result) {
           console.log('Account search result all: ' + result);
