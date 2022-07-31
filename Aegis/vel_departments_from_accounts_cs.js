@@ -7,6 +7,10 @@ define(
     *@NScriptType clientScript
     */
 
+    /*  Author: Zachary Oliver
+    **  Version: v101
+    */
+
     function runSearch(id) {
       var accountSearchObj = search.create({
         type: "account",
@@ -43,19 +47,26 @@ define(
     }
 
     function setField(rec, id) {
-      var accountDept = rec.getCurrentSublistValue({
+      var lineSublist = rec.getSublistField({
+        sublistId: 'line',
         fieldId: id,
-        sublistId: 'line'
+        line: 0
       });
 
-      console.log('Account Department from sublist: ' + accountDept);
+      console.log('accountDept: ' + lineSublist);
+      // console.log('acc department field: ' + accDept);
+
+      lineSublist.insertSelectOption({
+        value: 'testOption',
+        text: 'Test'
+      })
     }
 
     function fieldChanged(context) {
       var currentRecord = context.currentRecord;
+      context
 
       if (context.fieldId === 'account') {
-        console.log('Account change!')
         console.log('sublist id: ' + context.sublistId);
 
         var account = findSLAccount(currentRecord);
@@ -75,13 +86,8 @@ define(
             }).split(',');
             console.log('Account search name: ' + entity);
             console.log('Account search account dept: ' + accDept);
-            console.log('Account search account dept typeOf: ' + typeof accDept);
 
-            for (var i=0; i<accDept.length; i++){
-              console.log('Account dept id: ' + accDept[i]);
-            }
-
-            setField(currentRecord, 'custcol1');
+            setField(currentRecord, 'custpage_account_dept_user_ev');
 
             return true;
         });
@@ -128,3 +134,5 @@ define(
 //  create department field clone [x]
 //    remove all id's not in department id array
 //      OR add all id's from department array if not pre-populated
+
+//note: scurrent record getColumn to set mandatory

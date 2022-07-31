@@ -1,47 +1,30 @@
-define(["N/record", "N/search"],
-  function (record, search) {
+define(["N/record", "N/search", "N/ui/serverWidget"],
+  function (record, search, serverWidget) {
     /**
-    *@NApiVersion 2.0
+    *@NApiVersion 2.1
     *@NScriptType UserEventScript
+    */
+
+    /** Author: Zachary Oliver
+    * Version: v100
     */
 
     function beforeLoad(context) {
       const id = context.newRecord.getValue("id");
 
-      //checks if sales order has 'printedpickingticket' search filter === true
-      const printed = runSearch(id); 
-      log.debug("Printed: ", printed);
-
-      if (printed) removeEditButton(context.type, context.form);
+      // log.debug("Printed: ", printed);
+      addField(context);
     }
 
-    function removeEditButton(type, form) {
-      if (type === "view") {
-        form.removeButton("edit");
-      }
-    }
+    function addField(context) {
+      var line = context.form.getSublist({id: 'line'});
 
-    function runSearch(id) {
-      var salesorderSearchObj = search.create({
-        type: "salesorder",
-        filters: [
-          ["type", "anyof", "SalesOrd"],
-          "AND",
-          ["printedpickingticket", "is", "T"],
-          "AND",
-          ["mainline", "is", "T"],
-          "AND",
-          ["internalid", "anyof", id]
-        ],
-        columns: [
-          search.createColumn({
-            name: "transactionnumber",
-            label: "Transaction Number",
-          }),
-          search.createColumn({ name: "internalid", label: "Internal ID" }),
-        ]
+      line.addField({
+        id : 'custpage_account_dept_user_ev',
+        type : serverWidget.FieldType.SELECT,
+        label : 'Account Depatment Scripted',
+        source: 'department'
       });
-      return searchResultCount = salesorderSearchObj.runPaged().count;
     }
 
     return {
