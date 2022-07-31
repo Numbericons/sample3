@@ -12,8 +12,34 @@ define(["N/record", "N/search", "N/ui/serverWidget"],
     function beforeLoad(context) {
       const id = context.newRecord.getValue("id");
 
-      // log.debug("Printed: ", printed);
       addField(context);
+    }
+    
+    function beforeSubmit(context) {
+      var lineLength = context.newRecord.getLineCount({"sublistId": "line"});
+
+      for (let i=0; i<lineLength; i++){
+        var lineFields = context.newRecord.getSublistFields({
+          sublistId: 'line'
+        });
+
+        log.debug('Line fields: ', lineFields);
+
+        var accDept = context.newRecord.getSublistField({
+          sublistId: 'line',
+          fieldId: 'custpage_account_dept_user_ev',
+          line: i
+        });
+
+        log.debug('Line: i + accDept: ', + i + ' accDept: ' + accDept);
+
+        // context.newRecord.setSublistValue({
+        //   sublistId: 'line',
+        //   fieldId: 'department',
+        //   line: i,
+        //   value: accDept
+        // });
+      }
     }
 
     function addField(context) {
@@ -29,6 +55,7 @@ define(["N/record", "N/search", "N/ui/serverWidget"],
 
     return {
       beforeLoad: beforeLoad,
+      beforeSubmit: beforeSubmit
     };
   }
 );
