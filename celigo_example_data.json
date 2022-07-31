@@ -34,3 +34,5 @@
     ]
   },
 ]
+
+//note 'items' or other sublists should always be an array and not an object
