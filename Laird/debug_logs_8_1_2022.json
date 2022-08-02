@@ -1,0 +1,1366 @@
+Dynamic lookup source recordType: item
+	Mapped to field: item
+	Lookup fiter expression: [
+  [
+    "nameinternal",
+    "is",
+    "{{{line_items.0.sku}}}"
+  ],
+  "AND",
+  [
+    "isinactive",
+    "is",
+    "F"
+  ]
+]
+	Lookup key value: {
+  "id": 4387143352368,
+  "admin_graphql_api_id": "gid://shopify/Order/4387143352368",
+  "app_id": 294517,
+  "browser_ip": null,
+  "buyer_accepts_marketing": true,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": null,
+  "checkout_token": null,
+  "closed_at": null,
+  "confirmed": true,
+  "contact_email": "petfxr@gmail.com",
+  "created_at": "2022-08-02T01:05:44-07:00",
+  "currency": "USD",
+  "current_subtotal_price": "85.97",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "85.97",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_tax": "0.00",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "customer_locale": null,
+  "device_id": null,
+  "discount_codes": [],
+  "email": "petfxr@gmail.com",
+  "estimated_taxes": false,
+  "financial_status": "paid",
+  "fulfillment_status": null,
+  "gateway": "",
+  "landing_site": null,
+  "landing_site_ref": null,
+  "location_id": null,
+  "name": "#300592",
+  "note": "",
+  "note_attributes": [],
+  "number": 299592,
+  "order_number": 300592,
+  "order_status_url": "https://pickybars.com/16315219/orders/37649282c9f4439c514ee44b6db26bd6/authenticate?key=a3d178abcfddab079cf2d5beb23df795",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    ""
+  ],
+  "phone": null,
+  "presentment_currency": "USD",
+  "processed_at": "2022-08-02T01:05:44-07:00",
+  "processing_method": "",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": null,
+  "source_name": "294517",
+  "source_url": null,
+  "subtotal_price": "85.97",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    }
+  },
+  "tags": "Subscription, Subscription Recurring Order",
+  "tax_lines": [],
+  "taxes_included": false,
+  "test": false,
+  "token": "37649282c9f4439c514ee44b6db26bd6",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_line_items_price": "85.97",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "85.97",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "85.97",
+      "currency_code": "USD"
+    }
+  },
+  "total_price_usd": "85.97",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_tax": "0.00",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 0,
+  "updated_at": "2022-08-02T01:05:45-07:00",
+  "user_id": null,
+  "billing_address": {
+    "first_name": "Alett",
+    "address1": "71 Commercial Street #380",
+    "phone": "1234567890",
+    "city": "Boston",
+    "zip": "02109",
+    "province": "Massachusetts",
+    "country": "United States",
+    "last_name": "Mekler",
+    "address2": "None",
+    "company": "",
+    "latitude": null,
+    "longitude": null,
+    "name": "Alett Mekler",
+    "country_code": "US",
+    "province_code": "MA"
+  },
+  "customer": {
+    "id": "5382887109",
+    "email": "petfxr@gmail.com",
+    "accepts_marketing": true,
+    "created_at": "2017-07-19T12:37:10-07:00",
+    "updated_at": "2022-08-02T01:05:44-07:00",
+    "first_name": "Alett",
+    "last_name": "Mekler",
+    "orders_count": 38,
+    "state": "enabled",
+    "total_spent": "2289.42",
+    "last_order_id": 4387143352368,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "tags": "Active Subscriber",
+    "last_order_name": "#300592",
+    "currency": "USD",
+    "phone": null,
+    "accepts_marketing_updated_at": "2018-12-28T07:35:57-08:00",
+    "marketing_opt_in_level": "single_opt_in",
+    "tax_exemptions": [],
+    "sms_marketing_consent": null,
+    "admin_graphql_api_id": "gid://shopify/Customer/5382887109",
+    "default_address": {
+      "id": 3381818163248,
+      "customer_id": 5382887109,
+      "first_name": "Alett",
+      "last_name": "Mekler",
+      "company": "",
+      "address1": "71 Commercial Street #380",
+      "address2": "",
+      "city": "Boston",
+      "province": "Massachusetts",
+      "country": "United States",
+      "zip": "02109",
+      "phone": "+16173069244",
+      "name": "Alett Mekler",
+      "province_code": "MA",
+      "country_code": "US",
+      "country_name": "United States",
+      "default": true
+    },
+    "isCustomerDataFromOrderFlow": true,
+    "order": {
+      "id": 4387143352368,
+      "admin_graphql_api_id": "gid://shopify/Order/4387143352368",
+      "app_id": 294517,
+      "browser_ip": null,
+      "buyer_accepts_marketing": true,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": null,
+      "checkout_token": null,
+      "closed_at": null,
+      "confirmed": true,
+      "contact_email": "petfxr@gmail.com",
+      "created_at": "2022-08-02T01:05:44-07:00",
+      "currency": "USD",
+      "current_subtotal_price": "85.97",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        }
+      },
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "85.97",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "customer_locale": null,
+      "device_id": null,
+      "discount_codes": [],
+      "email": "petfxr@gmail.com",
+      "estimated_taxes": false,
+      "financial_status": "paid",
+      "fulfillment_status": null,
+      "gateway": "",
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "name": "#300592",
+      "note": "",
+      "note_attributes": [],
+      "number": 299592,
+      "order_number": 300592,
+      "order_status_url": "https://pickybars.com/16315219/orders/37649282c9f4439c514ee44b6db26bd6/authenticate?key=a3d178abcfddab079cf2d5beb23df795",
+      "original_total_duties_set": null,
+      "payment_gateway_names": [
+        ""
+      ],
+      "phone": null,
+      "presentment_currency": "USD",
+      "processed_at": "2022-08-02T01:05:44-07:00",
+      "processing_method": "",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "294517",
+      "source_url": null,
+      "subtotal_price": "85.97",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        }
+      },
+      "tags": "Subscription, Subscription Recurring Order",
+      "tax_lines": [],
+      "taxes_included": false,
+      "test": false,
+      "token": "37649282c9f4439c514ee44b6db26bd6",
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "total_line_items_price": "85.97",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        }
+      },
+      "total_outstanding": "0.00",
+      "total_price": "85.97",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "85.97",
+          "currency_code": "USD"
+        }
+      },
+      "total_price_usd": "85.97",
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "total_tax": "0.00",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 0,
+      "updated_at": "2022-08-02T01:05:45-07:00",
+      "user_id": null,
+      "billing_address": {
+        "first_name": "Alett",
+        "address1": "71 Commercial Street #380",
+        "phone": "1234567890",
+        "city": "Boston",
+        "zip": "02109",
+        "province": "Massachusetts",
+        "country": "United States",
+        "last_name": "Mekler",
+        "address2": "None",
+        "company": "",
+        "latitude": null,
+        "longitude": null,
+        "name": "Alett Mekler",
+        "country_code": "US",
+        "province_code": "MA"
+      },
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 11197854285872,
+          "admin_graphql_api_id": "gid://shopify/LineItem/11197854285872",
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Drizzle (6.5 oz jar) - Picky Club (30% off)",
+          "pre_tax_price": "13.99",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "13.99",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "13.99",
+              "currency_code": "USD"
+            }
+          },
+          "price": "13.99",
+          "price_set": {
+            "shop_money": {
+              "amount": "13.99",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "13.99",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 4446254432304,
+          "properties": [
+            {
+              "name": "charge_interval_frequency",
+              "value": 1
+            },
+            {
+              "name": "shipping_interval_frequency",
+              "value": 1
+            },
+            {
+              "name": "shipping_interval_unit_type",
+              "value": "month"
+            },
+            {
+              "name": "subscription_id",
+              "value": "40981"
+            }
+          ],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "CMD_PC30",
+          "taxable": true,
+          "title": "Drizzle (6.5 oz jar)",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 31681692008496,
+          "variant_inventory_management": null,
+          "variant_title": "Picky Club (30% off)",
+          "vendor": "Almonds, Cinnamon & Maca",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 11197854318640,
+          "admin_graphql_api_id": "gid://shopify/LineItem/11197854318640",
+          "fulfillable_quantity": 2,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Trail Mix Fix [8-serving bag] - Trail Mix Fix [8-serving bag]",
+          "pre_tax_price": "25.14",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "25.14",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "25.14",
+              "currency_code": "USD"
+            }
+          },
+          "price": "12.57",
+          "price_set": {
+            "shop_money": {
+              "amount": "12.57",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "12.57",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 4516307468336,
+          "properties": [
+            {
+              "name": "charge_interval_frequency",
+              "value": 1
+            },
+            {
+              "name": "shipping_interval_frequency",
+              "value": 1
+            },
+            {
+              "name": "shipping_interval_unit_type",
+              "value": "month"
+            },
+            {
+              "name": "subscription_id",
+              "value": "40981"
+            }
+          ],
+          "quantity": 2,
+          "requires_shipping": true,
+          "sku": "TMF-M1_PC30",
+          "taxable": true,
+          "title": "Trail Mix Fix [8-serving bag]",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 31931572944944,
+          "variant_inventory_management": null,
+          "variant_title": "Trail Mix Fix [8-serving bag]",
+          "vendor": "Seeds, Fruit, Chia & Chocolate",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 11197854351408,
+          "admin_graphql_api_id": "gid://shopify/LineItem/11197854351408",
+          "fulfillable_quantity": 10,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Need for Seed - Picky Club (30% off)",
+          "pre_tax_price": "19.50",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "19.50",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "19.50",
+              "currency_code": "USD"
+            }
+          },
+          "price": "1.95",
+          "price_set": {
+            "shop_money": {
+              "amount": "1.95",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "1.95",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7081393349,
+          "properties": [],
+          "quantity": 10,
+          "requires_shipping": true,
+          "sku": "NS01_PC30",
+          "taxable": true,
+          "title": "Need for Seed",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 31571429637,
+          "variant_inventory_management": null,
+          "variant_title": "Picky Club (30% off)",
+          "vendor": "Sunflower Butter, Honey & Chocolate",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 11197854384176,
+          "admin_graphql_api_id": "gid://shopify/LineItem/11197854384176",
+          "fulfillable_quantity": 4,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Mint Condition - Picky Club (30% off)",
+          "pre_tax_price": "7.80",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "7.80",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "7.80",
+              "currency_code": "USD"
+            }
+          },
+          "price": "1.95",
+          "price_set": {
+            "shop_money": {
+              "amount": "1.95",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "1.95",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 4679562362928,
+          "properties": [],
+          "quantity": 4,
+          "requires_shipping": true,
+          "sku": "MC01_PC30",
+          "taxable": true,
+          "title": "Mint Condition",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 32436778369072,
+          "variant_inventory_management": null,
+          "variant_title": "Picky Club (30% off)",
+          "vendor": "Chocolate, Mint & Almonds",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 11197854416944,
+          "admin_graphql_api_id": "gid://shopify/LineItem/11197854416944",
+          "fulfillable_quantity": 2,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Ready to Rumble Apple Crumble - Picky Club (30% off)",
+          "pre_tax_price": "19.54",
+          "pre_tax_price_set": {
+            "shop_money": {
+              "amount": "19.54",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "19.54",
+              "currency_code": "USD"
+            }
+          },
+          "price": "9.77",
+          "price_set": {
+            "shop_money": {
+              "amount": "9.77",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "9.77",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 4745000779824,
+          "properties": [],
+          "quantity": 2,
+          "requires_shipping": true,
+          "sku": "AC-M1_PC30",
+          "taxable": true,
+          "title": "Ready to Rumble Apple Crumble",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 32671600082992,
+          "variant_inventory_management": null,
+          "variant_title": "Picky Club (30% off)",
+          "vendor": "Apples, Almonds & Cardamom",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": null,
+      "refunds": [],
+      "shipping_address": {
+        "first_name": "Alett",
+        "address1": "71 Commercial Street #380",
+        "phone": "+16173069244",
+        "city": "Boston",
+        "zip": "02109",
+        "province": "Massachusetts",
+        "country": "United States",
+        "last_name": "Mekler",
+        "address2": null,
+        "company": "",
+        "latitude": null,
+        "longitude": null,
+        "name": "Alett Mekler",
+        "country_code": "US",
+        "province_code": "MA"
+      },
+      "shipping_lines": [
+        {
+          "id": 3698742755376,
+          "carrier_identifier": null,
+          "code": "Free Picky VIP Shipping",
+          "delivery_category": null,
+          "discounted_price": "0.00",
+          "discounted_price_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "phone": null,
+          "price": "0.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "requested_fulfillment_service_id": null,
+          "source": "shopify",
+          "title": "Free Picky VIP Shipping",
+          "tax_lines": [],
+          "discount_allocations": []
+        }
+      ],
+      "flowType": "batch",
+      "riskData": [
+        {
+          "id": 6956018565168,
+          "order_id": 4387143352368,
+          "checkout_id": null,
+          "source": "Internal",
+          "score": "0.0",
+          "recommendation": "accept",
+          "display": true,
+          "cause_cancel": null,
+          "message": "Shopify recommendation",
+          "merchant_message": "Shopify recommendation"
+        }
+      ],
+      "shipping_lines_1": {
+        "id": 3698742755376,
+        "carrier_identifier": null,
+        "code": "Free Picky VIP Shipping",
+        "delivery_category": null,
+        "discounted_price": "0.00",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "phone": null,
+        "price": "0.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "requested_fulfillment_service_id": null,
+        "source": "shopify",
+        "title": "Free Picky VIP Shipping",
+        "tax_lines": [],
+        "discount_allocations": []
+      }
+    }
+  },
+  "discount_applications": [],
+  "fulfillments": [],
+  "line_items": [
+    {
+      "id": 11197854285872,
+      "admin_graphql_api_id": "gid://shopify/LineItem/11197854285872",
+      "fulfillable_quantity": 1,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 0,
+      "name": "Drizzle (6.5 oz jar) - Picky Club (30% off)",
+      "pre_tax_price": "13.99",
+      "pre_tax_price_set": {
+        "shop_money": {
+          "amount": "13.99",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "13.99",
+          "currency_code": "USD"
+        }
+      },
+      "price": "13.99",
+      "price_set": {
+        "shop_money": {
+          "amount": "13.99",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "13.99",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 4446254432304,
+      "properties": [
+        {
+          "name": "charge_interval_frequency",
+          "value": 1
+        },
+        {
+          "name": "shipping_interval_frequency",
+          "value": 1
+        },
+        {
+          "name": "shipping_interval_unit_type",
+          "value": "month"
+        },
+        {
+          "name": "subscription_id",
+          "value": "40981"
+        }
+      ],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "CMD_PC30",
+      "taxable": true,
+      "title": "Drizzle (6.5 oz jar)",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 31681692008496,
+      "variant_inventory_management": null,
+      "variant_title": "Picky Club (30% off)",
+      "vendor": "Almonds, Cinnamon & Maca",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": [],
+      "total_tax": "0",
+      "shopify_tax_percent": 0,
+      "tax_percent": 0
+    },
+    {
+      "id": 11197854318640,
+      "admin_graphql_api_id": "gid://shopify/LineItem/11197854318640",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 0,
+      "name": "Trail Mix Fix [8-serving bag] - Trail Mix Fix [8-serving bag]",
+      "pre_tax_price": "25.14",
+      "pre_tax_price_set": {
+        "shop_money": {
+          "amount": "25.14",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "25.14",
+          "currency_code": "USD"
+        }
+      },
+      "price": "12.57",
+      "price_set": {
+        "shop_money": {
+          "amount": "12.57",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "12.57",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 4516307468336,
+      "properties": [
+        {
+          "name": "charge_interval_frequency",
+          "value": 1
+        },
+        {
+          "name": "shipping_interval_frequency",
+          "value": 1
+        },
+        {
+          "name": "shipping_interval_unit_type",
+          "value": "month"
+        },
+        {
+          "name": "subscription_id",
+          "value": "40981"
+        }
+      ],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "TMF-M1_PC30",
+      "taxable": true,
+      "title": "Trail Mix Fix [8-serving bag]",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 31931572944944,
+      "variant_inventory_management": null,
+      "variant_title": "Trail Mix Fix [8-serving bag]",
+      "vendor": "Seeds, Fruit, Chia & Chocolate",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": [],
+      "total_tax": "0",
+      "shopify_tax_percent": 0,
+      "tax_percent": 0
+    },
+    {
+      "id": 11197854351408,
+      "admin_graphql_api_id": "gid://shopify/LineItem/11197854351408",
+      "fulfillable_quantity": 10,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 0,
+      "name": "Need for Seed - Picky Club (30% off)",
+      "pre_tax_price": "19.50",
+      "pre_tax_price_set": {
+        "shop_money": {
+          "amount": "19.50",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "19.50",
+          "currency_code": "USD"
+        }
+      },
+      "price": "1.95",
+      "price_set": {
+        "shop_money": {
+          "amount": "1.95",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "1.95",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 7081393349,
+      "properties": [],
+      "quantity": 10,
+      "requires_shipping": true,
+      "sku": "NS01_PC30",
+      "taxable": true,
+      "title": "Need for Seed",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 31571429637,
+      "variant_inventory_management": null,
+      "variant_title": "Picky Club (30% off)",
+      "vendor": "Sunflower Butter, Honey & Chocolate",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": [],
+      "total_tax": "0",
+      "shopify_tax_percent": 0,
+      "tax_percent": 0
+    },
+    {
+      "id": 11197854384176,
+      "admin_graphql_api_id": "gid://shopify/LineItem/11197854384176",
+      "fulfillable_quantity": 4,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 0,
+      "name": "Mint Condition - Picky Club (30% off)",
+      "pre_tax_price": "7.80",
+      "pre_tax_price_set": {
+        "shop_money": {
+          "amount": "7.80",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "7.80",
+          "currency_code": "USD"
+        }
+      },
+      "price": "1.95",
+      "price_set": {
+        "shop_money": {
+          "amount": "1.95",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "1.95",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 4679562362928,
+      "properties": [],
+      "quantity": 4,
+      "requires_shipping": true,
+      "sku": "MC01_PC30",
+      "taxable": true,
+      "title": "Mint Condition",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 32436778369072,
+      "variant_inventory_management": null,
+      "variant_title": "Picky Club (30% off)",
+      "vendor": "Chocolate, Mint & Almonds",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": [],
+      "total_tax": "0",
+      "shopify_tax_percent": 0,
+      "tax_percent": 0
+    },
+    {
+      "id": 11197854416944,
+      "admin_graphql_api_id": "gid://shopify/LineItem/11197854416944",
+      "fulfillable_quantity": 2,
+      "fulfillment_service": "manual",
+      "fulfillment_status": null,
+      "gift_card": false,
+      "grams": 0,
+      "name": "Ready to Rumble Apple Crumble - Picky Club (30% off)",
+      "pre_tax_price": "19.54",
+      "pre_tax_price_set": {
+        "shop_money": {
+          "amount": "19.54",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "19.54",
+          "currency_code": "USD"
+        }
+      },
+      "price": "9.77",
+      "price_set": {
+        "shop_money": {
+          "amount": "9.77",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "9.77",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 4745000779824,
+      "properties": [],
+      "quantity": 2,
+      "requires_shipping": true,
+      "sku": "AC-M1_PC30",
+      "taxable": true,
+      "title": "Ready to Rumble Apple Crumble",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 32671600082992,
+      "variant_inventory_management": null,
+      "variant_title": "Picky Club (30% off)",
+      "vendor": "Apples, Almonds & Cardamom",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": [],
+      "total_tax": "0",
+      "shopify_tax_percent": 0,
+      "tax_percent": 0
+    }
+  ],
+  "payment_terms": null,
+  "refunds": [],
+  "shipping_address": {
+    "first_name": "Alett",
+    "address1": "71 Commercial Street #380",
+    "phone": "+16173069244",
+    "city": "Boston",
+    "zip": "02109",
+    "province": "Massachusetts",
+    "country": "United States",
+    "last_name": "Mekler",
+    "address2": null,
+    "company": "",
+    "latitude": null,
+    "longitude": null,
+    "name": "Alett Mekler",
+    "country_code": "US",
+    "province_code": "MA"
+  },
+  "shipping_lines": [
+    {
+      "id": 3698742755376,
+      "carrier_identifier": null,
+      "code": "Free Picky VIP Shipping",
+      "delivery_category": null,
+      "discounted_price": "0.00",
+      "discounted_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "phone": null,
+      "price": "0.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "requested_fulfillment_service_id": null,
+      "source": "shopify",
+      "title": "Free Picky VIP Shipping",
+      "tax_lines": [],
+      "discount_allocations": []
+    }
+  ],
+  "flowType": "batch",
+  "riskData": [
+    {
+      "id": 6956018565168,
+      "order_id": 4387143352368,
+      "checkout_id": null,
+      "source": "Internal",
+      "score": "0.0",
+      "recommendation": "Low",
+      "display": true,
+      "cause_cancel": null,
+      "message": "Shopify recommendation\n",
+      "merchant_message": "Shopify recommendation\n"
+    }
+  ],
+  "shipping_lines_1": {
+    "id": 3698742755376,
+    "carrier_identifier": null,
+    "code": "Free Picky VIP Shipping",
+    "delivery_category": null,
+    "discounted_price": "0.00",
+    "discounted_price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "phone": null,
+    "price": "0.00",
+    "price_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "USD"
+      }
+    },
+    "requested_fulfillment_service_id": null,
+    "source": "shopify",
+    "title": "Free Picky VIP Shipping",
+    "tax_lines": [],
+    "discount_allocations": []
+  },
+  "shipping_cost": 0,
+  "shipping_tax": 0,
+  "shopify_shipping_tax_percent": 0,
+  "shipping_tax_percent": "NaN",
+  "risks": {
+    "id": 6956018565168,
+    "order_id": 4387143352368,
+    "checkout_id": null,
+    "source": "Internal",
+    "score": "0.0",
+    "recommendation": "Low",
+    "display": true,
+    "cause_cancel": null,
+    "message": "Shopify recommendation\n",
+    "merchant_message": "Shopify recommendation\n"
+  },
+  "sourceTransactionIds": "",
+  "netsuitecustomerid": 13957469
+}
+	Rendered filter expression: [
+  [
+    "nameinternal",
+    "is",
+    "CMD_PC30"
+  ],
+  "AND",
+  [
+    "isinactive",
+    "is",
+    "F"
+  ]
+]
+// initiate search
+var fe = [
+  [
+    "nameinternal",
+    "is",
+    "CMD_PC30"
+  ],
+  "AND",
+  [
+    "isinactive",
+    "is",
+    "F"
+  ]
+];
+var lookupSource = "item";
+var lookupValue = "internalid";
+var s = nlapiCreateSearch(lookupSource, fe,
+[ new nlobjSearchColumn(lookupValue)
+]);
+// Final lookup filter expression 
+// fe: [["nameinternal","is","CMD_PC30"],"AND",["isinactive","is","F"]]
+
+var rs = s.runSearch().getResults(0,
+10);
+rs.length: 0

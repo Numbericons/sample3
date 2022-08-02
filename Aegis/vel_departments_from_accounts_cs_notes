@@ -1,0 +1,24 @@
+
+  //when accoutn field on line level selected
+  //  fieldChange triggers
+  //    add new 'department' field sourced from accounts selected departments
+  //       hide default 'department' field
+
+  //get account department list from results [x]
+  //  set options for acc dept
+  //    save acc dept naturally - also transfer to department selected
+
+  //___________________________________________________\\
+
+  //grab account value set, lookup account [x]
+  //  get accounts department sublist id array [x]
+
+  //  search department id's []
+  //    test setup - create a field on accounts [x]
+  //      need department name to ultimately set department before save []
+  //         actual search and run or simpler method, perhaps just set name of department []
+  //  create department field clone [x]
+  //    remove all id's not in department id array
+  //      OR add all id's from department array if not pre-populated
+
+  //note: scurrent record getColumn to set mandatory
