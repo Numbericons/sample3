@@ -210,6 +210,12 @@ define(['N/record', 'N/search', './VEL_DDC_PeekabooTRF_LIB', 'N/url', 'N/email']
 
             }
             log.debug('About to save SO w/ ID: ', soId)
+            log.debug('fields: ' + soRec.getFields());
+            log.debug('fields: ' + soRec.getSublistFields({
+                sublistId: 'item'
+            }));
+            log.debug('soRec: ' + soRec);
+
             soRec.save();
         }
 

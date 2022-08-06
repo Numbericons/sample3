@@ -108,7 +108,7 @@ define(['N/record', 'N/search', 'N/runtime', 'N/format'],
                                 var warrantyQty = recNewRecord.getSublistValue({
                                     sublistId: 'item',
                                     fieldId: 'quantity',
-                                    line: i + 1
+                                    line: i + 1 
                                 });
 
                                 var warrantyInMonths = recNewRecord.getSublistValue({
@@ -117,9 +117,9 @@ define(['N/record', 'N/search', 'N/runtime', 'N/format'],
                                     line: i + 1
                                 });
 
-                                warrantyInMonths = parseFloat(warrantyInMonths); //probably should be parseInt
+                                warrantyInMonths = parseFloat(warrantyInMonths); //probably should be parseInt 
 
-                                var additionalWarranty = warrantyInMonths * (warrantyQty/plumQty);
+                                var additionalWarranty = warrantyInMonths * (warrantyQty/plumQty); 
 
                                 log.debug(stLogTitle, 'additional Warranty: ' + additionalWarranty);
 
@@ -134,7 +134,7 @@ define(['N/record', 'N/search', 'N/runtime', 'N/format'],
                                     sublistId: 'item',
                                     fieldId: 'custcol_pli_additional_ncm_included',
                                     line: i,
-                                    value: true
+                                    value: true //why true when extraWarranty || ncmLicenseItem
                                 });
                             }
                         }
@@ -207,7 +207,7 @@ define(['N/record', 'N/search', 'N/runtime', 'N/format'],
 
                         var itemFulfillmentId = recNewRecord.id;
 
-                        if (warrantyOnly && !plumItemsIncluded) {
+                        if (warrantyOnly && !plumItemsIncluded) { //these values are set in tandem anyway
                             log.debug(stLogTitle, 'Warranty Items only in fulfillment');
                             var itemLineCount = recNewRecord.getLineCount({
                                 sublistId: 'item'

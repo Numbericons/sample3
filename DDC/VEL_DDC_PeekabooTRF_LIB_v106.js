@@ -181,7 +181,6 @@ define(['N/record', 'N/search', 'N/url', 'N/format'],
             log.debug('Line Commit', 'Commited Line');
             
             return soRec;
-
         }
 
         function dateFields(string) {
