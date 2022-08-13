@@ -175,7 +175,7 @@ define(["N/record", "N/search", "N/task", "N/runtime", "N/error", "N/format", "S
         var scriptTask = task.create({ taskType: task.TaskType.SCHEDULED_SCRIPT });
         scriptTask.scriptId = 'customscript_vel_sch_get_price_lists';
         scriptTask.deploymentId = 'customdeploy_vel_sch_get_price_lists';
-        scriptTask.params = { tt
+        scriptTask.params = {
           custscript_sch_price_list_customer: customer,
           custscript_sch_price_list_location: location,
           custscript_sch_price_list_estimate: estimateId

@@ -1,0 +1,2645 @@
+[{
+    "products": [
+      {
+        "id": 6982165201061,
+        "title": "Winco ESG-2  Double Commercial Sandwich Press  Cast Smooth Plates",
+        "body_html": "<p><strong>Winco ESG-2 Double Commercial Sandwich Press w/ Cast Iron Smooth Plates, 120v</strong></p>\n<p> </p>\n<p><span>Made with flat grill surfaces and a stainless steel construction, the Winco ESG-2 double commercial panini press is durable and convenient to clean. Its cast iron plates cook product uniformly and stay warm between uses. Because its balanced top plates adjust to food thickness, it is suitable for various products, and the crumb and grease tray is removable so users can streamline cleanup. Ready and power lights indicate when each side is on and when it is ready to cook, and for precise cooking, the thermostats can be adjusted as high as 600 degrees Fahrenheit.</span></p>\n<p><strong>FEACTUERES </strong></p>\n<ul class=\"list\">\n<li>Constructed of sturdy stainless steel</li>\n<li>Flat surfaces are made of cast iron</li>\n<li>Balanced top plates adjust automatically to food thickness</li>\n<li>Removable grease and crumb tray</li>\n<li>Ready and power lights</li>\n<li>Maximum temperature: 600 degrees F</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td><strong>Grill surface</strong></td>\n<td> <span data-mce-fragment=\"1\">19 in. L x 9 in. W</span>\n</td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td><span>22.5 in. W x 12 in. D x 8 in. H</span></td>\n</tr>\n<tr>\n<td><strong>Hertz</strong></td>\n<td><span>60</span></td>\n</tr>\n<tr>\n<td><strong>Plate Type</strong></td>\n<td><span>Double</span></td>\n</tr>\n<tr>\n<td><strong>Voltage</strong></td>\n<td>120</td>\n</tr>\n<tr>\n<td><strong>Surface</strong></td>\n<td><span>Smooth</span></td>\n</tr>\n<tr>\n<td><strong>Weight</strong></td>\n<td><span>68.00</span></td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-08-16T12:56:05-04:00",
+        "handle": "winco-esg-2-ouble-commercial-sandwich-press-cast-smooth-plates",
+        "updated_at": "2022-08-11T14:35:01-04:00",
+        "published_at": "2021-08-16T12:56:06-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6982165201061",
+        "variants": [
+          {
+            "id": 40595971473573,
+            "product_id": 6982165201061,
+            "title": "Default Title",
+            "price": "410.92",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-16T12:56:05-04:00",
+            "updated_at": "2021-08-17T17:04:45-04:00",
+            "taxable": true,
+            "barcode": "71473573",
+            "grams": 30844,
+            "image_id": null,
+            "weight": 68,
+            "weight_unit": "lb",
+            "inventory_item_id": 42691751149733,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "410.92",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40595971473573"
+          }
+        ],
+        "options": [
+          {
+            "id": 8980587282597,
+            "product_id": 6982165201061,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 31006588731557,
+            "product_id": 6982165201061,
+            "position": 1,
+            "created_at": "2021-08-16T12:56:07-04:00",
+            "updated_at": "2021-08-16T12:56:07-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-esg2.jpg?v=1629132967",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/31006588731557"
+          }
+        ],
+        "image": {
+          "id": 31006588731557,
+          "product_id": 6982165201061,
+          "position": 1,
+          "created_at": "2021-08-16T12:56:07-04:00",
+          "updated_at": "2021-08-16T12:56:07-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-esg2.jpg?v=1629132967",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/31006588731557"
+        },
+        "sku": "ESG-2"
+      },
+      {
+        "id": 6873186893989,
+        "title": "Winco Nacho Serving Trays  (500 each per pack) - 5\" x 6\", Plastic 53021",
+        "body_html": "<div class=\"col-12 col-lg-8\" data-mce-fragment=\"1\">\n<p itemprop=\"description\" data-mce-fragment=\"1\">Benchmark Nacho Serving Trays, 5\" x 6\", vacuum formed, (2) compartments, holds approximately 30 round tortilla chips and 3 oz. of cheese (500 each per pack)</p>\n<p itemprop=\"description\" data-mce-fragment=\"1\">(Qty Break = 1 pack)</p>\n</div>\n<div class=\"col-12 col-lg-4\" data-mce-fragment=\"1\">\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 28.7432%;\" data-mce-style=\"width: 28.7432%;\"><strong>Length</strong></td>\n<td style=\"width: 68.1715%;\" data-mce-style=\"width: 68.1715%;\"> 6</td>\n</tr>\n<tr>\n<td style=\"width: 28.7432%;\" data-mce-style=\"width: 28.7432%;\"><strong>Material</strong></td>\n<td style=\"width: 68.1715%;\" data-mce-style=\"width: 68.1715%;\">Plastic</td>\n</tr>\n<tr>\n<td style=\"width: 28.7432%;\" data-mce-style=\"width: 28.7432%;\"><strong>No. of Compartments</strong></td>\n<td style=\"width: 68.1715%;\" data-mce-style=\"width: 68.1715%;\">2</td>\n</tr>\n<tr>\n<td style=\"width: 28.7432%;\" data-mce-style=\"width: 28.7432%;\"><strong><span>Width </span></strong></td>\n<td style=\"width: 68.1715%;\" data-mce-style=\"width: 68.1715%;\">5</td>\n</tr>\n<tr>\n<td style=\"width: 28.7432%;\" data-mce-style=\"width: 28.7432%;\"><strong><span>Product Type </span></strong></td>\n<td style=\"width: 68.1715%;\" data-mce-style=\"width: 68.1715%;\">Disposables</td>\n</tr>\n</tbody>\n</table>\n</div>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-06-24T15:44:30-04:00",
+        "handle": "winco-nacho-serving-trays-500-each-per-pack-5-x-6-plastic-53021",
+        "updated_at": "2022-08-11T14:34:35-04:00",
+        "published_at": "2021-06-24T15:44:31-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6873186893989",
+        "variants": [
+          {
+            "id": 40233911189669,
+            "product_id": 6873186893989,
+            "title": "Default Title",
+            "price": "45.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-24T15:44:30-04:00",
+            "updated_at": "2021-08-17T17:01:10-04:00",
+            "taxable": true,
+            "barcode": "11189669",
+            "grams": 4536,
+            "image_id": null,
+            "weight": 10,
+            "weight_unit": "lb",
+            "inventory_item_id": 42329344934053,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "45.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40233911189669"
+          }
+        ],
+        "options": [
+          {
+            "id": 8845734183077,
+            "product_id": 6873186893989,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30398523343013,
+            "product_id": 6873186893989,
+            "position": 1,
+            "created_at": "2021-06-24T15:44:32-04:00",
+            "updated_at": "2021-06-24T15:44:32-04:00",
+            "alt": null,
+            "width": 832,
+            "height": 400,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/90358.jpg?v=1624563872",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30398523343013"
+          }
+        ],
+        "image": {
+          "id": 30398523343013,
+          "product_id": 6873186893989,
+          "position": 1,
+          "created_at": "2021-06-24T15:44:32-04:00",
+          "updated_at": "2021-06-24T15:44:32-04:00",
+          "alt": null,
+          "width": 832,
+          "height": 400,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/90358.jpg?v=1624563872",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30398523343013"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6953123217573,
+        "title": "Winco RC-P300 30 Cup Electric Rice Cooker, 120v",
+        "body_html": "<p><span data-mce-fragment=\"1\">The Winco RC-P300 rice cooker can accommodate 30 rice cups of uncooked rice—unlike regular cups, industry-standard rice cups hold 6 ounces. Employees can measure ingredients with the included measuring cup or pour rice straight into the inner pot, which has measurement marks on the interior. This pot can then be dropped into the cooker so rice can soak in the water. After 30 minutes of soaking, employees can pull the lever down, and the cooking cycle will begin. For serving, this unit comes with a plastic paddle that is safer for the pot than metal spatulas as it is less likely to scrape off the nonstick finish.</span></p>\n<p> </p>\n<p><strong>FEACTURES</strong> </p>\n<ul class=\"list\">\n<li>Accommodates 30 cups of uncooked rice</li>\n<li>Accommodates 60 cups of cooked rice</li>\n<li>Nonstick pot speeds up cleaning</li>\n<li>Inner pot and cover keep moisture inside</li>\n<li>Pressing the lever starts a cook cycle</li>\n<li>Cooking indicator light</li>\n<li>Comes with measuring cup and plastic serving paddle</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 42.3718%;\">Dimensions</td>\n<td style=\"width: 54.4446%;\"> 15-11/16\"L x 15-11/16\"W x 12-3/8\"H</td>\n</tr>\n<tr>\n<td style=\"width: 42.3718%;\"><span>Voltage</span></td>\n<td style=\"width: 54.4446%;\">120</td>\n</tr>\n<tr>\n<td style=\"width: 42.3718%;\"><span>Cooked Rice Capacity (cups)</span></td>\n<td style=\"width: 54.4446%;\">60</td>\n</tr>\n<tr>\n<td style=\"width: 42.3718%;\"><span>Weight</span></td>\n<td style=\"width: 54.4446%;\"><span>17.64</span></td>\n</tr>\n<tr>\n<td style=\"width: 42.3718%;\"><span>Phase</span></td>\n<td style=\"width: 54.4446%;\"><span>1</span></td>\n</tr>\n<tr>\n<td style=\"width: 42.3718%;\"><span>Warranty</span></td>\n<td style=\"width: 54.4446%;\"><span>1 year limited warranty</span></td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-08-03T11:50:01-04:00",
+        "handle": "winco-rc-p300-30-cup-electric-rice-cooker-120v",
+        "updated_at": "2022-08-11T14:34:50-04:00",
+        "published_at": "2021-08-03T11:50:02-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6953123217573",
+        "variants": [
+          {
+            "id": 40499736248485,
+            "product_id": 6953123217573,
+            "title": "Default Title",
+            "price": "86.09",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-03T11:50:01-04:00",
+            "updated_at": "2021-08-17T17:03:25-04:00",
+            "taxable": true,
+            "barcode": "36248485",
+            "grams": 8001,
+            "image_id": null,
+            "weight": 17.64,
+            "weight_unit": "lb",
+            "inventory_item_id": 42595488235685,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "86.09",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40499736248485"
+          }
+        ],
+        "options": [
+          {
+            "id": 8944956080293,
+            "product_id": 6953123217573,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30821426692261,
+            "product_id": 6953123217573,
+            "position": 1,
+            "created_at": "2021-08-03T11:50:04-04:00",
+            "updated_at": "2021-08-03T11:50:04-04:00",
+            "alt": null,
+            "width": 600,
+            "height": 600,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-rcp300.jpg?v=1628005804",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30821426692261"
+          },
+          {
+            "id": 30821427151013,
+            "product_id": 6953123217573,
+            "position": 2,
+            "created_at": "2021-08-03T11:50:04-04:00",
+            "updated_at": "2021-08-03T11:50:04-04:00",
+            "alt": null,
+            "width": 512,
+            "height": 361,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/unnamed_1.jpg?v=1628005804",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30821427151013"
+          },
+          {
+            "id": 30821427085477,
+            "product_id": 6953123217573,
+            "position": 3,
+            "created_at": "2021-08-03T11:50:04-04:00",
+            "updated_at": "2021-08-03T11:50:04-04:00",
+            "alt": null,
+            "width": 512,
+            "height": 361,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/unnamed_75b4809c-f21f-4baf-b621-8fb8fbbc63dd.jpg?v=1628005804",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30821427085477"
+          }
+        ],
+        "image": {
+          "id": 30821426692261,
+          "product_id": 6953123217573,
+          "position": 1,
+          "created_at": "2021-08-03T11:50:04-04:00",
+          "updated_at": "2021-08-03T11:50:04-04:00",
+          "alt": null,
+          "width": 600,
+          "height": 600,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-rcp300.jpg?v=1628005804",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30821426692261"
+        },
+        "sku": "RC-P300"
+      },
+      {
+        "id": 6953111552165,
+        "title": "Winco RC-S300, 30 Cup Electric Rice Cooker 120v",
+        "body_html": "<p><strong>Winco RC-S300 30 Cup Electric Rice Cooker w/ Hinged Cover &amp; Stainless Body, Satin Finish</strong></p>\n<p> </p>\n<p><span>The Winco RC-S300 electric rice warmer can hold 30 cups of uncooked rice that will make 60 cups of cooked rice. The inner pot keeps rice from sticking to the side of the warmer while sealing in moisture to prevent the rice from drying out. Contents are kept warm for up to 6 hours after cooking has finished. The heat absorption system is energy efficient, and the body of the warmer has a satin finish that is fingerprint proof. The stainless steel body is heavy-duty for a long lifetime and is simple to clean. The Winco RC-S300 electric rice warmer comes with a serving paddle and a measuring cup.</span></p>\n<p> </p>\n<p><strong>FEACTURES </strong></p>\n<ul class=\"list\">\n<li>30 cup uncooked rice capacity; makes 60 cups of cooked rice</li>\n<li>Keeps rice warm for up to 6 hours</li>\n<li>Hinged cover keeps contaminants out of food</li>\n<li>Inner pot keeps the rice from sticking and seals moisture in to prevent drying out</li>\n<li>Heavy-duty stainless steel body is durable and easy to clean</li>\n<li>Fingerprint proof satin finish on the body</li>\n<li>Heat absorption system is energy efficient</li>\n<li>Includes inner pot, serving paddle, and measuring cup</li>\n</ul>\n<p> </p>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td>Dimensions</td>\n<td> 7<sup data-mce-fragment=\"1\">1</sup>⁄<sub data-mce-fragment=\"1\">2</sub><span data-mce-fragment=\"1\"> </span>in. W x 17<sup data-mce-fragment=\"1\">1</sup>⁄<sub data-mce-fragment=\"1\">2</sub><span data-mce-fragment=\"1\"> </span>in. D x 15 in. H</td>\n</tr>\n<tr>\n<td><span>Hertz</span></td>\n<td>60</td>\n</tr>\n<tr>\n<td><span>Voltage</span></td>\n<td>120</td>\n</tr>\n<tr>\n<td><span>Phase</span></td>\n<td>1</td>\n</tr>\n<tr>\n<td><span>Cooked Rice Capacity (cups)</span></td>\n<td>60</td>\n</tr>\n<tr>\n<td><span>Weight</span></td>\n<td><span>24.60</span></td>\n</tr>\n<tr>\n<td><span>Warranty</span></td>\n<td><span>1 year limited warranty</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-08-03T11:32:19-04:00",
+        "handle": "winco-rc-s300-30-cup-electric-rice-cooker-120v",
+        "updated_at": "2022-08-11T14:34:50-04:00",
+        "published_at": "2021-08-03T11:32:21-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6953111552165",
+        "variants": [
+          {
+            "id": 40499737395365,
+            "product_id": 6953111552165,
+            "title": "Default Title",
+            "price": "147.25",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-03T11:50:24-04:00",
+            "updated_at": "2021-08-17T17:03:25-04:00",
+            "taxable": true,
+            "barcode": "37395365",
+            "grams": 11158,
+            "image_id": null,
+            "weight": 24.6,
+            "weight_unit": "lb",
+            "inventory_item_id": 42595489382565,
+            "inventory_quantity": 30,
+            "old_inventory_quantity": 30,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "147.25",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40499737395365"
+          }
+        ],
+        "options": [
+          {
+            "id": 8944940449957,
+            "product_id": 6953111552165,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30821292867749,
+            "product_id": 6953111552165,
+            "position": 1,
+            "created_at": "2021-08-03T11:32:23-04:00",
+            "updated_at": "2021-08-03T11:32:23-04:00",
+            "alt": null,
+            "width": 600,
+            "height": 600,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-rcs300.jpg?v=1628004743",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30821292867749"
+          }
+        ],
+        "image": {
+          "id": 30821292867749,
+          "product_id": 6953111552165,
+          "position": 1,
+          "created_at": "2021-08-03T11:32:23-04:00",
+          "updated_at": "2021-08-03T11:32:23-04:00",
+          "alt": null,
+          "width": 600,
+          "height": 600,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-rcs300.jpg?v=1628004743",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30821292867749"
+        },
+        "sku": "RC-S300,"
+      },
+      {
+        "id": 6780776218789,
+        "title": "Winco RW-S450 100 Cup Electric Rice Warmer, 120v",
+        "body_html": "<p><strong>FEATURES</strong></p>\n<ul>\n<li>Holds 100 cups of cooked rice for warming.</li>\n<li>Fingerprint-proof satin finish; heavy-duty stainless steel body.</li>\n<li>Non-Stick inner pot seals in moisture.</li>\n<li>Energy efficient warm for up to 24 hours</li>\n<li>Major electrical parts made in Korea/Japan</li>\n<li>ETLS</li>\n</ul>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-05-24T16:00:31-04:00",
+        "handle": "winco-rw-s450-100-cup-electric-rice-warmer-120v",
+        "updated_at": "2022-08-11T14:34:31-04:00",
+        "published_at": "2021-05-24T16:00:32-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6780776218789",
+        "variants": [
+          {
+            "id": 39959697850533,
+            "product_id": 6780776218789,
+            "title": "Default Title",
+            "price": "150.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-05-24T16:00:31-04:00",
+            "updated_at": "2021-08-17T17:00:30-04:00",
+            "taxable": true,
+            "barcode": "97850533",
+            "grams": 8600,
+            "image_id": null,
+            "weight": 18.96,
+            "weight_unit": "lb",
+            "inventory_item_id": 42054702137509,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "150.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/39959697850533"
+          }
+        ],
+        "options": [
+          {
+            "id": 8740820418725,
+            "product_id": 6780776218789,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 29902756642981,
+            "product_id": 6780776218789,
+            "position": 1,
+            "created_at": "2021-05-24T16:00:33-04:00",
+            "updated_at": "2021-05-24T16:00:33-04:00",
+            "alt": null,
+            "width": 650,
+            "height": 459,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/rw-s450.jpg?v=1621886433",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29902756642981"
+          }
+        ],
+        "image": {
+          "id": 29902756642981,
+          "product_id": 6780776218789,
+          "position": 1,
+          "created_at": "2021-05-24T16:00:33-04:00",
+          "updated_at": "2021-05-24T16:00:33-04:00",
+          "alt": null,
+          "width": 650,
+          "height": 459,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/rw-s450.jpg?v=1621886433",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/29902756642981"
+        },
+        "sku": "RW-S450"
+      }
+    ]
+  },
+  {
+    "products": [
+      {
+        "id": 6974270734501,
+        "title": "Waring WFP16SCD Bowl Food Processor",
+        "body_html": "<p><strong>Waring WFP16SCD 1 Speed Batch/Bowl Food Processor w/ 4 qt Bowl, 120v</strong></p>\n<p> </p>\n<p><span>The Waring WFP16SCD food processor combines several pieces of equipment in one. With its 4-quart batch bowl, cooks can quickly blend and purée soups, sauces, and dressings. Thanks to a unique Liquilock seal system, the bowl will not leak even when it is operated at its full capacity. A continuous feed accessory with chute allows cooks to continuously slice, dice, and grate a number of products, including cheese, processing hundreds of pounds an hour. The powerful 2-horsepower motor, die-cast housing, and metal drive shaft allow the Waring WFP16SCD to hold up to heavy-duty demands in the commercial kitchen.</span></p>\n<p> </p>\n<p><strong>FEACTURES </strong></p>\n<ul class=\"list\">\n<li>Transparent, sealed batch bowl for blending soups, sauces, and purées</li>\n<li>Continuous feed bowl for slicing and dicing produce and grating cheese and garnishes</li>\n<li>Liquilock system prevents bowl from leaking even when filled to capacity</li>\n<li>Powerful 2-HP motor can reliably process denser ingredients</li>\n<li>Rugged die-cast housing protects motor and components</li>\n<li>Simple \"On\", \"Off\", and \"Pulse\" buttons make processor easy to operate</li>\n<li>120 V/60 Hz/1-ph, 6 A, includes cord and NEMA 5-15P plug</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td><strong>Overall Dimensions</strong></td>\n<td> <span data-mce-fragment=\"1\">15 in. W x 14 in. D x 18 in. H</span>\n</td>\n</tr>\n<tr>\n<td><strong>Discharge</strong></td>\n<td><span>Manual</span></td>\n</tr>\n<tr>\n<td><strong>No. of Speeds</strong></td>\n<td>1</td>\n</tr>\n<tr>\n<td><strong>HP</strong></td>\n<td>2</td>\n</tr>\n<tr>\n<td><strong>Voltage</strong></td>\n<td><span>120</span></td>\n</tr>\n<tr>\n<td><strong>Bowl Capacity (qts)</strong></td>\n<td>4</td>\n</tr>\n<tr>\n<td><strong>Type</strong></td>\n<td><span>Batch/Bowl</span></td>\n</tr>\n<tr>\n<td><strong>Weight</strong></td>\n<td><span>35.50</span></td>\n</tr>\n<tr>\n<td><strong>Cubic Feet</strong></td>\n<td>4.117</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-08-13T09:07:02-04:00",
+        "handle": "waring-wfp16scd-bowl-food-processor",
+        "updated_at": "2022-08-11T14:34:59-04:00",
+        "published_at": "2021-08-13T09:07:03-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6974270734501",
+        "variants": [
+          {
+            "id": 40575585747109,
+            "product_id": 6974270734501,
+            "title": "Default Title",
+            "price": "1195.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-13T09:07:02-04:00",
+            "updated_at": "2022-08-05T15:52:07-04:00",
+            "taxable": true,
+            "barcode": "85747109",
+            "grams": 16103,
+            "image_id": null,
+            "weight": 35.5,
+            "weight_unit": "lb",
+            "inventory_item_id": 42671363195045,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "1195.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40575585747109"
+          }
+        ],
+        "options": [
+          {
+            "id": 8970777395365,
+            "product_id": 6974270734501,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30969019269285,
+            "product_id": 6974270734501,
+            "position": 1,
+            "created_at": "2021-08-13T09:07:04-04:00",
+            "updated_at": "2021-08-13T09:07:04-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wfp16scd.jpg?v=1628860024",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30969019269285"
+          },
+          {
+            "id": 30969019334821,
+            "product_id": 6974270734501,
+            "position": 2,
+            "created_at": "2021-08-13T09:07:05-04:00",
+            "updated_at": "2021-08-13T09:07:05-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wfp16scd_008.jpg?v=1628860025",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30969019334821"
+          },
+          {
+            "id": 30969019498661,
+            "product_id": 6974270734501,
+            "position": 3,
+            "created_at": "2021-08-13T09:07:05-04:00",
+            "updated_at": "2021-08-13T09:07:05-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wfp16scd_002.jpg?v=1628860025",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30969019498661"
+          },
+          {
+            "id": 30969019400357,
+            "product_id": 6974270734501,
+            "position": 4,
+            "created_at": "2021-08-13T09:07:05-04:00",
+            "updated_at": "2021-08-13T09:07:05-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wfp16scd_009.jpg?v=1628860025",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30969019400357"
+          }
+        ],
+        "image": {
+          "id": 30969019269285,
+          "product_id": 6974270734501,
+          "position": 1,
+          "created_at": "2021-08-13T09:07:04-04:00",
+          "updated_at": "2021-08-13T09:07:04-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wfp16scd.jpg?v=1628860024",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30969019269285"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6801691181221,
+        "title": "Waring WPG150 Compact Italian Style Flat Grill 120V",
+        "body_html": "<p><span id=\"product-main-description\">Make all of your signature sandwiches and more with the 120V Waring® WFG150 Compact Italian-Style Flat Grill. Flat cast-iron plates heat evenly and quickly cook sandwiches, burgers, chicken, and vegetables up to 3\" thick. The brushed stainless steel body and removable drip tray are easy to clean. Includes adjustable thermostat to 570°F plus POWER and READY indicator lights.</span></p>\n<p><strong>FEATURES</strong></p>\n<ul>\n<li>Flat cast-iron plates are perfect for pressing or grilling panini sandwiches, hamburgers, chicken, vegetables and more.</li>\n<li>9.75\" x 9.25\" cooking surface.</li>\n<li>Brushed stainless steel body construction and removable drip tray.</li>\n<li>Hinged, auto-balancing top plate to accomodate foods up to 3\" thick.</li>\n<li>Thermostat is adjustable to 570°F.</li>\n<li>Power ON and READY indicator lights.</li>\n<li>Heat-resistant handles, no need for mitts or potholders. </li>\n<li>Limited One Year Warranty.</li>\n</ul>\n<table id=\"product-specs-intl\">\n<tbody>\n<tr class=\"false\">\n<td>Model</td>\n<td>WFG150</td>\n</tr>\n<tr class=\"odd\">\n<td>Width</td>\n<td>14.5 inches</td>\n</tr>\n<tr class=\"false\">\n<td>Height</td>\n<td>22 inches</td>\n</tr>\n<tr class=\"odd\">\n<td>Depth</td>\n<td>15.5 inches</td>\n</tr>\n<tr class=\"false\">\n<td>Plug Type</td>\n<td>5-15<span> </span><img id=\"intl-plug\" src=\"https://www.waringcommercialproducts.com/assets/images/catalog/adapter_plug.png\">\n</td>\n</tr>\n<tr class=\"odd\">\n<td>Voltage</td>\n<td>120 volts</td>\n</tr>\n<tr class=\"false\">\n<td>Approvals</td>\n<td>UL, NSF</td>\n</tr>\n<tr class=\"odd\">\n<td>UPC</td>\n<td>040072006166</td>\n</tr>\n<tr class=\"false\">\n<td>Amperage</td>\n<td>15 amps</td>\n</tr>\n<tr class=\"odd\">\n<td>Wattage</td>\n<td>1800 watts</td>\n</tr>\n<tr class=\"false\">\n<td>Frequency</td>\n<td>60 Hz</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-06-03T16:13:18-04:00",
+        "handle": "waring-compact-italian-style-flat-grill-120v",
+        "updated_at": "2022-08-11T14:34:32-04:00",
+        "published_at": "2021-06-03T16:13:19-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6801691181221",
+        "variants": [
+          {
+            "id": 40050302845093,
+            "product_id": 6801691181221,
+            "title": "Default Title",
+            "price": "605.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-03T16:13:19-04:00",
+            "updated_at": "2022-08-05T15:52:53-04:00",
+            "taxable": true,
+            "barcode": "02845093",
+            "grams": 37467,
+            "image_id": null,
+            "weight": 82.6,
+            "weight_unit": "lb",
+            "inventory_item_id": 42145388167333,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "605.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40050302845093"
+          }
+        ],
+        "options": [
+          {
+            "id": 8765959438501,
+            "product_id": 6801691181221,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30021165187237,
+            "product_id": 6801691181221,
+            "position": 1,
+            "created_at": "2021-06-03T16:13:21-04:00",
+            "updated_at": "2021-06-03T16:13:21-04:00",
+            "alt": null,
+            "width": 550,
+            "height": 550,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wfg150-waring-flat-grill-main_preview.png?v=1622751201",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021165187237"
+          },
+          {
+            "id": 30021165318309,
+            "product_id": 6801691181221,
+            "position": 2,
+            "created_at": "2021-06-03T16:13:21-04:00",
+            "updated_at": "2021-06-03T16:13:21-04:00",
+            "alt": null,
+            "width": 550,
+            "height": 550,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wfg150-waring-flat-grill-main_preview_dbc78ab2-14bb-4a62-ba2c-d515b1b291e9.png?v=1622751201",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021165318309"
+          },
+          {
+            "id": 30021165383845,
+            "product_id": 6801691181221,
+            "position": 3,
+            "created_at": "2021-06-03T16:13:22-04:00",
+            "updated_at": "2021-06-03T16:13:22-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wfg150-waring-flat-grill-inset1.jpg?v=1622751202",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021165383845"
+          },
+          {
+            "id": 30021165088933,
+            "product_id": 6801691181221,
+            "position": 4,
+            "created_at": "2021-06-03T16:13:21-04:00",
+            "updated_at": "2021-06-03T16:13:22-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wfg150-waring-flat-grill-inset2.jpg?v=1622751202",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021165088933"
+          }
+        ],
+        "image": {
+          "id": 30021165187237,
+          "product_id": 6801691181221,
+          "position": 1,
+          "created_at": "2021-06-03T16:13:21-04:00",
+          "updated_at": "2021-06-03T16:13:21-04:00",
+          "alt": null,
+          "width": 550,
+          "height": 550,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wfg150-waring-flat-grill-main_preview.png?v=1622751201",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30021165187237"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6801675780261,
+        "title": "Waring WPG150B Compact Italian-Style Panini Grill – 120V",
+        "body_html": "<p><span id=\"product-main-description\">Make perfectly grilled panini sandwiches and more with the 120V Waring® WPG150 Compact Italian-Style Panini Grill. Grooved cast-iron plates heat evenly and quickly cook sandwiches, burgers, chicken, and vegetables up to 3\" thick. Its brushed stainless steel body and removable drip tray are easy to clean. Includes adjustable thermostat to 570°F along with POWER and READY indicator lights.</span></p>\n<p><strong>FEATURES</strong></p>\n<p>• Ribbed cast-iron plates<br>• Brushed stainless steel body and removable drip tray<br>• Hinged, autobalancing top plate to suit foods up to 3” thick<br>• Adjustable thermostat to 570ºF<br>• Power &amp; ready indicator lights<br>• Heat-resistant handles<br>• Limited One Year Warranty<br>• WPG150(C)/WPG250(C) –120 volt<br><strong></strong></p>\n<p><strong>Model </strong>WPG150<strong><br>Width </strong>14.5 inches<strong><br>Height </strong>22 inches<strong><br>Depth </strong>15.5 inches<strong><br>Plug Type </strong>6-20<strong> <br>Voltage </strong>120 volts<strong><br>Approvals UL, NSF<br>UPC 040072006135<br>Amperage </strong>15 amps<strong><br>Wattage </strong>1800 watts<strong><br>Frequency </strong>60 hz</p>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-06-03T15:48:04-04:00",
+        "handle": "waring-compact-italian-style-panini-grill-120v",
+        "updated_at": "2022-08-11T14:34:32-04:00",
+        "published_at": "2021-06-03T15:48:05-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6801675780261",
+        "variants": [
+          {
+            "id": 40050231672997,
+            "product_id": 6801675780261,
+            "title": "Default Title",
+            "price": "731.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-03T15:48:04-04:00",
+            "updated_at": "2021-11-05T14:03:44-04:00",
+            "taxable": true,
+            "barcode": "31672997",
+            "grams": 19958,
+            "image_id": null,
+            "weight": 44,
+            "weight_unit": "lb",
+            "inventory_item_id": 42145316995237,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "731.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40050231672997"
+          }
+        ],
+        "options": [
+          {
+            "id": 8765940531365,
+            "product_id": 6801675780261,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30020977918117,
+            "product_id": 6801675780261,
+            "position": 1,
+            "created_at": "2021-06-03T15:48:07-04:00",
+            "updated_at": "2021-06-03T15:48:07-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg150-waring-panini-grill-inset1.jpg?v=1622749687",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30020977918117"
+          },
+          {
+            "id": 30020977950885,
+            "product_id": 6801675780261,
+            "position": 2,
+            "created_at": "2021-06-03T15:48:07-04:00",
+            "updated_at": "2021-06-03T15:48:07-04:00",
+            "alt": null,
+            "width": 550,
+            "height": 550,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg150-waring-panini-grill-main_preview.png?v=1622749687",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30020977950885"
+          },
+          {
+            "id": 30020977852581,
+            "product_id": 6801675780261,
+            "position": 3,
+            "created_at": "2021-06-03T15:48:06-04:00",
+            "updated_at": "2021-06-03T15:48:07-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg150-waring-panini-grill-inset2.jpg?v=1622749687",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30020977852581"
+          }
+        ],
+        "image": {
+          "id": 30020977918117,
+          "product_id": 6801675780261,
+          "position": 1,
+          "created_at": "2021-06-03T15:48:07-04:00",
+          "updated_at": "2021-06-03T15:48:07-04:00",
+          "alt": null,
+          "width": 1200,
+          "height": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg150-waring-panini-grill-inset1.jpg?v=1622749687",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30020977918117"
+        },
+        "sku": "Italian-Style"
+      },
+      {
+        "id": 6801678500005,
+        "title": "Waring WPG300 Double Italian Style Panini Supremo Grill – 240V",
+        "body_html": "<p><span id=\"product-main-description\">Make perfectly grilled panini sandwiches and more with the 240V Waring® WPG300 Double Italian-Style Panini Supremo® Grill. Grooved cast-iron plates heat evenly and quickly cook sandwiches, burgers, chicken, and vegetables up to 3\" thick. Its brushed stainless steel body and removable drip tray are easy to clean. Includes dual POWER and READY indicator lights.</span></p>\n<p><strong>FEATURES</strong></p>\n<ul>\n<li>Ribbed cast-iron plates are great for grilled panini sandwiches, hamburgers, chicken, vegetables and more.</li>\n<li>17\" x 9.25\" cooking surface heats up quickly and distributes heat evenly.</li>\n<li>Brushed stainless steel body construction and removable drip tray.</li>\n<li>Hinged, auto-balancing top plate to handle foods up to 3\" thick.</li>\n<li>Thermostat is adjustable to 570°F for slow-to-quick cooking times.</li>\n<li>Adjustable back feet for easy grease drainage.</li>\n<li>Dual power ON and READY indicator lights.</li>\n<li>Heat-resistant handles, no need for mitts or potholders.</li>\n<li>Limited One Year Warranty.</li>\n</ul>\n<table id=\"product-specs-intl\">\n<tbody>\n<tr class=\"false\">\n<td>Model</td>\n<td>WPG300</td>\n</tr>\n<tr class=\"odd\">\n<td>Width</td>\n<td>21.8 inches</td>\n</tr>\n<tr class=\"false\">\n<td>Height</td>\n<td>21.6 inches</td>\n</tr>\n<tr class=\"odd\">\n<td>Depth</td>\n<td>15.5 inches</td>\n</tr>\n<tr class=\"false\">\n<td>Plug Type</td>\n<td>6-20<span> </span><img id=\"intl-plug\" src=\"https://www.waringcommercialproducts.com/assets/images/catalog/adapter_plug.png\">\n</td>\n</tr>\n<tr class=\"odd\">\n<td>Voltage</td>\n<td>240 volts</td>\n</tr>\n<tr class=\"false\">\n<td>Approvals</td>\n<td>UL, NSF</td>\n</tr>\n<tr class=\"odd\">\n<td>UPC</td>\n<td>040072006111</td>\n</tr>\n<tr class=\"false\">\n<td>Amperage</td>\n<td>13.3 amps</td>\n</tr>\n<tr class=\"odd\">\n<td>Wattage</td>\n<td>3200 watts</td>\n</tr>\n<tr class=\"false\">\n<td>Frequency</td>\n<td>60 hz</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-06-03T15:55:06-04:00",
+        "handle": "waring-double-italian-style-panini-supremo-grill-240v",
+        "updated_at": "2022-08-11T14:34:32-04:00",
+        "published_at": "2021-06-03T15:55:07-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6801678500005",
+        "variants": [
+          {
+            "id": 40050244714661,
+            "product_id": 6801678500005,
+            "title": "Default Title",
+            "price": "1219.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-03T15:55:06-04:00",
+            "updated_at": "2022-08-05T15:53:43-04:00",
+            "taxable": true,
+            "barcode": "44714661",
+            "grams": 34382,
+            "image_id": null,
+            "weight": 75.8,
+            "weight_unit": "lb",
+            "inventory_item_id": 42145330036901,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "1219.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40050244714661"
+          }
+        ],
+        "options": [
+          {
+            "id": 8765943709861,
+            "product_id": 6801678500005,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30021011964069,
+            "product_id": 6801678500005,
+            "position": 1,
+            "created_at": "2021-06-03T15:55:09-04:00",
+            "updated_at": "2021-06-03T15:55:09-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg300-waring-panini-grill-inset1.jpg?v=1622750109",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021011964069"
+          },
+          {
+            "id": 30021011898533,
+            "product_id": 6801678500005,
+            "position": 2,
+            "created_at": "2021-06-03T15:55:08-04:00",
+            "updated_at": "2021-06-03T15:55:09-04:00",
+            "alt": null,
+            "width": 550,
+            "height": 550,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg300-waring-panini-grill-main_preview.png?v=1622750109",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021011898533"
+          },
+          {
+            "id": 30021011931301,
+            "product_id": 6801678500005,
+            "position": 3,
+            "created_at": "2021-06-03T15:55:08-04:00",
+            "updated_at": "2021-06-03T15:55:09-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg300-waring-panini-grill-inset2.jpg?v=1622750109",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30021011931301"
+          }
+        ],
+        "image": {
+          "id": 30021011964069,
+          "product_id": 6801678500005,
+          "position": 1,
+          "created_at": "2021-06-03T15:55:09-04:00",
+          "updated_at": "2021-06-03T15:55:09-04:00",
+          "alt": null,
+          "width": 1200,
+          "height": 1200,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/wpg300-waring-panini-grill-inset1.jpg?v=1622750109",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30021011964069"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6891180196005,
+        "title": "Waring WPO100 Countertop Pizza / Snack Oven - 120V, 1800W",
+        "body_html": "<p>Add pizza to your menu and generate another revenue stream with the Waring® WPO100 Single Pizza Oven. Designed to cook pizza to perfection, the unit is ideal for quick-service restaurants, concession stands, convenience stores, and cafeterias that want to treat customers to a quick slice or whole pie. Easy to use whether by self-serve or staff, with a space-saving design that fits on any counter.</p>\n<p><strong>FEATURES</strong></p>\n<p>• Ceramic pizza deck fits a 14\" pizza<br>• 3.5-inch-high chamber opening<br>• Temperature settings from 280˚F – 600˚F<br>• Heating elements above and below deck<br>• 15-minute timer<br>• Power ON/OFF switch with indicator light<br>• Tempered glass door and oven light let you<br>monitor the cooking process<br>• Removable pizza deck for easy cleaning<br>• Includes a cleaning brush with heavy-duty<br>bristles for cleaning the deck without damaging<br>the ceramic<br>• Limited One-Year Warranty</p>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>CUBIC FEET</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">6.26</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>WEIGHT</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">58</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\">\n<strong>BOX DIMENSIONS </strong><strong>D X W X H</strong>\n</td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">25.375\" x 27.5\" x 15.5\"</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>Voltage</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">120</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>Frequency</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">60hZ</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>Watts</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">1800</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>Amps</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">15</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>Plug Type:</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">NEMA 5-15P</td>\n</tr>\n<tr>\n<td style=\"width: 42.3224%;\" data-mce-style=\"width: 29.5207%;\"><strong>Cord Length</strong></td>\n<td style=\"width: 52.6776%;\" data-mce-style=\"width: 67.2958%;\">3 Feet</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-07-06T10:52:36-04:00",
+        "handle": "waring-wpo100-countertop-pizza-snack-oven-120v-1800w",
+        "updated_at": "2022-08-11T14:34:42-04:00",
+        "published_at": "2021-07-06T10:52:37-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6891180196005",
+        "variants": [
+          {
+            "id": 40306354585765,
+            "product_id": 6891180196005,
+            "title": "Default Title",
+            "price": "639.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-07-06T10:52:36-04:00",
+            "updated_at": "2022-08-05T15:54:42-04:00",
+            "taxable": true,
+            "barcode": "54585765",
+            "grams": 26308,
+            "image_id": null,
+            "weight": 58,
+            "weight_unit": "lb",
+            "inventory_item_id": 42401883193509,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "639.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40306354585765"
+          }
+        ],
+        "options": [
+          {
+            "id": 8867856744613,
+            "product_id": 6891180196005,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30505232564389,
+            "product_id": 6891180196005,
+            "position": 1,
+            "created_at": "2021-07-06T10:52:39-04:00",
+            "updated_at": "2021-07-06T10:52:39-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wpo100.jpg?v=1625583159",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505232564389"
+          },
+          {
+            "id": 30505232531621,
+            "product_id": 6891180196005,
+            "position": 2,
+            "created_at": "2021-07-06T10:52:39-04:00",
+            "updated_at": "2021-07-06T10:52:39-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/image_4.jpg?v=1625583159",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505232531621"
+          },
+          {
+            "id": 30505232466085,
+            "product_id": 6891180196005,
+            "position": 3,
+            "created_at": "2021-07-06T10:52:38-04:00",
+            "updated_at": "2021-07-06T10:52:39-04:00",
+            "alt": null,
+            "width": 1080,
+            "height": 1029,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/a6332d_56814888aeeb4e668ecbf4258ce3a363_mv2.jpg?v=1625583159",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505232466085"
+          }
+        ],
+        "image": {
+          "id": 30505232564389,
+          "product_id": 6891180196005,
+          "position": 1,
+          "created_at": "2021-07-06T10:52:39-04:00",
+          "updated_at": "2021-07-06T10:52:39-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/141-wpo100.jpg?v=1625583159",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30505232564389"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6891252252837,
+        "title": "Waring WPO350 Countertop Double Pizza / Snack Oven 240V",
+        "body_html": "<p>Add pizza to your menu and generate another revenue stream with the Waring® WPO350 Double Pizza Oven. Designed to cook two pizzas at once to perfection, the unit is ideal for quick-service restaurants, concession stands, convenience stores, and cafeterias that want to treat customers to a quick slice or two, or whole pies. Easy to use, with a space-saving design that fits on any counter.</p>\n<p><strong>FEATURES</strong></p>\n<p>• Ceramic pizza decks fit 14\" pizzas<br>• 3.5-inch-high chamber openings<br>• Temperature settings from 280˚F – 600˚F<br>• Heating elements above and below decks<br>• 15-minute timers<br>• Power ON/OFF switches with indicator lights<br>• Tempered glass doors and oven lights let you monitor the cooking process<br>• Removable pizza deck(s) for easy cleaning<br>• Includes a cleaning brush with heavy-duty bristles for cleaning decks without damaging the ceramic<br>• Double oven features adjustable legs to set height to the proper level for your space<br>• Limited One-Year Warranty</p>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Weight</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">100</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Cubic Feet</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">13.64</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>DIMENSIONS D X W X H</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">26.875\" x 28.875\" x 30.375\"</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Voltage</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">240</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Frequency</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">60Hz</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Watts</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\"> 3500</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Amps</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">15</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Plug Type</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">NEMA 6-20P</td>\n</tr>\n<tr>\n<td style=\"width: 33.5617%;\" data-mce-style=\"width: 33.5617%;\"><strong>Cord Length</strong></td>\n<td style=\"width: 62.4383%;\" data-mce-style=\"width: 62.4383%;\">3 feet</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-07-06T11:28:29-04:00",
+        "handle": "waring-wpo350-countertop-double-pizza-snack-oven-240v",
+        "updated_at": "2022-08-11T14:34:42-04:00",
+        "published_at": "2021-07-06T11:28:30-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6891252252837",
+        "variants": [
+          {
+            "id": 40306637340837,
+            "product_id": 6891252252837,
+            "title": "Default Title",
+            "price": "1005.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-07-06T11:28:29-04:00",
+            "updated_at": "2022-08-05T16:00:31-04:00",
+            "taxable": true,
+            "barcode": "37340837",
+            "grams": 45359,
+            "image_id": null,
+            "weight": 100,
+            "weight_unit": "lb",
+            "inventory_item_id": 42402168111269,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "1005.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40306637340837"
+          }
+        ],
+        "options": [
+          {
+            "id": 8867949969573,
+            "product_id": 6891252252837,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30505597010085,
+            "product_id": 6891252252837,
+            "position": 1,
+            "created_at": "2021-07-06T11:28:32-04:00",
+            "updated_at": "2021-07-06T11:28:32-04:00",
+            "alt": null,
+            "width": 400,
+            "height": 400,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/s-l400.jpg?v=1625585312",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505597010085"
+          },
+          {
+            "id": 30505597075621,
+            "product_id": 6891252252837,
+            "position": 2,
+            "created_at": "2021-07-06T11:28:33-04:00",
+            "updated_at": "2021-07-06T11:28:33-04:00",
+            "alt": null,
+            "width": 500,
+            "height": 500,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/warwpo350-4.jpg?v=1625585313",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505597075621"
+          },
+          {
+            "id": 30505597436069,
+            "product_id": 6891252252837,
+            "position": 3,
+            "created_at": "2021-07-06T11:28:33-04:00",
+            "updated_at": "2021-07-06T11:28:33-04:00",
+            "alt": null,
+            "width": 420,
+            "height": 420,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/ce3fa995c1d0f2dc14cb91df5e16a6ee_2589621.jpg?v=1625585313",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505597436069"
+          }
+        ],
+        "image": {
+          "id": 30505597010085,
+          "product_id": 6891252252837,
+          "position": 1,
+          "created_at": "2021-07-06T11:28:32-04:00",
+          "updated_at": "2021-07-06T11:28:32-04:00",
+          "alt": null,
+          "width": 400,
+          "height": 400,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/s-l400.jpg?v=1625585312",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30505597010085"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6891219419301,
+        "title": "Waring WPO700 Double Deck Countertop Pizza Oven  240V",
+        "body_html": "<p>The Waring® Commercial Pizza Ovens duplicate the ideal baking environment of traditional Italian brick pizza ovens. Ceramic pizza deck measures 18\" x 18\" and can accommodate large pies while maintaining consistent temperatures to ensure that pizza cooks from the bottom as well as the top. A major benefit of a pizza stone over a pizza pan is the way that the ceramic stone drives moisture away from the crust, resulting in extra crispness.</p>\n<p><strong>FEATURES</strong></p>\n<p>• Ceramic pizza decks hold 18\" diameter pizza<br>• Temperature range of 150°F/66°C – 840°F/449°C<br>• Stainless steel exterior with full insulation<br>• Aluminized steel interior with light<br>• 4\" adjustable legs<br>• 240V/3200W</p>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Electrical</strong></td>\n<td style=\"width: 60.5584%;\">240V, 3200W</td>\n</tr>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Plug</strong></td>\n<td style=\"width: 60.5584%;\">240V/SP-040</td>\n</tr>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Listings</strong></td>\n<td style=\"width: 60.5584%;\">ETL, NSF</td>\n</tr>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Dimensions (L\" x W\" x H\")</strong></td>\n<td style=\"width: 60.5584%;\">27\"x 28\"x 21\"</td>\n</tr>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Warranty</strong></td>\n<td style=\"width: 60.5584%;\"> Limited 1 Year On-Site</td>\n</tr>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Weight  </strong></td>\n<td style=\"width: 60.5584%;\">125</td>\n</tr>\n<tr>\n<td style=\"width: 35.4416%;\"><strong>Cubic Feet</strong></td>\n<td style=\"width: 60.5584%;\">9.17</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-07-06T11:15:01-04:00",
+        "handle": "waring-wpo700-double-deck-countertop-pizza-oven-240v",
+        "updated_at": "2022-08-11T14:34:42-04:00",
+        "published_at": "2021-07-06T11:15:02-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6891219419301",
+        "variants": [
+          {
+            "id": 40306484150437,
+            "product_id": 6891219419301,
+            "title": "Default Title",
+            "price": "1664.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-07-06T11:15:01-04:00",
+            "updated_at": "2022-08-05T16:00:58-04:00",
+            "taxable": true,
+            "barcode": "84150437",
+            "grams": 56699,
+            "image_id": null,
+            "weight": 125,
+            "weight_unit": "lb",
+            "inventory_item_id": 42402015019173,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "1664.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40306484150437"
+          }
+        ],
+        "options": [
+          {
+            "id": 8867908616357,
+            "product_id": 6891219419301,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30505425010853,
+            "product_id": 6891219419301,
+            "position": 1,
+            "created_at": "2021-07-06T11:15:04-04:00",
+            "updated_at": "2021-07-06T11:15:04-04:00",
+            "alt": null,
+            "width": 650,
+            "height": 650,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/waringwar-wpo700countertop-pizza-oven-double-deck-single-door-240v13125-d45.jpg?v=1625584504",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505425010853"
+          }
+        ],
+        "image": {
+          "id": 30505425010853,
+          "product_id": 6891219419301,
+          "position": 1,
+          "created_at": "2021-07-06T11:15:04-04:00",
+          "updated_at": "2021-07-06T11:15:04-04:00",
+          "alt": null,
+          "width": 650,
+          "height": 650,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/waringwar-wpo700countertop-pizza-oven-double-deck-single-door-240v13125-d45.jpg?v=1625584504",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30505425010853"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6891198546085,
+        "title": "Waring WPO750 Double Deck Countertop Pizza Oven 240V",
+        "body_html": "<p>The Waring® Commercial Pizza Ovens duplicate the ideal baking environment of traditional Italian brick pizza ovens. Ceramic pizza deck measures 18\" x 18\" and can accommodate large pies while maintaining consistent temperatures to ensure that pizza cooks from the bottom as well as the top. A major benefit of a pizza stone over a pizza pan is the way that the ceramic stone drives moisture away from the crust, resulting in extra crispness.</p>\n<p><strong>FEATURES</strong></p>\n<p>• Ceramic pizza decks hold 18\" diameter pizza<br>• Temperature range of 150°F/66°C – 840°F/449°C<br>• Stainless steel exterior with full insulation<br>• Aluminized steel interior with light<br>• 4\" adjustable legs<br>• 240V/3200W</p>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Electrical</strong></td>\n<td style=\"width: 61.2986%;\">240V, 3200W</td>\n</tr>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Plug</strong></td>\n<td style=\"width: 61.2986%;\">240V/SP-040</td>\n</tr>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Listings</strong></td>\n<td style=\"width: 61.2986%;\">ETL, NSF</td>\n</tr>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Dimensions (L\" x W\" x H\")</strong></td>\n<td style=\"width: 61.2986%;\">27\"x 28\"x 25\"</td>\n</tr>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Warranty</strong></td>\n<td style=\"width: 61.2986%;\">Limited 1 Year On-Site</td>\n</tr>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Weight</strong></td>\n<td style=\"width: 61.2986%;\">157</td>\n</tr>\n<tr>\n<td style=\"width: 34.7014%;\"><strong>Cubic Feet</strong></td>\n<td style=\"width: 61.2986%;\"> 10.9</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-07-06T11:01:34-04:00",
+        "handle": "waring-wpo750-double-deck-countertop-pizza-oven-240v",
+        "updated_at": "2022-08-11T14:34:42-04:00",
+        "published_at": "2021-07-06T11:01:36-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6891198546085",
+        "variants": [
+          {
+            "id": 40306403475621,
+            "product_id": 6891198546085,
+            "title": "Default Title",
+            "price": "1705.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-07-06T11:01:35-04:00",
+            "updated_at": "2022-08-05T16:01:19-04:00",
+            "taxable": true,
+            "barcode": "03475621",
+            "grams": 71214,
+            "image_id": null,
+            "weight": 157,
+            "weight_unit": "lb",
+            "inventory_item_id": 42401932083365,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "1705.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40306403475621"
+          }
+        ],
+        "options": [
+          {
+            "id": 8867879223461,
+            "product_id": 6891198546085,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30505313140901,
+            "product_id": 6891198546085,
+            "position": 1,
+            "created_at": "2021-07-06T11:01:38-04:00",
+            "updated_at": "2021-07-06T11:01:38-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/1217440.jpg?v=1625583698",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505313140901"
+          },
+          {
+            "id": 30505313075365,
+            "product_id": 6891198546085,
+            "position": 2,
+            "created_at": "2021-07-06T11:01:37-04:00",
+            "updated_at": "2021-07-06T11:01:38-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/image_5.jpg?v=1625583698",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30505313075365"
+          }
+        ],
+        "image": {
+          "id": 30505313140901,
+          "product_id": 6891198546085,
+          "position": 1,
+          "created_at": "2021-07-06T11:01:38-04:00",
+          "updated_at": "2021-07-06T11:01:38-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/1217440.jpg?v=1625583698",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30505313140901"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6893826769061,
+        "title": "Waring XPREP HI-Power Blender MX1100XTX electronic touch pad 64OZ",
+        "body_html": "<span id=\"product-main-description\">Get smooth, consistent results every time with the Waring® MX1200XTX. This heavy-duty, 3.5 HP blender teams up with The Raptor® blade and jar assembly for maximum power and efficiency. Rev it up with variable speed controls from 1,500 to 20,000 RPM and a max pulse of 30,000 RPM. Perfect for a busy bar, health facility, school or coffee shop.</span>\n<div dir=\"ltr\" class=\"element-value ajax-value ajax-redactor read-only redactor-editor redactor_editor\">\n<ul></ul>\n<strong>FEATURES</strong>\n</div>\n<div dir=\"ltr\" class=\"element-value ajax-value ajax-redactor read-only redactor-editor redactor_editor\">\n<div dir=\"ltr\" class=\"element-value ajax-value ajax-redactor read-only redactor-editor redactor_editor\">\n<ul>\n<li>Heavy-duty, 3.5 peak-HP, high performance motor with 2-speed selection is the strongest in its class. It powers through the toughest ice and frozen fruit mixtures in seconds.</li>\n<li>Super-high 45,000 RPM motor speed is ferocious enough for everything from smoothies and frozen drinks to thick spreads, desserts, dressings and all types of food preparation.</li>\n<li>Variable speed control from 1,500 RPM to 20,000 RPM for maximum control over your blending—perfect for all types of food preparation.</li>\n<li> </li>\n<li>Simple HI, LO, ON/OFF and PULSE paddle switches and variable speed knob are easy to use and easy to find in dimly lit locations.</li>\n<li>PULSE function with maximum 30,000 RPM burst of speed.</li>\n<li>The Raptor® 64 oz. stackable, unbreakable, dishwasher-safe, BPA-free copolyester container.</li>\n<li>High-performance, high-impact, stainless-steel blade is user-replaceable for easy servicing.</li>\n<li>Easily removable container cover with removable clear cap for adding ingredients and pressure reduction during hot food blending.</li>\n<li>User-replaceable, metal-on-metal, stainless-steel coupling system between base and container for durability and reliability.</li>\n<li>One-piece, dishwasher-safe, removable jar pad.</li>\n<li>Optional sound enclosure easily retro-fits to base for noise reduction.</li>\n<li>Perfect for soups, sauces, dressings, whipped cream, and grinding spices and nuts.</li>\n<li>Recommended for 75+ drinks per day.</li>\n<li>Limited Three-Year Motor Warranty and Two-Year Parts &amp; Labor Warranty.</li>\n</ul>\n<table id=\"product-specs-intl\">\n<tbody>\n<tr class=\"false\">\n<td><strong>Model</strong></td>\n<td>MX1200XTX</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Width</strong></td>\n<td>8.5 inches</td>\n</tr>\n<tr class=\"false\">\n<td><strong>Height</strong></td>\n<td>18 inches</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Depth</strong></td>\n<td>8.25 inches</td>\n</tr>\n<tr class=\"false\">\n<td><strong>Capacity</strong></td>\n<td>64 oz.</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Plug Type</strong></td>\n<td>A<span> </span><img id=\"intl-plug\" src=\"https://www.waringcommercialproducts.com/assets/images/catalog/adapter_plug.png\">\n</td>\n</tr>\n<tr class=\"false\">\n<td><strong>Voltage</strong></td>\n<td>120 volts</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Approvals</strong></td>\n<td>NSF, cETLus</td>\n</tr>\n<tr class=\"false\">\n<td><strong>UPC</strong></td>\n<td>040072017018</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Amperage</strong></td>\n<td>12.5 amps</td>\n</tr>\n<tr class=\"false\">\n<td><strong>Wattage</strong></td>\n<td>1560 watts</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Frequency</strong></td>\n<td>60 hz</td>\n</tr>\n<tr class=\"odd\">\n<td><strong>Weight </strong></td>\n<td>14.64</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>",
+        "vendor": "Waring",
+        "product_type": "",
+        "created_at": "2021-07-07T12:59:34-04:00",
+        "handle": "xprep-hi-power-blender-mx1100xtx-electronic-touch-pad-64oz",
+        "updated_at": "2022-08-11T14:34:43-04:00",
+        "published_at": "2021-07-07T12:59:35-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6893826769061",
+        "variants": [
+          {
+            "id": 40313203064997,
+            "product_id": 6893826769061,
+            "title": "Default Title",
+            "price": "625.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-07-07T12:59:34-04:00",
+            "updated_at": "2022-08-05T16:01:51-04:00",
+            "taxable": true,
+            "barcode": "03064997",
+            "grams": 6641,
+            "image_id": null,
+            "weight": 14.64,
+            "weight_unit": "lb",
+            "inventory_item_id": 42408780595365,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "625.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40313203064997"
+          }
+        ],
+        "options": [
+          {
+            "id": 8870854557861,
+            "product_id": 6893826769061,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30519733584037,
+            "product_id": 6893826769061,
+            "position": 1,
+            "created_at": "2021-07-07T12:59:37-04:00",
+            "updated_at": "2021-07-07T12:59:37-04:00",
+            "alt": null,
+            "width": 550,
+            "height": 550,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/mx1200xtx-waring-hi-power-blender-main__preview.png?v=1625677177",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30519733584037"
+          },
+          {
+            "id": 30519733551269,
+            "product_id": 6893826769061,
+            "position": 2,
+            "created_at": "2021-07-07T12:59:36-04:00",
+            "updated_at": "2021-07-07T12:59:37-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/MX1200XTX-Waring-X-Prep-Blender-Inset1.jpg?v=1625677177",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30519733551269"
+          },
+          {
+            "id": 30519733616805,
+            "product_id": 6893826769061,
+            "position": 3,
+            "created_at": "2021-07-07T12:59:37-04:00",
+            "updated_at": "2021-07-07T12:59:37-04:00",
+            "alt": null,
+            "width": 1200,
+            "height": 1200,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/MX1200XTX-Waring-X-Prep-Blender-Inset2.jpg?v=1625677177",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30519733616805"
+          }
+        ],
+        "image": {
+          "id": 30519733584037,
+          "product_id": 6893826769061,
+          "position": 1,
+          "created_at": "2021-07-07T12:59:37-04:00",
+          "updated_at": "2021-07-07T12:59:37-04:00",
+          "alt": null,
+          "width": 550,
+          "height": 550,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/mx1200xtx-waring-hi-power-blender-main__preview.png?v=1625677177",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30519733584037"
+        },
+        "sku": "HI-Power"
+      },
+      {
+        "id": 6782410784933,
+        "title": "Winco 51012 - Countertop Heated Display Case, pass-thru",
+        "body_html": "<p><strong>FEATURES</strong></p>\n<ul>\n<li>Benchmark Hot Food Display Case</li>\n<li>countertop</li>\n<li>pass-thru</li>\n<li>19\"W x 22\"D x 33\"H</li>\n<li>3-tier rotating hook rack for pretzels</li>\n<li>5-tier rotating shelf rack for 12\" pizzas</li>\n<li>adjustable thermostat</li>\n<li>humidified</li>\n<li>2 qt. water reservoir</li>\n<li>graphic</li>\n<li>includes (1) pan rack &amp; (1) hook rack</li>\n<li>stainless steel construction</li>\n<li>4\" legs</li>\n<li>1480 watts</li>\n<li>NEMA 5-15P</li>\n<li>120v/50-60/1-ph</li>\n<li>12.3 amps</li>\n<li>cETLus</li>\n<li>ETL-Sanitation</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 27.7677%;\"><strong>Dimensions</strong></td>\n<td style=\"width: 69.3285%;\"><span>19\"W x 22\"D x 33\"H</span></td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-05-25T10:38:30-04:00",
+        "handle": "winco-51012-countertop-heated-display-case-pass-thru",
+        "updated_at": "2022-08-11T14:34:32-04:00",
+        "published_at": "2021-05-25T10:38:31-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6782410784933",
+        "variants": [
+          {
+            "id": 39966633754789,
+            "product_id": 6782410784933,
+            "title": "Default Title",
+            "price": "750.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-05-25T10:38:30-04:00",
+            "updated_at": "2021-08-17T17:00:33-04:00",
+            "taxable": true,
+            "barcode": "33754789",
+            "grams": 39009,
+            "image_id": null,
+            "weight": 86,
+            "weight_unit": "lb",
+            "inventory_item_id": 42061642137765,
+            "inventory_quantity": -1,
+            "old_inventory_quantity": -1,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "750.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/39966633754789"
+          }
+        ],
+        "options": [
+          {
+            "id": 8742908395685,
+            "product_id": 6782410784933,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 29912364384421,
+            "product_id": 6782410784933,
+            "position": 1,
+            "created_at": "2021-05-25T10:38:32-04:00",
+            "updated_at": "2021-05-25T10:38:32-04:00",
+            "alt": null,
+            "width": 600,
+            "height": 600,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/51012.jpg?v=1621953512",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29912364384421"
+          }
+        ],
+        "image": {
+          "id": 29912364384421,
+          "product_id": 6782410784933,
+          "position": 1,
+          "created_at": "2021-05-25T10:38:32-04:00",
+          "updated_at": "2021-05-25T10:38:32-04:00",
+          "alt": null,
+          "width": 600,
+          "height": 600,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/51012.jpg?v=1621953512",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/29912364384421"
+        },
+        "sku": "pass-thru"
+      },
+      {
+        "id": 6833564352677,
+        "title": "Winco 51048 18\"W Pass Thru Heated Pizza Merchandiser, 120v",
+        "body_html": "<p>These versatile 2-Door Warmers / Merchandisers are ideal for front or rear counter applications. The operator side has the controls and a door for easy loading. The customer side door makes it a self-serve unit. The adjustable thermostat makes this unit ideal for any application. The three adjustable chrome-plated racks can be placed flat or sloped and are removable for easy cleaning. Attractive Graphics help to create impulse sales. Stainless Steel and Aluminum construction provides durability and ease of cleaning.</p>\n<p><strong>FEATURES</strong></p>\n<p>• Now available in 12” and 18” sizes<br>• Adjustable thermostat, 450 watt element<br>• Two doors for front or rear counter applications<br>• Tempered glass side and door panels<br>• Stainless steel and aluminum construction<br>• Attractive graphics for point-of-sale merchandising<br>• Adjustable chrome-plated racks can be placed<br>flat or sloped<br>• One year parts and labor warranty</p>\n<p> </p>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-06-11T11:27:50-04:00",
+        "handle": "winco-51048-18w-pass-thru-heated-pizza-merchandiser-120v",
+        "updated_at": "2022-08-11T14:34:33-04:00",
+        "published_at": "2021-06-11T11:27:51-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6833564352677",
+        "variants": [
+          {
+            "id": 40126073012389,
+            "product_id": 6833564352677,
+            "title": "Default Title",
+            "price": "450.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-11T11:27:50-04:00",
+            "updated_at": "2021-08-17T17:00:52-04:00",
+            "taxable": true,
+            "barcode": "73012389",
+            "grams": 24494,
+            "image_id": null,
+            "weight": 54,
+            "weight_unit": "lb",
+            "inventory_item_id": 42221302087845,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "450.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40126073012389"
+          }
+        ],
+        "options": [
+          {
+            "id": 8800829538469,
+            "product_id": 6833564352677,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30173626433701,
+            "product_id": 6833564352677,
+            "position": 1,
+            "created_at": "2021-06-11T11:27:52-04:00",
+            "updated_at": "2021-06-11T11:27:52-04:00",
+            "alt": null,
+            "width": 680,
+            "height": 480,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/51048.jpg?v=1623425272",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30173626433701"
+          }
+        ],
+        "image": {
+          "id": 30173626433701,
+          "product_id": 6833564352677,
+          "position": 1,
+          "created_at": "2021-06-11T11:27:52-04:00",
+          "updated_at": "2021-06-11T11:27:52-04:00",
+          "alt": null,
+          "width": 680,
+          "height": 480,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/51048.jpg?v=1623425272",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30173626433701"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6833474404517,
+        "title": "Winco Benchmark 51040 Stainless Steel 12\" Countertop Hot Food Display Case",
+        "body_html": "<p>These versatile 2-Door Warmers / Merchandisers are ideal for front or rear counter applications. The operator side has the controls and a door for easy loading. The customer side door makes it a self-serve unit. The adjustable thermostat makes this unit ideal for any application. The three adjustable chrome-plated racks can be placed flat or sloped and are removable for easy cleaning. Attractive Graphics help to create impulse sales. Stainless Steel and Aluminum construction provides durability and ease of cleaning.<br></p>\n<p><strong>FEATURES</strong></p>\n<p> </p>\n<p>• Now available in 12” and 18” sizes<br>• Adjustable thermostat, 450 watt element<br>• Two doors for front or rear counter applications<br>• Tempered glass side and door panels<br>• Stainless steel and aluminum construction<br>• Attractive graphics for point-of-sale merchandising<br>• Adjustable chrome-plated racks can be placed<br>flat or sloped<br>• One year parts and labor warranty</p>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 23.2759%;\"><strong>Volts</strong></td>\n<td style=\"width: 73.6388%;\"> 120</td>\n</tr>\n<tr>\n<td style=\"width: 23.2759%;\"><strong>Watts</strong></td>\n<td style=\"width: 73.6388%;\"> 450</td>\n</tr>\n<tr>\n<td style=\"width: 23.2759%;\"><strong>Amps</strong></td>\n<td style=\"width: 73.6388%;\"> 3.8</td>\n</tr>\n<tr>\n<td style=\"width: 23.2759%;\"><strong>Dimensions</strong></td>\n<td style=\"width: 73.6388%;\">16”w x 16”d x 25-1/2”h</td>\n</tr>\n<tr>\n<td style=\"width: 23.2759%;\"><b>Weigh </b></td>\n<td style=\"width: 73.6388%;\">39 LB</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-06-11T11:20:52-04:00",
+        "handle": "winco-benchmark-51040-stainless-steel-12-countertop-hot-food-display-case",
+        "updated_at": "2022-08-11T14:34:33-04:00",
+        "published_at": "2021-06-11T11:20:53-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6833474404517",
+        "variants": [
+          {
+            "id": 40125941612709,
+            "product_id": 6833474404517,
+            "title": "Default Title",
+            "price": "350.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-11T11:20:52-04:00",
+            "updated_at": "2021-08-17T17:00:51-04:00",
+            "taxable": true,
+            "barcode": "41612709",
+            "grams": 17690,
+            "image_id": null,
+            "weight": 39,
+            "weight_unit": "lb",
+            "inventory_item_id": 42221170688165,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "350.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40125941612709"
+          }
+        ],
+        "options": [
+          {
+            "id": 8800733069477,
+            "product_id": 6833474404517,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30173182722213,
+            "product_id": 6833474404517,
+            "position": 1,
+            "created_at": "2021-06-11T11:20:55-04:00",
+            "updated_at": "2021-06-11T11:20:55-04:00",
+            "alt": null,
+            "width": 516,
+            "height": 516,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/image51040.jpg?v=1623424855",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30173182722213"
+          }
+        ],
+        "image": {
+          "id": 30173182722213,
+          "product_id": 6833474404517,
+          "position": 1,
+          "created_at": "2021-06-11T11:20:55-04:00",
+          "updated_at": "2021-06-11T11:20:55-04:00",
+          "alt": null,
+          "width": 516,
+          "height": 516,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/image51040.jpg?v=1623424855",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30173182722213"
+        },
+        "sku": ""
+      },
+      {
+        "id": 6780293578917,
+        "title": "Winco CO-1 Manual Can Opener for up to Size #10 w/ Base, Blade, Gear & Installation Kit",
+        "body_html": "<p>The go-to industry standard steel body can opener, made for heavy usage kitchen environments that require processing of up to 50 cans a day. Opens various can sizes up to #10.<strong></strong></p>\n<p><strong>FEATURES</strong></p>\n<ul>\n<li>Includes base, blade, gear and installation kit for mounting on wooden or stainless steel work tables.</li>\n<li>The extra-durable blade and gears are interchangeable with most other can opener brands.</li>\n</ul>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-05-24T10:01:47-04:00",
+        "handle": "winco-co-1-manual-can-opener-for-up-to-size-10-w-base-blade-gear-installation-kit",
+        "updated_at": "2022-08-11T14:34:31-04:00",
+        "published_at": "2021-05-24T10:01:49-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6780293578917",
+        "variants": [
+          {
+            "id": 39957995061413,
+            "product_id": 6780293578917,
+            "title": "Default Title",
+            "price": "80.15",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-05-24T10:01:47-04:00",
+            "updated_at": "2021-08-17T17:00:28-04:00",
+            "taxable": true,
+            "barcode": "95061413",
+            "grams": 4708,
+            "image_id": null,
+            "weight": 10.38,
+            "weight_unit": "lb",
+            "inventory_item_id": 42052997513381,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "80.15",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/39957995061413"
+          }
+        ],
+        "options": [
+          {
+            "id": 8740229611685,
+            "product_id": 6780293578917,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 29900133335205,
+            "product_id": 6780293578917,
+            "position": 1,
+            "created_at": "2021-05-24T10:01:51-04:00",
+            "updated_at": "2021-05-24T10:01:51-04:00",
+            "alt": null,
+            "width": 500,
+            "height": 500,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/co-1.jpg?v=1621864911",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29900133335205"
+          }
+        ],
+        "image": {
+          "id": 29900133335205,
+          "product_id": 6780293578917,
+          "position": 1,
+          "created_at": "2021-05-24T10:01:51-04:00",
+          "updated_at": "2021-05-24T10:01:51-04:00",
+          "alt": null,
+          "width": 500,
+          "height": 500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/co-1.jpg?v=1621864911",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/29900133335205"
+        },
+        "sku": "CO-1"
+      },
+      {
+        "id": 6780287778981,
+        "title": "Winco CO-3N Table Mount Manual Can Opener w/ 19\" Body - Nickel Plated Steel",
+        "body_html": "<p>Our premium European-made heavy-duty nickel plated can opener is fitted with a removable clamp, making it ideal for on-the-go operations that require flexibility. The rust-resistant stainless steel blade and gear opens various can sizes up to #10.</p>\n<p><strong>FEATURES</strong></p>\n<ul>\n<li>Easily disassembles for increased sanitation</li>\n<li>Heavy-duty nickel-plated steel construction</li>\n<li>Rigid universal mounting base for permanent screw down or portable clamp down installation to wooden or stainless steel work tables</li>\n<li>19” (483mm) long body pierces any size can up to 16” (407mm) tall</li>\n<li>Quick change dual-sided tempered knife blade and stainless steel gear NSF listed</li>\n<li>One year parts and labor warranty</li>\n</ul>\n<p> </p>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-05-24T09:56:10-04:00",
+        "handle": "winco-co-3n-table-mount-manual-can-opener-w-19-body-nickel-plated-steel",
+        "updated_at": "2022-08-11T14:34:31-04:00",
+        "published_at": "2021-05-24T09:56:11-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6780287778981",
+        "variants": [
+          {
+            "id": 39957978841253,
+            "product_id": 6780287778981,
+            "title": "Default Title",
+            "price": "133.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-05-24T09:56:10-04:00",
+            "updated_at": "2021-08-17T17:00:27-04:00",
+            "taxable": true,
+            "barcode": "78841253",
+            "grams": 2495,
+            "image_id": null,
+            "weight": 5.5,
+            "weight_unit": "lb",
+            "inventory_item_id": 42052981325989,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "133.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/39957978841253"
+          }
+        ],
+        "options": [
+          {
+            "id": 8740223352997,
+            "product_id": 6780287778981,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 29900107808933,
+            "product_id": 6780287778981,
+            "position": 1,
+            "created_at": "2021-05-24T09:56:12-04:00",
+            "updated_at": "2021-05-24T09:56:12-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-co3n.jpg?v=1621864572",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29900107808933"
+          },
+          {
+            "id": 29900107841701,
+            "product_id": 6780287778981,
+            "position": 2,
+            "created_at": "2021-05-24T09:56:12-04:00",
+            "updated_at": "2021-05-24T09:56:12-04:00",
+            "alt": null,
+            "width": 267,
+            "height": 302,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/Screenshot2021-05-24095451.jpg?v=1621864572",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29900107841701"
+          }
+        ],
+        "image": {
+          "id": 29900107808933,
+          "product_id": 6780287778981,
+          "position": 1,
+          "created_at": "2021-05-24T09:56:12-04:00",
+          "updated_at": "2021-05-24T09:56:12-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-co3n.jpg?v=1621864572",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/29900107808933"
+        },
+        "sku": "CO-3N"
+      },
+      {
+        "id": 6873203802277,
+        "title": "Winco Combo Serving Trays (250 Each Per Pack) 47001 - Benchmark , 10\"W X 6-1/2\"D X 2\"H",
+        "body_html": "<div class=\"col-12 col-lg-8\" data-mce-fragment=\"1\">\n<p itemprop=\"description\" data-mce-fragment=\"1\">Benchmark Combo Serving Trays, 10\"W x 6-1/2\"D x 2\"H, (250 each per pack)</p>\n<p itemprop=\"description\" data-mce-fragment=\"1\">(Qty Break = 1 pack)</p>\n</div>\n<div class=\"col-12 col-lg-4\" data-mce-fragment=\"1\"><strong>FEATURES</strong></div>\n<div class=\"col-12 col-lg-4\" data-mce-fragment=\"1\"><strong></strong></div>\n<div class=\"col-12 col-lg-4\" data-mce-fragment=\"1\">\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 27.8358%;\" data-mce-style=\"width: 27.8358%;\"><strong>Height</strong></td>\n<td style=\"width: 69.0789%;\" data-mce-style=\"width: 69.0789%;\">16\"</td>\n</tr>\n<tr>\n<td style=\"width: 27.8358%;\" data-mce-style=\"width: 27.8358%;\"><strong>Width</strong></td>\n<td style=\"width: 69.0789%;\" data-mce-style=\"width: 69.0789%;\">13\"</td>\n</tr>\n<tr>\n<td style=\"width: 27.8358%;\" data-mce-style=\"width: 27.8358%;\"><strong>Depth </strong></td>\n<td style=\"width: 69.0789%;\" data-mce-style=\"width: 69.0789%;\">9\"</td>\n</tr>\n<tr>\n<td style=\"width: 27.8358%;\" data-mce-style=\"width: 27.8358%;\"><strong>Type</strong></td>\n<td style=\"width: 69.0789%;\" data-mce-style=\"width: 69.0789%;\"><span>Bag/box</span></td>\n</tr>\n</tbody>\n</table>\n</div>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-06-24T15:59:47-04:00",
+        "handle": "winco-combo-serving-trays-250-each-per-pack-47001-benchmark-10w-x-6-1-2d-x-2h",
+        "updated_at": "2022-08-11T14:34:35-04:00",
+        "published_at": "2021-06-24T15:59:48-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6873203802277",
+        "variants": [
+          {
+            "id": 40233964044453,
+            "product_id": 6873203802277,
+            "title": "Default Title",
+            "price": "80.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-06-24T15:59:47-04:00",
+            "updated_at": "2021-08-17T17:01:11-04:00",
+            "taxable": true,
+            "barcode": "64044453",
+            "grams": 11340,
+            "image_id": null,
+            "weight": 25,
+            "weight_unit": "lb",
+            "inventory_item_id": 42329397788837,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "80.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40233964044453"
+          }
+        ],
+        "options": [
+          {
+            "id": 8845754433701,
+            "product_id": 6873203802277,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 30398615421093,
+            "product_id": 6873203802277,
+            "position": 1,
+            "created_at": "2021-06-24T15:59:49-04:00",
+            "updated_at": "2021-06-24T15:59:49-04:00",
+            "alt": null,
+            "width": 640,
+            "height": 443,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/s-l640.jpg?v=1624564789",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/30398615421093"
+          }
+        ],
+        "image": {
+          "id": 30398615421093,
+          "product_id": 6873203802277,
+          "position": 1,
+          "created_at": "2021-06-24T15:59:49-04:00",
+          "updated_at": "2021-06-24T15:59:49-04:00",
+          "alt": null,
+          "width": 640,
+          "height": 443,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/s-l640.jpg?v=1624564789",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/30398615421093"
+        },
+        "sku": "6-1/2\"D"
+      },
+      {
+        "id": 6780787425445,
+        "title": "Winco EDM-1K 23-5/8\" Wide Countertop Heated Display Merchandiser - 120V",
+        "body_html": "<p>Keep hot foods fresher for longer with this heat and humidity controlled merchandiser. The airflow pattern is designed to maintain consistent temperature and humidity around foods and prevent drying, which also enables the unit to recover temperature quickly after doors are opened/closed.</p>\n<p><strong>FEATURES</strong></p>\n<ul>\n<li>Matte black powder-coated exterior and stainless steel interior</li>\n<li>Clear view tempered glass on all sides, with server-side easy access swing door</li>\n<li>Interior illumination showcases food products</li>\n<li>Digital adjustable thermostat and humidity control</li>\n<li>Temperature range: 89°F to 194°F (30°C to 90°C)</li>\n<li>4-tier round rack continuously rotates - rotation stops when door is opened</li>\n<li>Each shelf fits up to 18” diameter pan</li>\n<li>ETL listed for safety and sanitation</li>\n<li>One year parts and labor warranty</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td style=\"width: 40.8893%;\" data-mce-style=\"width: 40.8893%;\"><strong>Overall Dimensions (H x W x D)</strong></td>\n<td style=\"width: 55.1107%;\" data-mce-style=\"width: 55.1107%;\"><span>27.56\" x 23.63\" x 25.25\"</span></td>\n</tr>\n<tr>\n<td style=\"width: 40.8893%;\" data-mce-style=\"width: 40.8893%;\"><strong>Power</strong></td>\n<td style=\"width: 55.1107%;\" data-mce-style=\"width: 55.1107%;\"><span>110-120 60Hz</span></td>\n</tr>\n<tr>\n<td style=\"width: 40.8893%;\" data-mce-style=\"width: 40.8893%;\"><strong>Plug</strong></td>\n<td style=\"width: 55.1107%;\" data-mce-style=\"width: 55.1107%;\"><span>Nema 5-15P</span></td>\n</tr>\n<tr>\n<td style=\"width: 40.8893%;\" data-mce-style=\"width: 40.8893%;\"><strong>Weight</strong></td>\n<td style=\"width: 55.1107%;\" data-mce-style=\"width: 55.1107%;\"><span>85</span></td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-05-24T16:20:41-04:00",
+        "handle": "winco-edm-1k-23-5-8-wide-countertop-heated-display-merchandiser-120v",
+        "updated_at": "2022-08-11T14:34:32-04:00",
+        "published_at": "2021-05-24T16:20:43-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6780787425445",
+        "variants": [
+          {
+            "id": 39959744905381,
+            "product_id": 6780787425445,
+            "title": "Default Title",
+            "price": "950.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-05-24T16:20:41-04:00",
+            "updated_at": "2021-08-17T17:00:31-04:00",
+            "taxable": true,
+            "barcode": "44905381",
+            "grams": 38555,
+            "image_id": null,
+            "weight": 85,
+            "weight_unit": "lb",
+            "inventory_item_id": 42054749192357,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "950.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/39959744905381"
+          }
+        ],
+        "options": [
+          {
+            "id": 8740834443429,
+            "product_id": 6780787425445,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 29902890631333,
+            "product_id": 6780787425445,
+            "position": 1,
+            "created_at": "2021-05-24T16:20:45-04:00",
+            "updated_at": "2021-05-24T16:20:45-04:00",
+            "alt": null,
+            "width": 516,
+            "height": 516,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/winco-edm-1k.jpg?v=1621887645",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29902890631333"
+          }
+        ],
+        "image": {
+          "id": 29902890631333,
+          "product_id": 6780787425445,
+          "position": 1,
+          "created_at": "2021-05-24T16:20:45-04:00",
+          "updated_at": "2021-05-24T16:20:45-04:00",
+          "alt": null,
+          "width": 516,
+          "height": 516,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/winco-edm-1k.jpg?v=1621887645",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/29902890631333"
+        },
+        "sku": "EDM-1K"
+      },
+      {
+        "id": 6782401642661,
+        "title": "Winco EDM-2 - Countertop Merchandiser, 18\"L x 17\"W x 31\"H, (4) 14\" dia. Pizzas",
+        "body_html": "<p><strong>FEATURES</strong></p>\n<ul>\n<li>Interior wire shelves hold four (4) 14\" pizzas</li>\n<li>Optional pretzel rack insert, sold separately</li>\n<li>Display tray/rack insert rotates when door is closed</li>\n<li>Lighted display panel for branding visuals</li>\n<li>Adjustable thermostat from 85°F to 195°F (30°C to 90°C)</li>\n<li>Removable crumb tray</li>\n<li>120V~60Hz, 786W, 7.2A</li>\n<li>Overall dimensions: 18\"L x 17-1/2\"W x 31\"H</li>\n<li>One year parts and labor warranty</li>\n</ul>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-05-25T10:27:18-04:00",
+        "handle": "winco-edm-2-countertop-merchandiser-18l-x-17w-x-31h-4-14-dia-pizzas",
+        "updated_at": "2022-08-11T14:34:32-04:00",
+        "published_at": "2021-05-25T10:27:19-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6782401642661",
+        "variants": [
+          {
+            "id": 39966591287461,
+            "product_id": 6782401642661,
+            "title": "Default Title",
+            "price": "830.00",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-05-25T10:27:18-04:00",
+            "updated_at": "2021-08-17T17:00:31-04:00",
+            "taxable": true,
+            "barcode": "91287461",
+            "grams": 24000,
+            "image_id": null,
+            "weight": 52.91,
+            "weight_unit": "lb",
+            "inventory_item_id": 42061599670437,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "830.00",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/39966591287461"
+          }
+        ],
+        "options": [
+          {
+            "id": 8742898040997,
+            "product_id": 6782401642661,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 29912266047653,
+            "product_id": 6782401642661,
+            "position": 1,
+            "created_at": "2021-05-25T10:27:20-04:00",
+            "updated_at": "2021-05-25T10:27:20-04:00",
+            "alt": null,
+            "width": 500,
+            "height": 500,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/edm-2_1_1_1.jpg?v=1621952840",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/29912266047653"
+          }
+        ],
+        "image": {
+          "id": 29912266047653,
+          "product_id": 6782401642661,
+          "position": 1,
+          "created_at": "2021-05-25T10:27:20-04:00",
+          "updated_at": "2021-05-25T10:27:20-04:00",
+          "alt": null,
+          "width": 500,
+          "height": 500,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/edm-2_1_1_1.jpg?v=1621952840",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/29912266047653"
+        },
+        "sku": "EDM-2"
+      },
+      {
+        "id": 6982093209765,
+        "title": "Winco EPG-1C  Commercial Panini Press Cast Iron, 120v",
+        "body_html": "<p><strong>Winco EPG-1C Single Commercial Panini Press w/ Cast Iron Grooved Plates, 120v</strong></p>\n<p><span>The Winco EPG-1C commercial panini press is constructed with a durable, ribbed cast iron grill surface that heats up slowly but evenly and holds heat between uses. Its hinged top plate adjusts to different thicknesses, while the grease tray is removable to simplify cleanup for operators. Power and ready lights indicate when the unit is powered on and when it is ready to cook product. Made of stainless steel, the press resists dents and dings, and its thermostat is adjustable to 570 degrees Fahrenheit, accommodating a wide range of products.</span></p>\n<p> </p>\n<p><span><strong>FEACTURES</strong> </span></p>\n<ul class=\"list\">\n<li>Ribbed cast iron surface heats evenly</li>\n<li>Hinged, balanced top plate accommodates different product thicknesses</li>\n<li>Removable tray captures grease and crumbs</li>\n<li>Ready and power lights</li>\n<li>Constructed of durable stainless steel</li>\n<li>Maximum temperature: 570 degrees F</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td>Grill surface</td>\n<td><span>14 in. L x 12 in. W</span></td>\n</tr>\n<tr>\n<td>Overall</td>\n<td><span>16.13 in. W x 14.75 in. D x 9.75 in. H</span></td>\n</tr>\n<tr>\n<td>Hertz</td>\n<td>60</td>\n</tr>\n<tr>\n<td>Plate Type</td>\n<td> <span data-mce-fragment=\"1\">Single</span>\n</td>\n</tr>\n<tr>\n<td>Plate Width</td>\n<td>16.2</td>\n</tr>\n<tr>\n<td>Surface</td>\n<td><span>Grooved</span></td>\n</tr>\n<tr>\n<td>Weight</td>\n<td><span>78.00</span></td>\n</tr>\n<tr>\n<td>Voltage</td>\n<td>120</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-08-16T12:14:59-04:00",
+        "handle": "winco-epg-1c-commercial-panini-press-cast-iron-120v",
+        "updated_at": "2022-08-11T14:35:01-04:00",
+        "published_at": "2021-08-16T12:15:00-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6982093209765",
+        "variants": [
+          {
+            "id": 40595733151909,
+            "product_id": 6982093209765,
+            "title": "Default Title",
+            "price": "244.23",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-16T12:14:59-04:00",
+            "updated_at": "2021-08-17T17:04:44-04:00",
+            "taxable": true,
+            "barcode": "33151909",
+            "grams": 35380,
+            "image_id": null,
+            "weight": 78,
+            "weight_unit": "lb",
+            "inventory_item_id": 42691512631461,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "244.23",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40595733151909"
+          }
+        ],
+        "options": [
+          {
+            "id": 8980507099301,
+            "product_id": 6982093209765,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 31006191878309,
+            "product_id": 6982093209765,
+            "position": 1,
+            "created_at": "2021-08-16T12:15:02-04:00",
+            "updated_at": "2021-08-16T12:15:02-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-epg1c.jpg?v=1629130502",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/31006191878309"
+          }
+        ],
+        "image": {
+          "id": 31006191878309,
+          "product_id": 6982093209765,
+          "position": 1,
+          "created_at": "2021-08-16T12:15:02-04:00",
+          "updated_at": "2021-08-16T12:15:02-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-epg1c.jpg?v=1629130502",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/31006191878309"
+        },
+        "sku": "EPG-1C"
+      },
+      {
+        "id": 6982137872549,
+        "title": "Winco EPG-2 Double Commercial Panini Press",
+        "body_html": "<p><strong> Winco EPG-2 Double Commercial Panini Press w/ Cast Iron Grooved Plates, 120v </strong></p>\n<p>The Winco EPG-2 double panini press has cast iron plates that evenly heat and retain heat for long periods of time. Since cast iron is heavy, product is pressed effectively. With their grooved design, the plates leave grill marks on food. Each section's temperature is adjustable to a maximum of 600 degrees Fahrenheit. Indicator lights illuminate when the power is on and, when the unit is pre-heated, the light shuts off. Cleaning the Winco EPG-2 double panini press is simple with its removable crumb tray and rust-resistant, stainless steel body.</p>\n<h3>FEACTURES </h3>\n<ul class=\"list\">\n<li>Ribbed cast iron grill surface</li>\n<li>Hinged balanced top plate adjusts to food thickness</li>\n<li>Removable crumb and grease tray</li>\n<li>Power and ready light(s)</li>\n<li>Stainless steel construction</li>\n<li>Adjustable thermostat(s) up to 600°F</li>\n<li>ETL listed for electrical safety and sanitation</li>\n<li>Cast iron plates provide even distribution and effectively press products</li>\n<li>Grooved plates leave sear marks on food and enable oil draining</li>\n<li>Indicator power and ready lights</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td><strong>Grill surface</strong></td>\n<td><span>19 in. W x 9 in. D</span></td>\n</tr>\n<tr>\n<td><strong>Overall</strong></td>\n<td><span>22.5 in. W x 12 in. D x 8 in. H</span></td>\n</tr>\n<tr>\n<td><strong>Hertz</strong></td>\n<td>60</td>\n</tr>\n<tr>\n<td><strong>Plate Width</strong></td>\n<td>19</td>\n</tr>\n<tr>\n<td><strong>Voltage</strong></td>\n<td>120</td>\n</tr>\n<tr>\n<td><strong>Weight</strong></td>\n<td> <span data-mce-fragment=\"1\">64.00</span>\n</td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-08-16T12:43:43-04:00",
+        "handle": "winco-epg-2-double-commercial-panini-press",
+        "updated_at": "2022-08-11T14:35:01-04:00",
+        "published_at": "2021-08-16T12:43:45-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6982137872549",
+        "variants": [
+          {
+            "id": 40595847315621,
+            "product_id": 6982137872549,
+            "title": "Default Title",
+            "price": "412.98",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-16T12:43:43-04:00",
+            "updated_at": "2021-08-17T17:04:44-04:00",
+            "taxable": true,
+            "barcode": "47315621",
+            "grams": 29030,
+            "image_id": null,
+            "weight": 64,
+            "weight_unit": "lb",
+            "inventory_item_id": 42691626991781,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "412.98",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40595847315621"
+          }
+        ],
+        "options": [
+          {
+            "id": 8980556054693,
+            "product_id": 6982137872549,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 31006442651813,
+            "product_id": 6982137872549,
+            "position": 1,
+            "created_at": "2021-08-16T12:43:46-04:00",
+            "updated_at": "2021-08-16T12:43:46-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-epg2.jpg?v=1629132226",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/31006442651813"
+          }
+        ],
+        "image": {
+          "id": 31006442651813,
+          "product_id": 6982137872549,
+          "position": 1,
+          "created_at": "2021-08-16T12:43:46-04:00",
+          "updated_at": "2021-08-16T12:43:46-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-epg2.jpg?v=1629132226",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/31006442651813"
+        },
+        "sku": "EPG-2"
+      },
+      {
+        "id": 6982073483429,
+        "title": "Winco ESG-1 Commercial Panini Press Cast Iron Smooth Plates, 120v",
+        "body_html": "<p><strong>Winco ESG-1 Single Commercial Panini Press w/ Cast Iron Smooth Plates, 120v</strong></p>\n<p><span>For sturdiness, the Winco ESG-1 commercial panini press is constructed of stainless steel and has a flat cast iron grill surface. The plates heat up slowly and evenly, while its hinged, balanced top plate automatically adjusts to different food thicknesses. To ease cleanup, the base has a removable crumb and grease tray. This unit's power and ready lights indicate when it is powered on and ready to grill, removing guesswork for operators. Using the thermostat, operators can adjust the temperature, which can reach 600 degrees Fahrenheit to accommodate various food products.</span></p>\n<p><span><strong>FEACTURE</strong> </span></p>\n<ul class=\"list\">\n<li>Dent-resistant stainless steel construction</li>\n<li>Flat cast iron grill surface</li>\n<li>Balanced, hinged top plate adjusts to various food thicknesses</li>\n<li>Crumb and grease tray is fully removable</li>\n<li>Power and ready lights</li>\n<li>Maximum temperature: 600 degrees F</li>\n</ul>\n<table width=\"100%\">\n<tbody>\n<tr>\n<td><strong>Grill surface Dimensions</strong></td>\n<td><span data-mce-fragment=\"1\">14 in. L x 9 in. W</span></td>\n</tr>\n<tr>\n<td><strong>Overall Dimensions</strong></td>\n<td><span>17 in. W x 12 in. D x 8 in. H</span></td>\n</tr>\n<tr>\n<td><strong>Hertz</strong></td>\n<td>60</td>\n</tr>\n<tr>\n<td><strong>Plate Width</strong></td>\n<td>14</td>\n</tr>\n<tr>\n<td><strong>Plate Material</strong></td>\n<td><span>Cast Iron</span></td>\n</tr>\n<tr>\n<td><strong>Voltage</strong></td>\n<td>120</td>\n</tr>\n<tr>\n<td><strong>Weight</strong></td>\n<td><span>46.60</span></td>\n</tr>\n</tbody>\n</table>",
+        "vendor": "Winco",
+        "product_type": "",
+        "created_at": "2021-08-16T12:00:11-04:00",
+        "handle": "winco-esg-1-commercial-panini-press-cast-iron-smooth-plates-120v",
+        "updated_at": "2022-08-11T14:35:00-04:00",
+        "published_at": "2021-08-16T12:15:32-04:00",
+        "template_suffix": "",
+        "status": "active",
+        "published_scope": "global",
+        "tags": "",
+        "admin_graphql_api_id": "gid://shopify/Product/6982073483429",
+        "variants": [
+          {
+            "id": 40595669483685,
+            "product_id": 6982073483429,
+            "title": "Default Title",
+            "price": "262.54",
+            "sku": "",
+            "position": 1,
+            "inventory_policy": "deny",
+            "compare_at_price": null,
+            "fulfillment_service": "manual",
+            "inventory_management": null,
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2021-08-16T12:00:11-04:00",
+            "updated_at": "2021-08-17T17:04:43-04:00",
+            "taxable": true,
+            "barcode": "69483685",
+            "grams": 21137,
+            "image_id": null,
+            "weight": 46.6,
+            "weight_unit": "lb",
+            "inventory_item_id": 42691445817509,
+            "inventory_quantity": 0,
+            "old_inventory_quantity": 0,
+            "presentment_prices": [
+              {
+                "price": {
+                  "amount": "262.54",
+                  "currency_code": "USD"
+                },
+                "compare_at_price": null
+              }
+            ],
+            "requires_shipping": true,
+            "admin_graphql_api_id": "gid://shopify/ProductVariant/40595669483685"
+          }
+        ],
+        "options": [
+          {
+            "id": 8980482949285,
+            "product_id": 6982073483429,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "id": 31006099636389,
+            "product_id": 6982073483429,
+            "position": 1,
+            "created_at": "2021-08-16T12:00:13-04:00",
+            "updated_at": "2021-08-16T12:00:13-04:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-esg1.jpg?v=1629129613",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/31006099636389"
+          }
+        ],
+        "image": {
+          "id": 31006099636389,
+          "product_id": 6982073483429,
+          "position": 1,
+          "created_at": "2021-08-16T12:00:13-04:00",
+          "updated_at": "2021-08-16T12:00:13-04:00",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0081/6598/2308/products/080-esg1.jpg?v=1629129613",
+          "variant_ids": [],
+          "admin_graphql_api_id": "gid://shopify/ProductImage/31006099636389"
+        },
+        "sku": "ESG-1"
+      }
+    ]
+  },
+  
+]
