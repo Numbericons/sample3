@@ -5,10 +5,10 @@
 */
 /***********************************************************************
  * File:        SK_ZO_MHI_Update_Inventory_Detail_V2.js
- * Date:        3/4/2021
+ * Date:        8/18/2018
  * Summary:
  * Author:       Zachary Oliver
- * Updates:     Clean up code
+ * Updates:     
  ***********************************************************************/
 define(
   ["N/record", "N/search", "N/runtime", "N/error", "N/task", "N/file", "N/format", "SuiteScripts/_work/srvc/design_to_build/code/nts_md_manage_item_master"],
@@ -346,14 +346,6 @@ define(
     //     submitTask(scriptId, params, scheduled);
     //   }
     // }
-
-    function getUsageInfo() {
-      var script = runtime.getCurrentScript();
-      log.debug({
-        title: "Governance Monitoring",
-        details: "Remaining Usage = " + script.getRemainingUsage(),
-      },);
-    }
 
     function isEmpty(stValue) {
       if ((stValue == "") || (stValue == null) || (stValue == undefined)) {

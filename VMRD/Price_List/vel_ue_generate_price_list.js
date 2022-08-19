@@ -1,5 +1,5 @@
-define(["N/record", "N/search", "N/redirect"],
-  function (record, search, redirect) {
+define(["N/record", "N/search", "N/redirect", "SuiteScripts/_work/srvc/design_to_build/code/nts_md_manage_item_master_v200"],
+  function (record, search, redirect, nts_md_manage_item_master) {
     /**
     *@NApiVersion 2.0
     *@NScriptType UserEventScript
@@ -11,34 +11,44 @@ define(["N/record", "N/search", "N/redirect"],
 
       // log.debug("newRecord: ", context.newRecord);
       
-      // context.newRecord.setValue({
-      //   fieldId: 'company',
-      //   value: 348
-      // })
+      var customer = context.newRecord.getValue({
+        fieldId: 'custrecord_vel_select_customer'
+      })
+
+      var customerTxt = context.newRecord.getText({
+        fieldId: 'custrecord_vel_select_customer'
+      })
+
+      var domestic = context.newRecord.getValue({
+        fieldId: 'custrecord_vel_domestic'
+      })
+
+      var international = context.newRecord.getValue({
+        fieldId: 'custrecord_vel_international'
+      })
+
+      log.audit("newRecord international: ", international);
+
+      //map reduce here
       
-      // log.debug("newRecord: ", context.newRecord);
-
-      //checks if sales order has 'printedpickingticket' search filter === true
-      // const printed = runSearch(id);
-      // log.debug("Printed: ", printed);
-
-      // if (printed) removeEditButton(context.type, context.form);
-      var search = runSearch("131");
-      log.debug('Search obj: ', search);
-
-      // var count = search.runPaged();
-      // console.log('count : ' + count);
+      var search = createSearch(customer, domestic, international);
       
       var searchRun = search.run();
-      log.debug('searchRun : ', + searchRun);
+
+      var count = search.runPaged().count;
+      log.debug('count : ' + count);
+
+      
+
 
       searchRun.each(function(result) {
         log.debug(result);
+        nts_md_manage_item_master.item_pricing(null, result, dateFormat(), domestic, international, customerTxt)
 
         return true;
       });
 
-      redirect.toSearchResult({ search: search });
+      // redirect.toSearchResult({ search: search });
     }
 
     function dateFormat() {
@@ -54,7 +64,7 @@ define(["N/record", "N/search", "N/redirect"],
       return month + "/" + day + "/" + year;
     }
 
-    function runSearch(customer) {
+    function createSearch(cust, dom, int) {
       var date = dateFormat();
 
       var search_obj = search.create({
@@ -62,7 +72,7 @@ define(["N/record", "N/search", "N/redirect"],
         filters: [
           ["isinactive", "is", "F"],
           "AND",
-          ["custrecord_nts_pr_customer", "anyof", customer],
+          ["custrecord_nts_pr_customer", "anyof", cust],
           "AND",
           ["custrecord_nts_pr_start_date", "onorbefore", date],
           "AND",
@@ -72,9 +82,13 @@ define(["N/record", "N/search", "N/redirect"],
             ["custrecord_nts_pr_end_date", "onorafter", date],
           ],
           "AND",
-          ["custrecord_nts_pr_item.custitem_vmrd_domestic", "is", "T"],
+          ["custrecord_nts_pr_item.custitem_vmrd_domestic", "is", dom],
           "AND",
-          ["custrecord_nts_pr_item.custitem_vmrd_sellable", "is", "T"]
+          ["custrecord_nts_pr_item.custitem_vmrd_international", "is", int],
+          "AND",
+          ["custrecord_nts_pr_item.custitem_vmrd_sellable", "is", "T"],
+          "AND",
+          ["custrecord_nts_pr_item.isinactive","is","F"]
         ],
         columns: [
           search.createColumn({
@@ -122,6 +136,11 @@ define(["N/record", "N/search", "N/redirect"],
             name: "custrecord_nts_pr_tier_basis",
             label: "Tier Basis"
           }),
+          search.createColumn({
+            name: "weight",
+            join: "CUSTRECORD_NTS_PR_ITEM",
+            label: "Weight"
+          })
         ]
       });
       return search_obj;

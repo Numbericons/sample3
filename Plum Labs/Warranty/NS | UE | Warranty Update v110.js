@@ -685,7 +685,7 @@ define(['N/record', 'N/search', 'N/runtime', 'N/format'],
                     else{
                         record.submitFields({
                             type: 'customrecord_pli_plum_case',
-                            id: arrPlumData[i].internalId,w
+                            id: arrPlumData[i].internalId,
                             values: {
                                 'custrecord_pli_plum_case_ncm_end': ncmDate
                             }
