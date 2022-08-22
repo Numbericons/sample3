@@ -88,7 +88,7 @@ define(
             // var customer_id = estimate.getValue('entity');
             // var trandate = estimate.getText('trandate');
             var item_id = price_rule.getValue({
-                name: 'custrecord_nts_pr_item'
+                fieldId: 'custrecord_nts_pr_item'
             });
 
             log.debug('item_id : ' + item_id);
@@ -132,10 +132,10 @@ define(
         }
 
         function handle_price_rule(price_rule, loaded_cost, estimate,
-                                   item_id, trandate, domestic, international, customerTxt) {
+                                   item_id, trandate, domestic, international, customerTxt, weight) {
             log.debug('Enter handle_price_rule');
             var calc_method = price_rule.getValue({
-                name: 'custrecord_nts_pr_calculation_method'
+                fieldId: 'custrecord_nts_pr_calculation_method'
             });
 
             var calc_details;
@@ -144,16 +144,16 @@ define(
 
             var price_rule_json = {
                 custrecord_nts_pr_adjust_pct: price_rule.getValue({
-                    name: 'custrecord_nts_pr_adjust_pct'
+                    fieldId: 'custrecord_nts_pr_adjust_pct'
                 }),
                 custrecord_nts_pr_adjust_amt: price_rule.getValue({
-                    name: 'custrecord_nts_pr_adjust_amt'
+                    fieldId: 'custrecord_nts_pr_adjust_amt'
                 }),
                 custrecord_nts_pr_calculation_basis: price_rule.getValue({
-                    name: 'custrecord_nts_pr_calculation_basis'
+                    fieldId: 'custrecord_nts_pr_calculation_basis'
                 }),
                 custrecord_nts_pr_tier_basis: price_rule.getValue({
-                    name: 'custrecord_nts_pr_tier_basis'
+                    fieldId: 'custrecord_nts_pr_tier_basis'
                 }),
                 id: price_rule.id
             };
@@ -357,7 +357,7 @@ define(
             });
 
             var start = price_rule.getValue({
-                name: 'custrecord_nts_pr_start_date'
+                fieldId: 'custrecord_nts_pr_start_date'
             });
             
             customerPriceList.setValue({
@@ -366,7 +366,7 @@ define(
             });
 
             var end = price_rule.getValue({
-                name: 'custrecord_nts_pr_end_date'
+                fieldId: 'custrecord_nts_pr_end_date'
             });
 
             log.debug('end : ' + end);
@@ -379,7 +379,7 @@ define(
             }
 
             var customer = price_rule.getValue({
-                name: 'custrecord_nts_pr_customer'
+                fieldId: 'custrecord_nts_pr_customer'
             })
 
             customerPriceList.setValue({
@@ -390,14 +390,14 @@ define(
             customerPriceList.setValue({
                 fieldId: "custrecord_vel_cust_pl_item",
                 value: price_rule.getValue({
-                    name: 'custrecord_nts_pr_item'
+                    fieldId: 'custrecord_nts_pr_item'
                 })
             })
 
             customerPriceList.setValue({
                 fieldId: "custrecord_vel_cust_pl_calc_meth",
                 value: price_rule.getValue({
-                    name: 'custrecord_nts_pr_calculation_basis'
+                    fieldId: 'custrecord_nts_pr_calculation_basis'
                 })
             })
 
@@ -465,24 +465,24 @@ define(
                         estimate, item_id, trandate, domestic, international, customerTxt) {
             log.debug('Enter handle_alt_price_rule');
             var calc_method = alt_price_rule.getValue({
-                name: 'custrecord_nts_alt_pr_calculation_method'
+                fieldId: 'custrecord_nts_alt_pr_calculation_method'
             });
 
             var flRate = '';
 
             var price_rule_json = {
                 custrecord_nts_pr_adjust_pct: alt_price_rule.getValue({
-                    name: 'custrecord_nts_alt_pr_adjust_pct'
+                    fieldId: 'custrecord_nts_alt_pr_adjust_pct'
                 }),
                 custrecord_nts_pr_adjust_amt: alt_price_rule.getValue({
-                    name: 'custrecord_nts_alt_pr_adjust_amt'
+                    fieldId: 'custrecord_nts_alt_pr_adjust_amt'
                 }),
                 custrecord_nts_pr_calculation_basis: alt_price_rule
                     .getValue({
-                        name: 'custrecord_nts_alt_pr_calculation_basis'
+                        fieldId: 'custrecord_nts_alt_pr_calculation_basis'
                     }),
                 custrecord_nts_pr_tier_basis: alt_price_rule.getValue({
-                    name: 'custrecord_nts_alt_pr_tier_basis'
+                    fieldId: 'custrecord_nts_alt_pr_tier_basis'
                 }),
                 id: alt_price_rule.id
             };

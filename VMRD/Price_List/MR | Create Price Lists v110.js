@@ -38,20 +38,9 @@
 
           var search = createSearch(customerId, domestic, international);
 
-          // var count = search.runPaged().count;
-          // log.debug('count : ' + count);
+          var count = search.runPaged().count;
+          log.debug('Count of search results : ' + count);
 
-          // searchRun.each(function(result) {
-          //   log.debug(result);
-          //   nts_md_manage_item_master.item_pricing(null, result, dateFormat(), domestic, international, customerTxt)
-
-          //   return true;
-          // });
-
-          // var bodyObj = {};
-          // bodyObj.properties = [];
-          // bodyObj.properties.push({ customer: customer, location: location });
-          // bodyObj.properties.push({ customer: customer, location: location });
           return search;
         } catch (e) {
           log.debug(
@@ -63,59 +52,33 @@
 
       const map = (context) => {
         let result = context.value;
-        log.debug('result : ' + result);
+        log.debug('JSON.parse(result) values: ', JSON.parse(result).values);
 
+        const id = JSON.parse(result).values["internalid"].value;
+        log.debug('id : ', id);
+
+        const weight = JSON.parse(result).values["weight.CUSTRECORD_NTS_PR_ITEM"];
+        const customerTxt = JSON.parse(result).values["altname.CUSTRECORD_NTS_PR_CUSTOMER"];
         const trandate = dateFormat();
 
-        log.debug('trandate : ' + trandate);
+        const booleanArr = JSON.parse(result).values["formulatext"].split(" ");
+        log.debug('booleanArr : ', booleanArr);
+        const domestic = booleanArr[1];
+        log.debug('domestic : ', domestic);
+        const international = booleanArr[3];
+        log.debug('international : ', international);
 
-        log.debug('context.value.values : ', JSON.stringify(result.values));
+        log.debug('domestic, international : ' + domestic) + " , " + international;
 
-        const customerTxt = context.values.customerName;
+        const priceRule = record.load({
+          type: "customrecord_nts_price_rule",
+          id: id
+        });
 
-        log.debug('customerTxt : ' + customerTxt);
+        nts_md_manage_item_master.item_pricing(null, priceRule, trandate, domestic, international, customerTxt, weight);
 
-        // const customerTxt = context.value.getValue({
-        //   fieldId: 'customerName'
-        // })
-
-        // const domestic = context.value.getValue({
-        //   fieldId: 'Domestic'
-        // })
-        
-        // log.debug('domestic : ' + domestic);
-
-        // const international = context.value.getValue({
-        //   fieldId: 'International'
-        // })
-
-        // log.debug('international : ' + international);
-
-        nts_md_manage_item_master.item_pricing(null, context.value, trandate, domestic, international, customerTxt)
-        // context.write({
-        //   key: obj.properties[0].customer,
-        //   value: priceList,
-        // },);
         return true;
       };
-
-      // const reduce = (context) => {
-      //   const obj = JSON.parse(context.values);
-      //   log.debug("Customer: ", obj.properties[0].customer);
-      //   log.debug("Location: ", obj.properties[0].location);
-
-      //   const priceList = generate_price_list_dom(
-      //     obj.properties[0].customer,
-      //     obj.properties[0].location
-      //   );
-
-      //   context.write({
-      //     key: obj.properties[0].customer,
-      //     value: priceList,
-      //   },);
-
-      //   return true;
-      // };
 
       const summarize = (summary) => {
         try {
@@ -157,33 +120,60 @@
         return month + "/" + day + "/" + year;
       }
 
+      function addFilter(string) {
+        if (string === "domestic") return ["custrecord_nts_pr_item.custitem_vmrd_domestic", "is", true]
+        if (string === "international") return ["custrecord_nts_pr_item.custitem_vmrd_international", "is", false]
+      }
+
+      function setFilters(cust, domestic, international, date) {
+        var filters =  [
+          ["isinactive", "is", "F"],
+          "AND",
+          ["custrecord_nts_pr_customer", "anyof", cust],
+          "AND",
+          ["custrecord_nts_pr_start_date", "onorbefore", date],
+          "AND",
+          [
+            ["custrecord_nts_pr_end_date", "isempty", ""],
+            "OR",
+            ["custrecord_nts_pr_end_date", "onorafter", date],
+          ],
+          "AND",
+          ["custrecord_nts_pr_item.custitem_vmrd_sellable", "is", "T"],
+          "AND",
+          ["custrecord_nts_pr_item.isinactive","is","F"]
+        ]
+
+        log.debug('setFilters value for dom: ', domestic);
+        log.debug('setFilters value for dom typeOf: ', typeof domestic);
+        log.debug('setFilters value for int: ', international);
+        
+        if (domestic === "true") {
+          filters.push("AND");
+          filters.push(addFilter("domestic"));
+        }
+
+        if (international === "true") {
+          filters.push("AND");
+          filters.push(addFilter("international"));
+        }
+
+        log.debug('filters : ', filters);
+
+        return filters;
+      }
+
       function createSearch(cust, dom, int) {
         var date = dateFormat();
 
         var search_obj = search.create({
           type: "customrecord_nts_price_rule",
-          filters: [
-            ["isinactive", "is", "F"],
-            "AND",
-            ["custrecord_nts_pr_customer", "anyof", cust],
-            "AND",
-            ["custrecord_nts_pr_start_date", "onorbefore", date],
-            "AND",
-            [
-              ["custrecord_nts_pr_end_date", "isempty", ""],
-              "OR",
-              ["custrecord_nts_pr_end_date", "onorafter", date],
-            ],
-            "AND",
-            ["custrecord_nts_pr_item.custitem_vmrd_domestic", "is", dom],
-            "AND",
-            ["custrecord_nts_pr_item.custitem_vmrd_international", "is", int],
-            "AND",
-            ["custrecord_nts_pr_item.custitem_vmrd_sellable", "is", "T"],
-            "AND",
-            ["custrecord_nts_pr_item.isinactive","is","F"]
-          ],
+          filters: setFilters(cust, dom, int, date),
           columns: [
+            search.createColumn({
+              name: "internalid",
+              label: "Internal ID"
+            }),
             search.createColumn({
               name: "name",
               label: "Name"
@@ -236,13 +226,8 @@
             }),
             search.createColumn({
               name: "formulatext",
-              formula: "'" + dom + "'",
+              formula: "'" + "Domestic: " + dom + " International: " + int + "'",
               label: "Domestic"
-            }),
-            search.createColumn({
-              name: "formulatext",
-              formula: "'" + int + "'",
-              label: "International"
             }),
             search.createColumn({
               name: "altname",
