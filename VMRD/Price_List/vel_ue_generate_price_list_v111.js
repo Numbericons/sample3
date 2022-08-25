@@ -8,13 +8,29 @@ define(["N/record", "N/task", "N/search", "N/redirect", "SuiteScripts/_work/srvc
     function afterSubmit(context) {      
       log.debug("newRecord: ", context.newRecord);
       
+      var id = context.newRecord.getValue({
+        fieldId: 'id'
+      })
+
       var customer = context.newRecord.getValue({
         fieldId: 'custrecord_vel_select_customer'
       })
 
-      var customerTxt = context.newRecord.getText({
-        fieldId: 'custrecord_vel_select_customer'
+      
+      var custRec = record.load({
+        type: record.Type.CUSTOMER,
+        id: customer
+      });
+
+      var customerTxt = custRec.getValue({
+        fieldId: 'altname'
       })
+
+      log.debug('customerTxt : ', customerTxt);
+
+      // var customerTxt = context.newRecord.getText({
+      //   fieldId: 'custrecord_vel_select_customer'
+      // })
 
       var domestic = context.newRecord.getValue({
         fieldId: 'custrecord_vel_domestic'
@@ -31,10 +47,11 @@ define(["N/record", "N/task", "N/search", "N/redirect", "SuiteScripts/_work/srvc
         scriptTask.deploymentId = "customdeploy_vel_mr_create_cust_price_rl";
 
       scriptTask.params = {
-          custscript_customer_id: customer,
-          custscript_customer_name: customerTxt,
-          custscript_domestic: domestic,
-          custscript_international: international
+        custscript_record_id: id,
+        custscript_customer_id: customer,
+        custscript_customer_name: customerTxt,
+        custscript_domestic: domestic,
+        custscript_international: international
       };
 
       log.debug('About to submit script')

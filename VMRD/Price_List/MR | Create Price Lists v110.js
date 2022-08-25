@@ -81,6 +81,27 @@
       };
 
       const summarize = (summary) => {
+        var scriptObj = runtime.getCurrentScript();
+        const internalId = scriptObj.getParameter({
+          name: "custscript_record_id",
+        },);
+
+        log.debug('internalId in summarize : ', internalId);
+
+        const listCreate = record.load({
+          type: "customrecord_vel_create_cust_pr_list",
+          id: internalId
+        });
+
+        log.debug('listCreate : ', listCreate);
+
+        listCreate.setValue({
+          fieldId: "custrecord_vel_price_list_ready", 
+          value: true
+        });
+
+        listCreate.save();
+
         try {
           summary.output.iterator().each(function (key, value) {
             log.audit({
@@ -122,7 +143,7 @@
 
       function addFilter(string) {
         if (string === "domestic") return ["custrecord_nts_pr_item.custitem_vmrd_domestic", "is", true]
-        if (string === "international") return ["custrecord_nts_pr_item.custitem_vmrd_international", "is", false]
+        if (string === "international") return ["custrecord_nts_pr_item.custitem_vmrd_international", "is", true]
       }
 
       function setFilters(cust, domestic, international, date) {
