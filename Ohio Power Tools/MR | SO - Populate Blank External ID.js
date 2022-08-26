@@ -13,7 +13,7 @@
   define(
     ["N/record", "N/search", "N/runtime", "N/error", "N/task", "N/file", "N/format", "SuiteScripts/_work/srvc/design_to_build/code/nts_md_manage_item_master_v200"],
     (record, search, runtime, error, task, file, format, nts_md_manage_item_master) => {
-      // item_pricing(estimate, price_rule, trandate, domestic, international, customerTxt)
+      // item_pricing(estimate, price_rule, trandate, domestic, international, customerTxt).
       const getInputData = (context) => {
         try {
           var scriptObj = runtime.getCurrentScript();
