@@ -119,7 +119,7 @@ define(['N/record', 'N/search', 'N/runtime', 'N/format'],
 
                                 warrantyInMonths = parseFloat(warrantyInMonths); //probably should be parseInt 
 
-                                var additionalWarranty = warrantyInMonths * (warrantyQty/plumQty); 
+                                var additionalWarranty = warrantyInMonths * (warrantyQty/plumQty); //12 * 4/2  => 24
 
                                 log.debug(stLogTitle, 'additional Warranty: ' + additionalWarranty);
 

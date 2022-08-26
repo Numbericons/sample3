@@ -1,0 +1,53 @@
+08/25/2022 1: 23: 43 pm c18cdeb1f3e94bccba0ae2159d626fd3 import 62d5ad5f1126fa4047d4c486
+{
+  "url": "https://pickybarsb2b-com.myshopify.com/admin/api/2022-04/orders/4596967506073/fulfillments.json",
+  "method": "POST",
+  "headers": {
+    "content-type": "application/json",
+    "X-Shopify-Access-Token": "********",
+    "accept": "application/json"
+  },
+  "requestIndex": 0,
+  "body": "{\"fulfillment\":{\"orderId\":\"4596967506073\",\"notify_customer\":\"true\",\"tracking_numbers\":\"\",\"location_id\":\"9713797\",\"line_items\":[{\"quantity\":\"1\",\"id\":\"11701173813401\"}]}}"
+}
+
+
+08/25/2022 1: 23: 43 pm c18cdeb1f3e94bccba0ae2159d626fd3 import 62d5ad5f1126fa4047d4c486
+{
+  "headers": {
+    "date": "Thu, 25 Aug 2022 20:23:43 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "x-sorting-hat-podid": "152",
+    "x-sorting-hat-shopid": "31056904",
+    "referrer-policy": "origin-when-cross-origin",
+    "x-frame-options": "DENY",
+    "x-shopid": "31056904",
+    "x-shardid": "152",
+    "x-stats-userid": "",
+    "x-stats-apiclientid": "672711",
+    "x-stats-apipermissionid": "396396200089",
+    "x-shopify-api-version": "2022-04",
+    "http_x_shopify_shop_api_call_limit": "1/80",
+    "x-shopify-shop-api-call-limit": "1/80",
+    "x-shopify-api-deprecated-reason": "https://help.shopify.com/api/guides/managing-fulfillments-with-fulfillmentorders",
+    "strict-transport-security": "max-age=7889238",
+    "x-shopify-stage": "production",
+    "content-security-policy": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=create&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders%2Ffulfillments&source%5Bsection%5D=admin_api&source%5Buuid%5D=649c7d5e-7466-411c-9fdf-6631b829b9bb",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "x-xss-protection": "1; mode=block; report=/xss-report?source%5Baction%5D=create&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders%2Ffulfillments&source%5Bsection%5D=admin_api&source%5Buuid%5D=649c7d5e-7466-411c-9fdf-6631b829b9bb",
+    "x-dc": "gcp-us-east4,gcp-us-east1,gcp-us-east1",
+    "x-request-id": "649c7d5e-7466-411c-9fdf-6631b829b9bb",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=kTNdjpVwvlfIp%2BrjHvWNc8MRW%2FV%2BLUkIhOxK2fNyY1sNZ3rF%2FZyrA2YK13efDPnLvsqNEXRODfwEMJGXGuWpMR2FYmRFWW07QPP12vp606UR%2FWI%2BFM%2BpPqiwJqDf5r%2F5FkqSFRrROD28AMy0L7D5aQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "cf-ray": "74070c1248058f22-IAD",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+  },
+  "body": "{\"error\":\"Location not found.\"}"
+}
