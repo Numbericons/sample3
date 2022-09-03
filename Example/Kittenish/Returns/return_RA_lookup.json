@@ -1,0 +1,211 @@
+{
+  "page_of_records": [
+    {
+      "record": {
+        "data": {
+          "id": "27254810",
+          "type": "returns",
+          "attributes": {
+            "rma": "27254810",
+            "ext_store_id": null,
+            "shopper_email": "hnkrause1992@gmail.com",
+            "currency": "USD",
+            "status": "delivered",
+            "order_shipping_refund": "0.00",
+            "return_shipping_quote_amount": "8.00",
+            "return_shipping_refund_amount": "0.00",
+            "return_shipping_paid_amount": "8.00",
+            "subtotal_amount": "218.00",
+            "estimated_refund_amount": "209.80",
+            "refund_amount": "0.00",
+            "restocking_fee_amount": "0.00",
+            "tax_amount": "15.20",
+            "discount_amount": "15.40",
+            "shopper_message": "I never received the 2nd pair of sunday funday grey joggers. Only have 1 pair and want a refund on both please ",
+            "merchant_notes": null,
+            "is_exchange": false,
+            "is_gift": false,
+            "is_exempt_from_shipping": false,
+            "return_label_amount": "10.83",
+            "shopper_address": {
+              "name": "Halie Krause",
+              "line1": "6401 S WEST SHORE BLVD",
+              "line2": "1214 S",
+              "city": "TAMPA",
+              "state": "FL",
+              "postal_code": "33616-2912",
+              "country_code": "US"
+            },
+            "created_at": "2021-10-19T16:41:30.637Z",
+            "updated_at": "2021-11-02T01:40:52.795Z",
+            "refunded_at": null
+          },
+          "relationships": {
+            "return_line_items": {
+              "data": [
+                {
+                  "id": "30120438",
+                  "type": "return_line_items"
+                },
+                {
+                  "id": "30120439",
+                  "type": "return_line_items"
+                },
+                {
+                  "id": "30120440",
+                  "type": "return_line_items"
+                },
+                {
+                  "id": "30120441",
+                  "type": "return_line_items"
+                }
+              ]
+            },
+            "shipping_labels": {
+              "data": [
+                {
+                  "id": "20460409",
+                  "type": "shipping_labels"
+                }
+              ]
+            },
+            "refunds": {
+              "data": []
+            },
+            "instant_refund_voucher": {
+              "data": {
+                "id": "app_5lKVfQ2xtjo4iDrB",
+                "type": "instant_refund_voucher"
+              }
+            }
+          }
+        },
+        "included": [
+          {
+            "id": "30120438",
+            "type": "return_line_items",
+            "attributes": {
+              "ext_order_line_item_id": "10313149775938",
+              "ext_order_id": "3990926557250",
+              "ext_order_number": "#276828",
+              "sku": "70880NKT-S",
+              "product_name": "SAVAGE NOT SORRY QUILTED ZIP UP",
+              "product_id": null,
+              "variant_id": "39361874427970",
+              "shipping_label_id": 20460409,
+              "return_cause": "Too Big",
+              "original_amount": "64.00",
+              "discount_amount": "0.00",
+              "estimated_refund_amount": "68.80",
+              "restocking_fee_amount": "0.00",
+              "order_shipping_refund_amount": "0.00",
+              "return_label_cost_amount": "2.70",
+              "return_shipping_paid_amount": "2.00",
+              "total_refund_amount": "66.80",
+              "tax_amount": "4.80",
+              "units": 1
+            }
+          },
+          {
+            "id": "30120439",
+            "type": "return_line_items",
+            "attributes": {
+              "ext_order_line_item_id": "10304128876610",
+              "ext_order_id": "3986440552514",
+              "ext_order_number": "#275310",
+              "sku": "KIT201B-KTN-S",
+              "product_name": "SUNDAY FUNDAY GREY DUSTER",
+              "product_id": null,
+              "variant_id": "39501968179266",
+              "shipping_label_id": 20460409,
+              "return_cause": "Too Big",
+              "original_amount": "62.00",
+              "discount_amount": "6.20",
+              "estimated_refund_amount": "59.99",
+              "restocking_fee_amount": "0.00",
+              "order_shipping_refund_amount": "0.00",
+              "return_label_cost_amount": "2.70",
+              "return_shipping_paid_amount": "2.00",
+              "total_refund_amount": "57.99",
+              "tax_amount": "4.19",
+              "units": 1
+            }
+          },
+          {
+            "id": "30120440",
+            "type": "return_line_items",
+            "attributes": {
+              "ext_order_line_item_id": "10304128942146",
+              "ext_order_id": "3986440552514",
+              "ext_order_number": "#275310",
+              "sku": "KIT201C-KTN-S",
+              "product_name": "SUNDAY FUNDAY GREY JOGGERS",
+              "product_id": null,
+              "variant_id": "39501968965698",
+              "shipping_label_id": 20460409,
+              "return_cause": "Too Big",
+              "original_amount": "46.00",
+              "discount_amount": "4.60",
+              "estimated_refund_amount": "44.51",
+              "restocking_fee_amount": "0.00",
+              "order_shipping_refund_amount": "0.00",
+              "return_label_cost_amount": "2.70",
+              "return_shipping_paid_amount": "2.00",
+              "total_refund_amount": "42.51",
+              "tax_amount": "3.11",
+              "units": 1
+            }
+          },
+          {
+            "id": "30120441",
+            "type": "return_line_items",
+            "attributes": {
+              "ext_order_line_item_id": "10304128942146",
+              "ext_order_id": "3986440552514",
+              "ext_order_number": "#275310",
+              "sku": "KIT201C-KTN-S",
+              "product_name": "SUNDAY FUNDAY GREY JOGGERS",
+              "product_id": null,
+              "variant_id": "39501968965698",
+              "shipping_label_id": 20460409,
+              "return_cause": "Too Big",
+              "original_amount": "46.00",
+              "discount_amount": "4.60",
+              "estimated_refund_amount": "44.50",
+              "restocking_fee_amount": "0.00",
+              "order_shipping_refund_amount": "0.00",
+              "return_label_cost_amount": "2.70",
+              "return_shipping_paid_amount": "2.00",
+              "total_refund_amount": "42.50",
+              "tax_amount": "3.10",
+              "units": 1
+            }
+          },
+          {
+            "id": "20460409",
+            "type": "shipping_labels",
+            "attributes": {
+              "carrier": "USPS",
+              "weight_grams": 1386,
+              "tracking_number": "9461236895232485084111",
+              "pdf_url": "https://web-img.returnly.com/shipping_label/952/5d8/598/c6a607fd3099eba5777ee3d/label.pdf"
+            }
+          },
+          {
+            "id": "app_5lKVfQ2xtjo4iDrB",
+            "type": "instant_refund_voucher",
+            "attributes": {
+              "status": "EXPIRED",
+              "credit_issued_amount": "209.80",
+              "credit_spent_amount": "0.00",
+              "merchant_invoice_amount": "0.00",
+              "refund_to_shopper_amount": "0.00",
+              "shopper_invoice_amount": "0.00",
+              "ext_voucher_id": null
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

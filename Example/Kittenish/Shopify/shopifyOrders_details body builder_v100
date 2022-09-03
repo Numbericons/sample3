@@ -1,0 +1,7 @@
+{
+  "values": [
+    {{#each data.0.lines}}
+      ["{{{hour}}}", {{{total_price}}}, "{{{zip}}}", "{{#if country}}{{country}}{{/if}}", "{{{order_number}}}", "https://kittenish-girl.myshopify.com/admin/orders/{{{id}}}"]{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}

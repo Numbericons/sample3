@@ -4,15 +4,15 @@
   *@Author  
   */
   /***********************************************************************
-   * File:        MR | SO - Populate Blank External ID.js
+   * File:        Delete Customer Price List Records v100
    * Date:        8/18/2022
    * Summary:
    * Author:       Zachary Oliver
-   * Updates:     
+   * Notes:     Removes all previous custom records to avoid overlap, can update function to target same criteria previous records
    ***********************************************************************/
   define(
-    ["N/record", "N/search", "N/runtime", "N/error"],
-    (record, search, runtime, error) => {
+    ["N/record", "N/search", "N/runtime", "N/error", "N/task", "N/file", "N/format"],
+    (record, search, runtime, error, task, file, format) => {
       const getInputData = (context) => {
         try {
           var search = createSearch();
@@ -31,23 +31,17 @@
 
       const map = (context) => {
         let result = context.value;
-        log.debug('result : ', result);
-        log.debug('JSON.parse(result) ', JSON.parse(result));
+        log.debug('JSON.parse(result) values: ', JSON.parse(result).values);
 
-        const id = JSON.parse(result).value;
+        const id = JSON.parse(result).values["internalid"].value;
         log.debug('id : ', id);
 
-        const customer = record.load({
-          type: "customer",
+        record.delete({
+          type: 'customrecord_vel_customer_pr_rule',
           id: id
-        });
+        })
 
-        customer.setValue({
-            fieldId: 'externalid',
-            value: id,
-        });
-
-        customer.save();
+        log.debug('Deleted id : ', id);
 
         return true;
       };
@@ -77,40 +71,22 @@
           },);
           throw errorObj;
         }
-      };
+      }
 
       function createSearch() {
         return search.create({
-          type: "customer",
-          filters: [
-              ["externalidstring","isempty",""],
-              "AND"
-              ["internalid","anyof","4019"]
-          ],
+          type: "customrecord_vel_customer_pr_rule",
+          filters:
+          [],
           columns:
           [
-              search.createColumn({name: "altname", label: "Name"}),
               search.createColumn({name: "internalid", label: "Internal ID"}),
-              search.createColumn({name: "externalid", label: "External ID"})
+              search.createColumn({
+                name: "name",
+                label: "Name"
+              })
           ]
         });
-      }
-
-      function isEmpty(stValue) {
-        if ((stValue == "") || (stValue == null) || (stValue == undefined)) {
-          return true;
-        } else {
-          if (stValue instanceof String) {
-            if (stValue == "") {
-              return true;
-            }
-          } else if (stValue instanceof Array) {
-            if (stValue.length == 0) {
-              return true;
-            }
-          }
-          return false;
-        }
       }
 
       return {

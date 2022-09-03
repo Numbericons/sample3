@@ -1,0 +1,556 @@
+{
+  "products": [
+    {
+      "id": 6694739738690,
+      "title": "EMILIA RIBBED ONE PIECE",
+      "status": "active",
+      "variants": [
+        {
+          "id": 39656849145922,
+          "title": "XS",
+          "product_id": 6694739738690,
+          "sku": "ESW12-KTN-XS",
+          "inventory_item_id": 41752639406146
+        },
+        {
+          "id": 39656849178690,
+          "title": "S",
+          "product_id": 6694739738690,
+          "sku": "ESW12-KTN-S",
+          "inventory_item_id": 41752639438914
+        },
+        {
+          "id": 39656849211458,
+          "title": "M",
+          "product_id": 6694739738690,
+          "sku": "ESW12-KTN-M",
+          "inventory_item_id": 41752639471682
+        },
+        {
+          "id": 39656849244226,
+          "title": "L",
+          "product_id": 6694739738690,
+          "sku": "ESW12-KTN-L",
+          "inventory_item_id": 41752639504450
+        },
+        {
+          "id": 39656849276994,
+          "title": "XL",
+          "product_id": 6694739738690,
+          "sku": "ESW12-KTN-XL",
+          "inventory_item_id": 41752639537218
+        },
+        {
+          "id": 39656849309762,
+          "title": "XXL",
+          "product_id": 6694739738690,
+          "sku": "ESW12-KTN-XXL",
+          "inventory_item_id": 41752639569986
+        }
+      ],
+      "variantsInvIds": "41752639406146, 41752639438914, 41752639471682, 41752639504450, 41752639537218, 41752639569986",
+      "inventoryLevels": [
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 87588878,
+          "available": 57,
+          "updated_at": "2022-03-23T04:20:07-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 36982718530,
+          "available": 2,
+          "updated_at": "2022-03-18T16:24:02-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 36982784066,
+          "available": 5,
+          "updated_at": "2022-03-20T13:56:31-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639406146,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41752639406146"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 87588878,
+          "available": 53,
+          "updated_at": "2022-03-23T15:58:05-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 36982718530,
+          "available": 0,
+          "updated_at": "2022-03-19T13:56:50-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 36982784066,
+          "available": 5,
+          "updated_at": "2022-03-20T14:38:50-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639438914,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41752639438914"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 87588878,
+          "available": 0,
+          "updated_at": "2022-03-22T10:31:31-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 36982718530,
+          "available": 0,
+          "updated_at": "2022-03-23T13:15:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 36982784066,
+          "available": 8,
+          "updated_at": "2022-03-18T14:12:06-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639471682,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41752639471682"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 87588878,
+          "available": 0,
+          "updated_at": "2022-03-22T10:35:10-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 36982718530,
+          "available": 1,
+          "updated_at": "2022-03-21T17:21:41-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 36982784066,
+          "available": 4,
+          "updated_at": "2022-03-19T13:41:30-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639504450,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41752639504450"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 87588878,
+          "available": 24,
+          "updated_at": "2022-03-23T15:13:30-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:25-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 36982718530,
+          "available": 2,
+          "updated_at": "2022-03-09T11:34:50-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 36982784066,
+          "available": 2,
+          "updated_at": "2022-03-21T13:34:15-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639537218,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41752639537218"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 87588878,
+          "available": 0,
+          "updated_at": "2022-03-22T14:35:26-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 36982718530,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 36982784066,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41752639569986"
+        },
+        {
+          "inventory_item_id": 41752639569986,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-01-04T13:22:26-06:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41752639569986"
+        }
+      ]
+    },
+    {
+      "id": 6728955854914,
+      "title": "MINI HAIR CLIP - MILK",
+      "status": "active",
+      "variants": [
+        {
+          "id": 39738674053186,
+          "title": "Default Title",
+          "product_id": 6728955854914,
+          "sku": "MINIHAIRCLIP-MILK",
+          "inventory_item_id": 41834783473730
+        }
+      ],
+      "variantsInvIds": "41834783473730",
+      "inventoryLevels": [
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 87588878,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/545325070?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 36982652994,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871351362?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 36982718530,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871416898?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 35655417922,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532352578?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 35655385154,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/69532319810?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 60955983938,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/95270633538?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 36982784066,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871482434?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 36982685762,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871384130?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 36982751298,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70871449666?inventory_item_id=41834783473730"
+        },
+        {
+          "inventory_item_id": 41834783473730,
+          "location_id": 36931240002,
+          "available": 0,
+          "updated_at": "2022-03-22T13:05:40-05:00",
+          "admin_graphql_api_id": "gid://shopify/InventoryLevel/70816104514?inventory_item_id=41834783473730"
+        }
+      ]
+    }
+  ],
+  "locationTable": {
+    "87588878": {
+      "name": "Kittenish - CWC"
+    },
+    "35221864514": {
+      "name": "Grapevine Warehouse"
+    },
+    "36982652994": {
+      "name": "Kittenish Cafe"
+    },
+    "36982718530": {
+      "name": "Kittenish Dallas"
+    },
+    "35655417922": {
+      "name": "Kittenish Destin"
+    },
+    "35655385154": {
+      "name": "Kittenish Nashville"
+    },
+    "60955983938": {
+      "name": "Kittenish Scottsdale"
+    },
+    "36982784066": {
+      "name": "Kittenish Tampa"
+    },
+    "36982685762": {
+      "name": "New Jersey"
+    },
+    "36982751298": {
+      "name": "Pop Up Location"
+    },
+    "36931240002": {
+      "name": "Store Inventory at Warehouse"
+    }
+  }
+}

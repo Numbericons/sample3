@@ -1,0 +1,7 @@
+{
+  "values": [
+    {{#each data.0.accounts}}
+      [{{{id}}}, "{{{Number}}}", "{{{Name}}}", "{{{[Display Name]}}}", "{{{[Account Type]}}}", "{{{[Display Name]}}}", "{{{[Subsidiary (no hierarchy)]}}}", "{{{Summary}}}", "{{{[1099-MISC Category]}}}", "{{{Balance}}}"]{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}

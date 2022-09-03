@@ -1,0 +1,7 @@
+{
+  "values": [
+    {{#each data.0.vendors}}
+      [{{{id}}}, "{{{[Company Name]}}}", "{{{[Legal Name]}}}", "{{{Category}}}", "{{{[Primary Subsidiary]}}}", "{{{[Kittenish Vendor Manager]}}}", "{{{[Is Individual]}}}", "{{{[Bank Transaction Name]}}}", "{{{[Default Expense Account]}}}", "{{{Comments}}}", "{{{[1099 Eligible]}}}", "{{{[Updated W-9?]}}}", "{{{[W-9 Entity Type]}}}", "{{{[W-9 Signed Date]}}}", "{{{[Vendor Bill - Purchase Order Quantity Tolerance]}}}", "{{{[Vendor Bill - Purchase Order Amount Tolerance]}}}", "{{{[Vendor Bill - Purchase Order Quantity Difference]}}}", "{{{[Vendor Bill - Item Receipt Quantity Tolerance]}}}", "{{{[Vendor Bill - Item Receipt Amount Tolerance]}}}", "{{{[Vendor Bill - Item Receipt Quantity Difference]}}}"]{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}

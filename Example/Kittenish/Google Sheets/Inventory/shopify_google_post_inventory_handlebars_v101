@@ -1,0 +1,12 @@
+{
+  "values": [
+    {{#each data.0.products}}
+      {{#compare inventoryLevels.length ">" 0}}
+        {{#each inventoryLevels}}
+          ["{{{variant_sku}}}", {{#if available}}{{available}}{{else}}0{{/if}}, "{{{location_name}}}"]{{#unless @last}},{{/unless}}
+        {{/each}}
+        {{#unless @last}},{{/unless}}
+      {{/compare}}
+    {{/each}}
+  ]
+}

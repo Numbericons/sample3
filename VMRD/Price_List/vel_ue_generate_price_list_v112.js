@@ -16,7 +16,6 @@ define(["N/record", "N/task", "N/search", "N/redirect", "SuiteScripts/_work/srvc
         fieldId: 'custrecord_vel_select_customer'
       })
 
-      
       var custRec = record.load({
         type: record.Type.CUSTOMER,
         id: customer
@@ -25,13 +24,25 @@ define(["N/record", "N/task", "N/search", "N/redirect", "SuiteScripts/_work/srvc
       var customerTxt = custRec.getValue({
         fieldId: 'altname'
       })
-
       log.debug('customerTxt : ', customerTxt);
 
-      // var customerTxt = context.newRecord.getText({
-      //   fieldId: 'custrecord_vel_select_customer'
-      // })
+      submitDelete();
 
+      submitCreate();
+      // redirect.toSearchResult({ search: search });
+    }
+
+    function submitDelete() {
+      var scriptTask = task.create({ taskType: task.TaskType.MAP_REDUCE });
+      scriptTask.scriptId = "customscript_vel_cust_pl_delete";
+      scriptTask.deploymentId = "customdeploy_vel_mr_delete_cust_pl";
+
+      log.debug('About to submit delete script');
+      scriptTask.submit();
+      log.debug('After submit delete script');
+    }
+
+    function submitCreate() {
       var domestic = context.newRecord.getValue({
         fieldId: 'custrecord_vel_domestic'
       })
@@ -41,14 +52,6 @@ define(["N/record", "N/task", "N/search", "N/redirect", "SuiteScripts/_work/srvc
       })
 
       log.audit("newRecord international: ", international);
-
-      var scriptTask = task.create({ taskType: task.TaskType.MAP_REDUCE });
-      scriptTask.scriptId = "customscript_vel_cust_pl_delete";
-      scriptTask.deploymentId = "customdeploy_vel_mr_delete_cust_pl";
-
-      log.debug('About to submit delete script')
-      scriptTask.submit();
-      log.debug('After submit delete script')
 
       var scriptTask2 = task.create({ taskType: task.TaskType.MAP_REDUCE });
         scriptTask2.scriptId = "customscript_vel_mr_create_cust_price_r";
@@ -65,9 +68,6 @@ define(["N/record", "N/task", "N/search", "N/redirect", "SuiteScripts/_work/srvc
       log.debug('About to submit create script')
       scriptTask2.submit();
       log.debug('After submit create script')
-      
-
-      // redirect.toSearchResult({ search: search });
     }
 
     return {

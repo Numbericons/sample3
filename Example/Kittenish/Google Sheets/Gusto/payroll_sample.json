@@ -1,0 +1,146 @@
+[
+  {
+    "version": "19289df18e6e20f797de4a585ea5a91535c7ddf7",
+    "payroll_deadline": "2021-02-18",
+    "check_date": "2021-02-22",
+    "processed": true,
+    "processed_date": "2021-02-18",
+    "payroll_id": 7786400908986532,
+    "payroll_uuid": "b50e611d-8f3d-4f24-b001-46675f7b5777",
+    "company_id": 7756341740978008,
+    "company_uuid": "6bf7807c-a5a0-4f4d-b2e7-3fbb4b2299fb",
+    "pay_period": {
+      "start_date": "2021-02-01",
+      "end_date": "2021-02-15",
+      "pay_schedule_id": 7757500908984137,
+      "pay_schedule_uuid": "00ebc4a4-ec88-4435-8f45-c505bb63e501"
+    },
+    "totals": {
+      "company_debit": "121747.71",
+      "net_pay_debit": "79283.80",
+      "tax_debit": "42463.91",
+      "reimbursement_debit": "0.00",
+      "child_support_debit": "0.00",
+      "reimbursements": "0.00",
+      "net_pay": "81752.94",
+      "gross_pay": "130635.89",
+      "employee_bonuses": "0.00",
+      "employee_commissions": "18536.37",
+      "employee_cash_tips": "0.00",
+      "employee_paycheck_tips": "0.00",
+      "additional_earnings": "0.00",
+      "owners_draw": "0.00",
+      "check_amount": "2469.14",
+      "employer_taxes": "6917.19",
+      "employee_taxes": "35546.72",
+      "benefits": "0.00",
+      "employee_benefits_deductions": "13336.23",
+      "deferred_payroll_taxes": "0.00"
+    },
+    "employee_compensations": [
+      {
+        "employee_id": 1123581321345589,
+        "excluded": false,
+        "gross_pay": "2791.25",
+        "net_pay": "1953.31",
+        "payment_method": "Direct Deposit",
+        "fixed_compensations": [
+          {
+            "name": "Bonus",
+            "amount": "100.00",
+            "job_id": 1
+          },
+          {
+            "name": "Reimbursement",
+            "amount": "100.00",
+            "job_id": 1
+          }
+        ],
+        "hourly_compensations": [
+          {
+            "name": "Regular Hours",
+            "hours": "40.000",
+            "job_id": 1,
+            "compensation_multiplier": 1
+          },
+          {
+            "name": "Overtime",
+            "hours": "15.000",
+            "job_id": 1,
+            "compensation_multiplier": 1.5
+          },
+          {
+            "name": "Double Overtime",
+            "hours": "0.000",
+            "job_id": 1,
+            "compensation_multiplier": 2
+          },
+          {
+            "name": "Regular Hours",
+            "hours": "40.000",
+            "job_id": 2,
+            "compensation_multiplier": 1
+          },
+          {
+            "name": "Overtime",
+            "hours": "5.000",
+            "job_id": 2,
+            "compensation_multiplier": 1.5
+          },
+          {
+            "name": "Double Overtime",
+            "hours": "0.000",
+            "job_id": 2,
+            "compensation_multiplier": 2
+          }
+        ],
+        "paid_time_off": [
+          {
+            "name": "Vacation Hours",
+            "hours": "20.000"
+          },
+          {
+            "name": "Sick Hours",
+            "hours": "0.000"
+          },
+          {
+            "name": "Holiday Hours",
+            "hours": "0.000"
+          }
+        ],
+        "benefits": [
+          {
+            "name": "Group Term Life",
+            "employee_deduction": "100.00",
+            "company_contribution": "50.00",
+            "imputed": true
+          },
+          {
+            "name": "401K",
+            "employee_deduction": "100.00",
+            "company_contribution": "50.00",
+            "imputed": false
+          }
+        ],
+        "deductions": [
+          {
+            "name": "Child Support",
+            "amount": "80.00"
+          }
+        ],
+        "taxes": [
+          {
+            "name": "Federal Income Tax",
+            "employer": false,
+            "amount": "646.69"
+          },
+          {
+            "name": "Social Security",
+            "employer": true,
+            "amount": "191.25"
+          }
+        ]
+      }
+    ]
+  }
+]

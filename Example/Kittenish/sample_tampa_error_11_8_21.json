@@ -1,0 +1,989 @@
+{
+  "id": 4044081233986,
+  "admin_graphql_api_id": "gid://shopify/Order/4044081233986",
+  "app_id": 129785,
+  "browser_ip": "174.211.106.33",
+  "buyer_accepts_marketing": true,
+  "cancel_reason": null,
+  "cancelled_at": null,
+  "cart_token": null,
+  "checkout_id": 23740286042178,
+  "checkout_token": "70f7dc6e20b034de860ca45760464ab4",
+  "client_details": {
+    "accept_language": "en-us",
+    "browser_height": null,
+    "browser_ip": "174.211.106.33",
+    "browser_width": null,
+    "session_hash": null,
+    "user_agent": "Shopify POS/iOS/6.51.0 (iPad8,1/com.jadedpixel.pos/14.8.1) - Build 950"
+  },
+  "closed_at": "2021-11-07T13:54:05-06:00",
+  "confirmed": true,
+  "contact_email": null,
+  "created_at": "2021-11-07T13:54:04-06:00",
+  "currency": "USD",
+  "current_subtotal_price": "152.00",
+  "current_subtotal_price_set": {
+    "shop_money": {
+      "amount": "152.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "152.00",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_discounts": "0.00",
+  "current_total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_duties_set": null,
+  "current_total_price": "163.40",
+  "current_total_price_set": {
+    "shop_money": {
+      "amount": "163.40",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "163.40",
+      "currency_code": "USD"
+    }
+  },
+  "current_total_tax": "11.40",
+  "current_total_tax_set": {
+    "shop_money": {
+      "amount": "11.40",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "11.40",
+      "currency_code": "USD"
+    }
+  },
+  "customer_locale": "en",
+  "device_id": 7,
+  "discount_codes": [],
+  "email": "",
+  "estimated_taxes": false,
+  "financial_status": "paid",
+  "fulfillment_status": "fulfilled",
+  "gateway": "shopify_payments",
+  "landing_site": "/admin/api/unstable/checkouts.json",
+  "landing_site_ref": null,
+  "location_id": 36982784066,
+  "name": "#291904",
+  "note": null,
+  "note_attributes": [],
+  "number": 290904,
+  "order_number": 291904,
+  "order_status_url": "https://kittenish-girl.myshopify.com/29750488/orders/46627a1c4f4975e4a13f600cdb2891c3/authenticate?key=05c5b77a98902817d76f36c52ec5ba59",
+  "original_total_duties_set": null,
+  "payment_gateway_names": [
+    "shopify_payments"
+  ],
+  "phone": null,
+  "presentment_currency": "USD",
+  "processed_at": "2021-11-07T13:54:03-06:00",
+  "processing_method": "direct",
+  "reference": null,
+  "referring_site": null,
+  "source_identifier": "36982784066-7-7237",
+  "source_name": "pos",
+  "source_url": null,
+  "subtotal_price": "152.00",
+  "subtotal_price_set": {
+    "shop_money": {
+      "amount": "152.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "152.00",
+      "currency_code": "USD"
+    }
+  },
+  "tags": "",
+  "tax_lines": [
+    {
+      "price": "9.12",
+      "rate": 0.06,
+      "title": "FL State Tax",
+      "price_set": {
+        "shop_money": {
+          "amount": "9.12",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "9.12",
+          "currency_code": "USD"
+        }
+      },
+      "channel_liable": false
+    },
+    {
+      "price": "2.28",
+      "rate": 0.015,
+      "title": "Hillsborough County Tax",
+      "price_set": {
+        "shop_money": {
+          "amount": "2.28",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "2.28",
+          "currency_code": "USD"
+        }
+      },
+      "channel_liable": false
+    }
+  ],
+  "taxes_included": false,
+  "test": false,
+  "token": "46627a1c4f4975e4a13f600cdb2891c3",
+  "total_discounts": "0.00",
+  "total_discounts_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_line_items_price": "152.00",
+  "total_line_items_price_set": {
+    "shop_money": {
+      "amount": "152.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "152.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_outstanding": "0.00",
+  "total_price": "163.40",
+  "total_price_set": {
+    "shop_money": {
+      "amount": "163.40",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "163.40",
+      "currency_code": "USD"
+    }
+  },
+  "total_price_usd": "163.40",
+  "total_shipping_price_set": {
+    "shop_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "USD"
+    }
+  },
+  "total_tax": "11.40",
+  "total_tax_set": {
+    "shop_money": {
+      "amount": "11.40",
+      "currency_code": "USD"
+    },
+    "presentment_money": {
+      "amount": "11.40",
+      "currency_code": "USD"
+    }
+  },
+  "total_tip_received": "0.00",
+  "total_weight": 1071,
+  "updated_at": "2021-11-07T13:54:06-06:00",
+  "user_id": 71449739330,
+  "customer": {
+    "id": 5330992889922,
+    "email": null,
+    "accepts_marketing": true,
+    "created_at": "2021-11-07T13:53:58-06:00",
+    "updated_at": "2021-11-07T13:54:05-06:00",
+    "first_name": "Emily",
+    "last_name": "Plas",
+    "orders_count": 1,
+    "state": "disabled",
+    "total_spent": "163.40",
+    "last_order_id": 4044081233986,
+    "note": null,
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "phone": null,
+    "tags": "",
+    "last_order_name": "#291904",
+    "currency": "USD",
+    "accepts_marketing_updated_at": "2021-11-07T13:54:05-06:00",
+    "marketing_opt_in_level": null,
+    "tax_exemptions": [],
+    "admin_graphql_api_id": "gid://shopify/Customer/5330992889922"
+  },
+  "discount_applications": [],
+  "fulfillments": [
+    {
+      "id": 3575126294594,
+      "admin_graphql_api_id": "gid://shopify/Fulfillment/3575126294594",
+      "created_at": "2021-11-07T13:54:04-06:00",
+      "location_id": 36982784066,
+      "name": "#291904.1",
+      "order_id": 4044081233986,
+      "service": "manual",
+      "shipment_status": null,
+      "status": "success",
+      "tracking_company": null,
+      "tracking_number": null,
+      "tracking_numbers": [],
+      "tracking_url": null,
+      "tracking_urls": [],
+      "updated_at": "2021-11-07T13:54:04-06:00",
+      "line_items": [
+        {
+          "id": 10424710529090,
+          "admin_graphql_api_id": "gid://shopify/LineItem/10424710529090",
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": "fulfilled",
+          "gift_card": false,
+          "grams": 0,
+          "name": "MANIFESTING THIS RING - 7",
+          "origin_location": {
+            "id": 3054597800002,
+            "country_code": "US",
+            "province_code": "FL",
+            "name": "Kittenish Tampa",
+            "address1": "800 S Village Cir",
+            "address2": "",
+            "city": "Tampa",
+            "zip": "33606"
+          },
+          "price": "36.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "36.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "36.00",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 6589737140290,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "MANIFEST-RING-KTN-7",
+          "taxable": true,
+          "title": "MANIFESTING THIS RING",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 39366391234626,
+          "variant_inventory_management": "shopify",
+          "variant_title": "7",
+          "vendor": "Kittenish",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "2.16",
+              "price_set": {
+                "shop_money": {
+                  "amount": "2.16",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "2.16",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.06,
+              "title": "FL State Tax"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.54",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.54",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.54",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.015,
+              "title": "Hillsborough County Tax"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 10424710594626,
+          "admin_graphql_api_id": "gid://shopify/LineItem/10424710594626",
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": "fulfilled",
+          "gift_card": false,
+          "grams": 816,
+          "name": "NEUTRAL TERRITORY OVERSIZED SWEATER DRESS - L",
+          "origin_location": {
+            "id": 3054597800002,
+            "country_code": "US",
+            "province_code": "FL",
+            "name": "Kittenish Tampa",
+            "address1": "800 S Village Cir",
+            "address2": "",
+            "city": "Tampa",
+            "zip": "33606"
+          },
+          "price": "68.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "68.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "68.00",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 6563046916162,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "BRW0504-KTN-L",
+          "taxable": true,
+          "title": "NEUTRAL TERRITORY OVERSIZED SWEATER DRESS",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 39303462486082,
+          "variant_inventory_management": "shopify",
+          "variant_title": "L",
+          "vendor": "Kittenish",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "4.08",
+              "price_set": {
+                "shop_money": {
+                  "amount": "4.08",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "4.08",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.06,
+              "title": "FL State Tax"
+            },
+            {
+              "channel_liable": false,
+              "price": "1.02",
+              "price_set": {
+                "shop_money": {
+                  "amount": "1.02",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "1.02",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.015,
+              "title": "Hillsborough County Tax"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 10424710627394,
+          "admin_graphql_api_id": "gid://shopify/LineItem/10424710627394",
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": "fulfilled",
+          "gift_card": false,
+          "grams": 255,
+          "name": "GEMINI OLIVE SATIN BUTTON DOWN - M",
+          "origin_location": {
+            "id": 3054597800002,
+            "country_code": "US",
+            "province_code": "FL",
+            "name": "Kittenish Tampa",
+            "address1": "800 S Village Cir",
+            "address2": "",
+            "city": "Tampa",
+            "zip": "33606"
+          },
+          "price": "48.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "48.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "48.00",
+              "currency_code": "USD"
+            }
+          },
+          "product_exists": true,
+          "product_id": 6654666997826,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "KIT1174-KTN-M",
+          "taxable": true,
+          "title": "GEMINI OLIVE SATIN BUTTON DOWN",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "variant_id": 39532940230722,
+          "variant_inventory_management": "shopify",
+          "variant_title": "M",
+          "vendor": "Kittenish",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "2.88",
+              "price_set": {
+                "shop_money": {
+                  "amount": "2.88",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "2.88",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.06,
+              "title": "FL State Tax"
+            },
+            {
+              "channel_liable": false,
+              "price": "0.72",
+              "price_set": {
+                "shop_money": {
+                  "amount": "0.72",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "0.72",
+                  "currency_code": "USD"
+                }
+              },
+              "rate": 0.015,
+              "title": "Hillsborough County Tax"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ]
+    }
+  ],
+  "line_items": [
+    {
+      "id": 10424710529090,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10424710529090",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 0,
+      "name": "MANIFESTING THIS RING - 7",
+      "origin_location": {
+        "id": 3054597800002,
+        "country_code": "US",
+        "province_code": "FL",
+        "name": "Kittenish Tampa",
+        "address1": "800 S Village Cir",
+        "address2": "",
+        "city": "Tampa",
+        "zip": "33606"
+      },
+      "price": "36.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "36.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "36.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6589737140290,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "MANIFEST-RING-KTN-7",
+      "taxable": true,
+      "title": "MANIFESTING THIS RING",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 39366391234626,
+      "variant_inventory_management": "shopify",
+      "variant_title": "7",
+      "vendor": "Kittenish",
+      "tax_lines": [
+        {
+          "channel_liable": false,
+          "price": "2.16",
+          "price_set": {
+            "shop_money": {
+              "amount": "2.16",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "2.16",
+              "currency_code": "USD"
+            }
+          },
+          "rate": 0.06,
+          "title": "FL State Tax"
+        },
+        {
+          "channel_liable": false,
+          "price": "0.54",
+          "price_set": {
+            "shop_money": {
+              "amount": "0.54",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.54",
+              "currency_code": "USD"
+            }
+          },
+          "rate": 0.015,
+          "title": "Hillsborough County Tax"
+        }
+      ],
+      "duties": [],
+      "discount_allocations": []
+    },
+    {
+      "id": 10424710594626,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10424710594626",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 816,
+      "name": "NEUTRAL TERRITORY OVERSIZED SWEATER DRESS - L",
+      "origin_location": {
+        "id": 3054597800002,
+        "country_code": "US",
+        "province_code": "FL",
+        "name": "Kittenish Tampa",
+        "address1": "800 S Village Cir",
+        "address2": "",
+        "city": "Tampa",
+        "zip": "33606"
+      },
+      "price": "68.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "68.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "68.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6563046916162,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "BRW0504-KTN-L",
+      "taxable": true,
+      "title": "NEUTRAL TERRITORY OVERSIZED SWEATER DRESS",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 39303462486082,
+      "variant_inventory_management": "shopify",
+      "variant_title": "L",
+      "vendor": "Kittenish",
+      "tax_lines": [
+        {
+          "channel_liable": false,
+          "price": "4.08",
+          "price_set": {
+            "shop_money": {
+              "amount": "4.08",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "4.08",
+              "currency_code": "USD"
+            }
+          },
+          "rate": 0.06,
+          "title": "FL State Tax"
+        },
+        {
+          "channel_liable": false,
+          "price": "1.02",
+          "price_set": {
+            "shop_money": {
+              "amount": "1.02",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "1.02",
+              "currency_code": "USD"
+            }
+          },
+          "rate": 0.015,
+          "title": "Hillsborough County Tax"
+        }
+      ],
+      "duties": [],
+      "discount_allocations": []
+    },
+    {
+      "id": 10424710627394,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10424710627394",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 255,
+      "name": "GEMINI OLIVE SATIN BUTTON DOWN - M",
+      "origin_location": {
+        "id": 3054597800002,
+        "country_code": "US",
+        "province_code": "FL",
+        "name": "Kittenish Tampa",
+        "address1": "800 S Village Cir",
+        "address2": "",
+        "city": "Tampa",
+        "zip": "33606"
+      },
+      "price": "48.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "48.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "48.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6654666997826,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "KIT1174-KTN-M",
+      "taxable": true,
+      "title": "GEMINI OLIVE SATIN BUTTON DOWN",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 39532940230722,
+      "variant_inventory_management": "shopify",
+      "variant_title": "M",
+      "vendor": "Kittenish",
+      "tax_lines": [
+        {
+          "channel_liable": false,
+          "price": "2.88",
+          "price_set": {
+            "shop_money": {
+              "amount": "2.88",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "2.88",
+              "currency_code": "USD"
+            }
+          },
+          "rate": 0.06,
+          "title": "FL State Tax"
+        },
+        {
+          "channel_liable": false,
+          "price": "0.72",
+          "price_set": {
+            "shop_money": {
+              "amount": "0.72",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.72",
+              "currency_code": "USD"
+            }
+          },
+          "rate": 0.015,
+          "title": "Hillsborough County Tax"
+        }
+      ],
+      "duties": [],
+      "discount_allocations": []
+    }
+  ],
+  "payment_details": {
+    "credit_card_bin": "376774",
+    "avs_result_code": null,
+    "cvv_result_code": null,
+    "credit_card_number": "•••• •••• •••• 1028",
+    "credit_card_company": "American Express"
+  },
+  "refunds": [],
+  "shipping_lines": [],
+  "flowType": "realTime",
+  "riskData": [
+    {
+      "id": 6298499317826,
+      "order_id": 4044081233986,
+      "checkout_id": 23740286042178,
+      "source": "Internal",
+      "score": "0.0",
+      "recommendation": "accept",
+      "display": true,
+      "cause_cancel": null,
+      "message": "Shopify recommendation",
+      "merchant_message": "Shopify recommendation"
+    }
+  ],
+  "transactionData": [
+    {
+      "id": 5036387532866,
+      "order_id": 4044081233986,
+      "amount": "163.40",
+      "kind": "sale",
+      "gateway": "shopify_payments",
+      "status": "success",
+      "message": "Transaction approved",
+      "created_at": "2021-11-07T13:53:59-06:00",
+      "test": false,
+      "authorization": "pi_3JtHRDDgloxQhGZf2yO4PWfq",
+      "currency": "USD",
+      "location_id": 36982784066,
+      "user_id": 71449739330,
+      "parent_id": null,
+      "processed_at": "2021-11-07T13:53:59-06:00",
+      "device_id": 3287121986,
+      "error_code": null,
+      "source_name": "pos",
+      "payment_details": {
+        "credit_card_bin": "376774",
+        "avs_result_code": null,
+        "cvv_result_code": null,
+        "credit_card_number": "•••• •••• •••• 1028",
+        "credit_card_company": "American Express"
+      },
+      "receipt": {
+        "id": "pi_3JtHRDDgloxQhGZf2yO4PWfq",
+        "object": "payment_intent",
+        "amount": 16340,
+        "amount_capturable": 0,
+        "amount_received": 16340,
+        "canceled_at": null,
+        "cancellation_reason": null,
+        "capture_method": "automatic",
+        "charges": {
+          "object": "list",
+          "data": [
+            {
+              "id": "ch_3JtHRDDgloxQhGZf2WrflHt7",
+              "object": "charge",
+              "amount": 16340,
+              "application_fee": "fee_1JtHRFDgloxQhGZfk42lhloz",
+              "balance_transaction": {
+                "id": "txn_3JtHRDDgloxQhGZf2L0NZFIM",
+                "object": "balance_transaction",
+                "exchange_rate": null
+              },
+              "captured": true,
+              "created": 1636314840,
+              "currency": "usd",
+              "failure_code": null,
+              "failure_message": null,
+              "fraud_details": {},
+              "livemode": true,
+              "metadata": {
+                "shop_id": "29750488",
+                "shop_name": "Kittenish",
+                "transaction_fee_total_amount": "392",
+                "transaction_fee_tax_amount": "0",
+                "payments_charge_id": "1928495726658",
+                "order_transaction_id": "5036387532866",
+                "manual_entry": "false",
+                "order_id": "c23740286042178.1"
+              },
+              "outcome": {
+                "network_status": "approved_by_network",
+                "reason": null,
+                "risk_level": "not_assessed",
+                "seller_message": "Payment complete.",
+                "type": "authorized"
+              },
+              "paid": true,
+              "payment_intent": "pi_3JtHRDDgloxQhGZf2yO4PWfq",
+              "payment_method": "pm_1JtHRDDgloxQhGZfTXQUGlJM",
+              "payment_method_details": {
+                "card_present": {
+                  "amount_authorized": 16340,
+                  "brand": "amex",
+                  "cardholder_name": "PLAS/EMILY",
+                  "country": "US",
+                  "description": "Consumer",
+                  "emv_auth_data": "910A1DEC4134D7C6657C30308A023030",
+                  "exp_month": 8,
+                  "exp_year": 2025,
+                  "fingerprint": "nTZ90ODdO055TMpm",
+                  "funding": "credit",
+                  "generated_card": "pm_1JtHRDDgloxQhGZfAr5Maz8o",
+                  "iin": "376774",
+                  "issuer": "American Express",
+                  "last4": "1028",
+                  "network": "amex",
+                  "overcapture_supported": false,
+                  "read_method": "contact_emv",
+                  "receipt": {
+                    "account_type": "credit",
+                    "application_cryptogram": "3868FC6CECCDC8E6",
+                    "application_preferred_name": "AMERICAN EXPRESS",
+                    "authorization_code": "863852",
+                    "authorization_response_code": "5A33",
+                    "cardholder_verification_method": "signature",
+                    "dedicated_file_name": "A000000025010801",
+                    "terminal_verification_results": "0000008000",
+                    "transaction_status_information": "E800"
+                  }
+                },
+                "type": "card_present"
+              },
+              "refunded": false,
+              "source": null,
+              "status": "succeeded",
+              "authorization_code": "863852"
+            }
+          ],
+          "has_more": false,
+          "total_count": 1,
+          "url": "/v1/charges?payment_intent=pi_3JtHRDDgloxQhGZf2yO4PWfq"
+        },
+        "confirmation_method": "automatic",
+        "created": 1636314839,
+        "currency": "usd",
+        "last_payment_error": null,
+        "livemode": true,
+        "metadata": {
+          "shop_id": "29750488",
+          "shop_name": "Kittenish",
+          "transaction_fee_total_amount": "392",
+          "transaction_fee_tax_amount": "0",
+          "payments_charge_id": "1928495726658",
+          "order_transaction_id": "5036387532866",
+          "manual_entry": "false",
+          "order_id": "c23740286042178.1"
+        },
+        "next_action": null,
+        "payment_method": "pm_1JtHRDDgloxQhGZfTXQUGlJM",
+        "payment_method_types": [
+          "card_present"
+        ],
+        "source": null,
+        "status": "succeeded",
+        "authorization_code": "863852",
+        "emv_receipt": "4F08A0000000250108019F0608A0000000250108018408A0000000250108018A025A339F1C0831313232333334349F1E0833333032343030385010414D45524943414E20455850524553539F34035E0300950500000080009B02E8009F100706580103A0A0029F33032028C89F40057E0000A00182023C009F090200019A032111079F390105",
+        "emv_receipt_details": {
+          "application_dedicated_file_adf_name": "A000000025010801",
+          "application_identifier_aid_terminal": "A000000025010801",
+          "dedicated_file_df_name": "A000000025010801",
+          "authorisation_response_code": "5A33",
+          "terminal_identification": "11223344",
+          "interface_device_ifd_serial_number": "33024008",
+          "application_label": "AMERICAN EXPRESS",
+          "cardholder_verification_method_cvm_results": "5E0300",
+          "terminal_verification_results": "0000008000",
+          "transaction_status_information": "E800",
+          "issuer_application_data": "06580103A0A002",
+          "terminal_capabilities": "2028C8",
+          "additional_terminal_capabilities": "7E0000A001",
+          "application_interchange_profile": "3C00",
+          "application_version_number": "0001",
+          "transaction_date": "211107",
+          "point_of_service_pos_entry_mode": "05",
+          "verification_method": "Verified by Signature"
+        }
+      },
+      "admin_graphql_api_id": "gid://shopify/OrderTransaction/5036387532866"
+    }
+  ]
+}

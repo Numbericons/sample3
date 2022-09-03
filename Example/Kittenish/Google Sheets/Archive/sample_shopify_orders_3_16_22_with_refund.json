@@ -1,0 +1,628 @@
+{
+  "page_of_records": [
+    {
+      "record": {
+        "id": 3884828393538,
+        "admin_graphql_api_id": "gid://shopify/Order/3884828393538",
+        "app_id": 580111,
+        "browser_ip": "24.45.198.227",
+        "buyer_accepts_marketing": true,
+        "cancel_reason": null,
+        "cancelled_at": null,
+        "cart_token": "13c933c2e40d70fa4230592d3ca03f34",
+        "checkout_id": 22190335033410,
+        "checkout_token": "71b6ccb0b2c0e52a67223c651cc3317f",
+        "client_details": {
+          "accept_language": "en-US,en;q=0.9",
+          "browser_height": 937,
+          "browser_ip": "24.45.198.227",
+          "browser_width": 1903,
+          "session_hash": null,
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+        },
+        "closed_at": "2021-08-02T16:09:45-05:00",
+        "confirmed": true,
+        "contact_email": "duke.emilyc@gmail.com",
+        "created_at": "2021-07-29T13:57:52-05:00",
+        "currency": "USD",
+        "current_subtotal_price": "0.00",
+        "current_subtotal_price_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "current_total_discounts": "0.00",
+        "current_total_discounts_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "current_total_duties_set": null,
+        "current_total_price": "7.50",
+        "current_total_price_set": {
+          "shop_money": {
+            "amount": "7.50",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "7.50",
+            "currency_code": "USD"
+          }
+        },
+        "current_total_tax": "0.00",
+        "current_total_tax_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "customer_locale": "en",
+        "device_id": null,
+        "discount_codes": [],
+        "email": "duke.emilyc@gmail.com",
+        "estimated_taxes": false,
+        "financial_status": "partially_refunded",
+        "fulfillment_status": "fulfilled",
+        "gateway": "gift_card",
+        "landing_site": "/products/multi-floral-maxi-dress-in-yellow?utm_content=Facebook_UA&utm_source=Facebook_Desktop_Feed&variant=32645122555970&utm_medium=PaidSocial&utm_campaign=Broad DPA - Summer 2021&fbclid=IwAR0fHwmd7W72BBz3hMJI5C-F85KCWK2mG0ZzMgnHM-5GB5zio0Bqq3ZnQP0",
+        "landing_site_ref": null,
+        "location_id": null,
+        "name": "#249386",
+        "note": "\nCustomer started a return via Returnly.com for the item(s) in this order. Please check the \"note\" section for more info or go to https://dashboard.returnly.com",
+        "note_attributes": [
+          {
+            "name": "RMA #25166827 Started",
+            "value": "08/12/21 12:51 PM"
+          },
+          {
+            "name": "RMA #25166827 Items Included",
+            "value": "ACD70313-KTN-S"
+          },
+          {
+            "name": "RMA #25166827 Refund Estimate",
+            "value": "$54.00"
+          },
+          {
+            "name": "RMA #25166827 Tracking",
+            "value": "9400136895232253242790"
+          }
+        ],
+        "number": 248386,
+        "order_number": 249386,
+        "order_status_url": "https://kittenish.com/29750488/orders/b2b93bba8dfc37a6f18bad26ce0580d4/authenticate?key=ea5bab778abe50efe880f645e89e5689",
+        "original_total_duties_set": null,
+        "payment_gateway_names": [
+          "gift_card"
+        ],
+        "phone": null,
+        "presentment_currency": "USD",
+        "processed_at": "2021-07-29T13:57:51-05:00",
+        "processing_method": "gift_cards_only",
+        "reference": null,
+        "referring_site": "https://l.facebook.com/",
+        "source_identifier": null,
+        "source_name": "web",
+        "source_url": null,
+        "subtotal_price": "62.00",
+        "subtotal_price_set": {
+          "shop_money": {
+            "amount": "62.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "62.00",
+            "currency_code": "USD"
+          }
+        },
+        "tags": "returnly-refunded",
+        "tax_lines": [],
+        "taxes_included": false,
+        "test": false,
+        "token": "b2b93bba8dfc37a6f18bad26ce0580d4",
+        "total_discounts": "0.00",
+        "total_discounts_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_line_items_price": "62.00",
+        "total_line_items_price_set": {
+          "shop_money": {
+            "amount": "62.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "62.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_outstanding": "0.00",
+        "total_price": "69.50",
+        "total_price_set": {
+          "shop_money": {
+            "amount": "69.50",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "69.50",
+            "currency_code": "USD"
+          }
+        },
+        "total_price_usd": "69.50",
+        "total_shipping_price_set": {
+          "shop_money": {
+            "amount": "7.50",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "7.50",
+            "currency_code": "USD"
+          }
+        },
+        "total_tax": "0.00",
+        "total_tax_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_tip_received": "0.00",
+        "total_weight": 150,
+        "updated_at": "2021-09-01T13:59:19-05:00",
+        "user_id": null,
+        "billing_address": {
+          "first_name": "Emily",
+          "address1": "184 Summer Street",
+          "phone": "(845) 863-3646",
+          "city": "Stamford",
+          "zip": "06901",
+          "province": "Connecticut",
+          "country": "United States",
+          "last_name": "Duke",
+          "address2": "1407",
+          "company": "",
+          "latitude": 41.054643,
+          "longitude": -73.541049,
+          "name": "Emily Duke",
+          "country_code": "US",
+          "province_code": "CT"
+        },
+        "customer": {
+          "id": 2792840495170,
+          "email": "duke.emilyc@gmail.com",
+          "accepts_marketing": true,
+          "created_at": "2019-12-15T09:15:49-06:00",
+          "updated_at": "2021-09-01T13:59:40-05:00",
+          "first_name": "Emily",
+          "last_name": "Duke",
+          "orders_count": 3,
+          "state": "disabled",
+          "total_spent": "285.45",
+          "last_order_id": 3884828393538,
+          "note": null,
+          "verified_email": true,
+          "multipass_identifier": null,
+          "tax_exempt": false,
+          "phone": null,
+          "tags": "",
+          "last_order_name": "#249386",
+          "currency": "USD",
+          "accepts_marketing_updated_at": "2020-11-09T07:58:03-06:00",
+          "marketing_opt_in_level": "single_opt_in",
+          "tax_exemptions": [],
+          "sms_marketing_consent": null,
+          "admin_graphql_api_id": "gid://shopify/Customer/2792840495170",
+          "default_address": {
+            "id": 6400385155138,
+            "customer_id": 2792840495170,
+            "first_name": "Emily",
+            "last_name": "Duke",
+            "company": "",
+            "address1": "184 Summer Street",
+            "address2": "1407",
+            "city": "Stamford",
+            "province": "Connecticut",
+            "country": "United States",
+            "zip": "06901",
+            "phone": "(845) 863-3646",
+            "name": "Emily Duke",
+            "province_code": "CT",
+            "country_code": "US",
+            "country_name": "United States",
+            "default": true
+          }
+        },
+        "discount_applications": [],
+        "fulfillments": [
+          {
+            "id": 3440455680066,
+            "admin_graphql_api_id": "gid://shopify/Fulfillment/3440455680066",
+            "created_at": "2021-08-02T16:09:44-05:00",
+            "location_id": 87588878,
+            "name": "#249386.1",
+            "order_id": 3884828393538,
+            "origin_address": {},
+            "receipt": {},
+            "service": "manual",
+            "shipment_status": null,
+            "status": "success",
+            "tracking_company": "UPSM",
+            "tracking_number": "92748909901345513003593461",
+            "tracking_numbers": [
+              "92748909901345513003593461"
+            ],
+            "tracking_url": "https://tools.usps.com/go/TrackConfirmAction.action?tLabels=92748909901345513003593461",
+            "tracking_urls": [
+              "https://tools.usps.com/go/TrackConfirmAction.action?tLabels=92748909901345513003593461"
+            ],
+            "updated_at": "2021-08-02T16:09:45-05:00",
+            "line_items": [
+              {
+                "id": 10098900205634,
+                "admin_graphql_api_id": "gid://shopify/LineItem/10098900205634",
+                "fulfillable_quantity": 0,
+                "fulfillment_service": "manual",
+                "fulfillment_status": "fulfilled",
+                "gift_card": false,
+                "grams": 150,
+                "name": "SIMONE PAISLEY DRESS - S",
+                "origin_location": {
+                  "id": 1770244735042,
+                  "country_code": "US",
+                  "province_code": "TN",
+                  "name": "Kittenish",
+                  "address1": "1016 Kasper Way",
+                  "address2": "",
+                  "city": "Goodlettsville",
+                  "zip": "37072"
+                },
+                "price": "62.00",
+                "price_set": {
+                  "shop_money": {
+                    "amount": "62.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "62.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "product_exists": true,
+                "product_id": 6557226238018,
+                "properties": [],
+                "quantity": 1,
+                "requires_shipping": true,
+                "sku": "ACD70313-KTN-S",
+                "taxable": true,
+                "title": "SIMONE PAISLEY DRESS",
+                "total_discount": "0.00",
+                "total_discount_set": {
+                  "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "variant_id": 39292734013506,
+                "variant_inventory_management": "shopify",
+                "variant_title": "S",
+                "vendor": "Kittenish",
+                "tax_lines": [],
+                "duties": [],
+                "discount_allocations": []
+              }
+            ]
+          }
+        ],
+        "line_items": [
+          {
+            "id": 10098900205634,
+            "admin_graphql_api_id": "gid://shopify/LineItem/10098900205634",
+            "fulfillable_quantity": 0,
+            "fulfillment_service": "manual",
+            "fulfillment_status": "fulfilled",
+            "gift_card": false,
+            "grams": 150,
+            "name": "SIMONE PAISLEY DRESS - S",
+            "origin_location": {
+              "id": 1770244735042,
+              "country_code": "US",
+              "province_code": "TN",
+              "name": "Kittenish",
+              "address1": "1016 Kasper Way",
+              "address2": "",
+              "city": "Goodlettsville",
+              "zip": "37072"
+            },
+            "price": "62.00",
+            "price_set": {
+              "shop_money": {
+                "amount": "62.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "62.00",
+                "currency_code": "USD"
+              }
+            },
+            "product_exists": true,
+            "product_id": 6557226238018,
+            "properties": [],
+            "quantity": 1,
+            "requires_shipping": true,
+            "sku": "ACD70313-KTN-S",
+            "taxable": true,
+            "title": "SIMONE PAISLEY DRESS",
+            "total_discount": "0.00",
+            "total_discount_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "variant_id": 39292734013506,
+            "variant_inventory_management": "shopify",
+            "variant_title": "S",
+            "vendor": "Kittenish",
+            "tax_lines": [],
+            "duties": [],
+            "discount_allocations": []
+          }
+        ],
+        "payment_terms": null,
+        "refunds": [
+          {
+            "id": 814173388866,
+            "admin_graphql_api_id": "gid://shopify/Refund/814173388866",
+            "created_at": "2021-09-01T13:59:04-05:00",
+            "note": "ACD70313-KTN-S : Too small -- processed by Returnly for RMA #25166827 -- refund value applied to original payment method",
+            "order_id": 3884828393538,
+            "processed_at": "2021-09-01T13:59:04-05:00",
+            "restock": false,
+            "total_duties_set": {
+              "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+              }
+            },
+            "user_id": null,
+            "order_adjustments": [
+              {
+                "id": 181099102274,
+                "amount": "8.00",
+                "amount_set": {
+                  "shop_money": {
+                    "amount": "8.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "8.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "kind": "refund_discrepancy",
+                "order_id": 3884828393538,
+                "reason": "Refund discrepancy",
+                "refund_id": 814173388866,
+                "tax_amount": "0.00",
+                "tax_amount_set": {
+                  "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  }
+                }
+              }
+            ],
+            "transactions": [
+              {
+                "id": 4918615343170,
+                "admin_graphql_api_id": "gid://shopify/OrderTransaction/4918615343170",
+                "amount": "54.00",
+                "authorization": null,
+                "created_at": "2021-09-01T13:59:03-05:00",
+                "currency": "USD",
+                "device_id": null,
+                "error_code": null,
+                "gateway": "gift_card",
+                "kind": "refund",
+                "location_id": null,
+                "message": null,
+                "order_id": 3884828393538,
+                "parent_id": 4859219378242,
+                "processed_at": "2021-09-01T13:59:03-05:00",
+                "receipt": {
+                  "gift_card_id": 427427954754,
+                  "gift_card_last_characters": "ea36"
+                },
+                "source_name": "352363",
+                "status": "success",
+                "test": false,
+                "user_id": null
+              }
+            ],
+            "refund_line_items": [
+              {
+                "id": 306914492482,
+                "line_item_id": 10098900205634,
+                "location_id": 87588878,
+                "quantity": 1,
+                "restock_type": "no_restock",
+                "subtotal": 62,
+                "subtotal_set": {
+                  "shop_money": {
+                    "amount": "62.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "62.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "total_tax": 0,
+                "total_tax_set": {
+                  "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  },
+                  "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "USD"
+                  }
+                },
+                "line_item": {
+                  "id": 10098900205634,
+                  "admin_graphql_api_id": "gid://shopify/LineItem/10098900205634",
+                  "fulfillable_quantity": 0,
+                  "fulfillment_service": "manual",
+                  "fulfillment_status": "fulfilled",
+                  "gift_card": false,
+                  "grams": 150,
+                  "name": "SIMONE PAISLEY DRESS - S",
+                  "origin_location": {
+                    "id": 1770244735042,
+                    "country_code": "US",
+                    "province_code": "TN",
+                    "name": "Kittenish",
+                    "address1": "1016 Kasper Way",
+                    "address2": "",
+                    "city": "Goodlettsville",
+                    "zip": "37072"
+                  },
+                  "price": "62.00",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "62.00",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "62.00",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "product_exists": true,
+                  "product_id": 6557226238018,
+                  "properties": [],
+                  "quantity": 1,
+                  "requires_shipping": true,
+                  "sku": "ACD70313-KTN-S",
+                  "taxable": true,
+                  "title": "SIMONE PAISLEY DRESS",
+                  "total_discount": "0.00",
+                  "total_discount_set": {
+                    "shop_money": {
+                      "amount": "0.00",
+                      "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                      "amount": "0.00",
+                      "currency_code": "USD"
+                    }
+                  },
+                  "variant_id": 39292734013506,
+                  "variant_inventory_management": "shopify",
+                  "variant_title": "S",
+                  "vendor": "Kittenish",
+                  "tax_lines": [],
+                  "duties": [],
+                  "discount_allocations": []
+                }
+              }
+            ],
+            "duties": []
+          }
+        ],
+        "shipping_address": {
+          "first_name": "Emily",
+          "address1": "184 Summer Street",
+          "phone": "(845) 863-3646",
+          "city": "Stamford",
+          "zip": "06901",
+          "province": "Connecticut",
+          "country": "United States",
+          "last_name": "Duke",
+          "address2": "1407",
+          "company": "",
+          "latitude": 41.054643,
+          "longitude": -73.541049,
+          "name": "Emily Duke",
+          "country_code": "US",
+          "province_code": "CT"
+        },
+        "shipping_lines": [
+          {
+            "id": 3282134728770,
+            "carrier_identifier": null,
+            "code": "UPSM",
+            "delivery_category": null,
+            "discounted_price": "7.50",
+            "discounted_price_set": {
+              "shop_money": {
+                "amount": "7.50",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "7.50",
+                "currency_code": "USD"
+              }
+            },
+            "phone": null,
+            "price": "7.50",
+            "price_set": {
+              "shop_money": {
+                "amount": "7.50",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "7.50",
+                "currency_code": "USD"
+              }
+            },
+            "requested_fulfillment_service_id": null,
+            "source": "shopify",
+            "title": "UPSM",
+            "tax_lines": [],
+            "discount_allocations": []
+          }
+        ]
+      }
+    }
+  ]
+}

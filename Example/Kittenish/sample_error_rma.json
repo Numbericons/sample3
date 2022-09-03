@@ -1,0 +1,160 @@
+{
+  "id": "29037334",
+  "type": "returns",
+  "attributes": {
+    "rma": "29037334",
+    "ext_store_id": null,
+    "shopper_email": "darr.niveen@yahoo.com",
+    "currency": "USD",
+    "status": "delivered",
+    "order_shipping_refund": "0.00",
+    "return_shipping_quote_amount": "8.00",
+    "return_shipping_refund_amount": "0.00",
+    "return_shipping_paid_amount": "8.00",
+    "subtotal_amount": "24.00",
+    "estimated_refund_amount": "16.00",
+    "refund_amount": "0.00",
+    "restocking_fee_amount": "0.00",
+    "tax_amount": "0.00",
+    "discount_amount": "0.00",
+    "shopper_message": "Cancel this return and refund the Dream On Pants in Shopify ",
+    "merchant_notes": null,
+    "is_exchange": false,
+    "is_gift": false,
+    "is_exempt_from_shipping": false,
+    "return_label_amount": "4.50",
+    "shopper_address": {
+      "name": "Niveen Darr",
+      "line1": "204 RHODE ISLAND AVE",
+      "line2": null,
+      "city": "CHERRY HILL",
+      "state": "NJ",
+      "postal_code": "08002-3120",
+      "country_code": "US"
+    },
+    "created_at": "2021-12-03T01:56:34.908Z",
+    "updated_at": "2021-12-13T21:53:50.250Z",
+    "refunded_at": null
+  },
+  "relationships": {
+    "return_line_items": {
+      "data": [
+        {
+          "id": "32052038",
+          "type": "return_line_items"
+        }
+      ]
+    },
+    "shipping_labels": {
+      "data": [
+        {
+          "id": "21781697",
+          "type": "shipping_labels"
+        }
+      ]
+    },
+    "refunds": {
+      "data": []
+    },
+    "instant_refund_voucher": {
+      "data": {
+        "id": "app_EMQanR5hhknzLshr",
+        "type": "instant_refund_voucher"
+      }
+    }
+  },
+  "responseData": [
+    {
+      "id": "29037334",
+      "type": "returns",
+      "attributes": {
+        "rma": "29037334",
+        "ext_store_id": null,
+        "shopper_email": "darr.niveen@yahoo.com",
+        "currency": "USD",
+        "status": "delivered",
+        "order_shipping_refund": "0.00",
+        "return_shipping_quote_amount": "8.00",
+        "return_shipping_refund_amount": "0.00",
+        "return_shipping_paid_amount": "8.00",
+        "subtotal_amount": "24.00",
+        "estimated_refund_amount": "16.00",
+        "refund_amount": "0.00",
+        "restocking_fee_amount": "0.00",
+        "tax_amount": "0.00",
+        "discount_amount": "0.00",
+        "shopper_message": "Cancel this return and refund the Dream On Pants in Shopify ",
+        "merchant_notes": null,
+        "is_exchange": false,
+        "is_gift": false,
+        "is_exempt_from_shipping": false,
+        "return_label_amount": "4.50",
+        "shopper_address": {
+          "name": "Niveen Darr",
+          "line1": "204 RHODE ISLAND AVE",
+          "line2": null,
+          "city": "CHERRY HILL",
+          "state": "NJ",
+          "postal_code": "08002-3120",
+          "country_code": "US"
+        },
+        "created_at": "2021-12-03T01:56:34.908Z",
+        "updated_at": "2021-12-13T21:53:50.250Z",
+        "refunded_at": null
+      },
+      "relationships": {
+        "return_line_items": {
+          "data": [
+            {
+              "ext_order_line_item_id": "10436481712194",
+              "ext_order_id": "4049222402114",
+              "ext_order_number": "#292911",
+              "sku": "VMGKIT18-KTN-S",
+              "product_name": "DREAM ON BUTTON DOWN TOP",
+              "product_id": null,
+              "variant_id": "39453180231746",
+              "shipping_label_id": 21781697,
+              "return_cause": "Received Wrong Item ",
+              "original_amount": "24.00",
+              "discount_amount": "0.00",
+              "estimated_refund_amount": "24.00",
+              "restocking_fee_amount": "0.00",
+              "order_shipping_refund_amount": "0.00",
+              "return_label_cost_amount": "4.50",
+              "return_shipping_paid_amount": "8.00",
+              "total_refund_amount": "16.00",
+              "tax_amount": "0.00",
+              "units": 1
+            }
+          ]
+        },
+        "shipping_labels": {
+          "data": [
+            {
+              "carrier": "USPS",
+              "weight_grams": 261,
+              "tracking_number": "9400136895232670650390",
+              "pdf_url": "https://web-img.returnly.com/shipping_label/2be/fb0/278/d03a3e8efac6b6d57bf653d/label.pdf"
+            }
+          ]
+        },
+        "refunds": {
+          "data": []
+        },
+        "instant_refund_voucher": {
+          "data": {
+            "status": "EXPIRED",
+            "credit_issued_amount": "16.00",
+            "credit_spent_amount": "0.00",
+            "merchant_invoice_amount": "0.00",
+            "refund_to_shopper_amount": "0.00",
+            "shopper_invoice_amount": "0.00",
+            "ext_voucher_id": null
+          }
+        }
+      },
+      "refunds": [],
+      "otherrefunds": []
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": 3698775720002,
+  "admin_graphql_api_id": "gid://shopify/Fulfillment/3698775720002",
+  "created_at": "2022-01-14T17:15:40-06:00",
+  "location_id": 87588878,
+  "name": "#319293.1",
+  "order_id": 4173799718978,
+  "origin_address": {},
+  "receipt": {},
+  "service": "manual",
+  "shipment_status": null,
+  "status": "success",
+  "tracking_company": "UPSM",
+  "tracking_number": "92612909901345513003888486",
+  "tracking_numbers": [
+    "92612909901345513003888486"
+  ],
+  "tracking_url": "https://tools.usps.com/go/TrackConfirmAction.action?tLabels=92612909901345513003888486",
+  "tracking_urls": [
+    "https://tools.usps.com/go/TrackConfirmAction.action?tLabels=92612909901345513003888486"
+  ],
+  "updated_at": "2022-01-14T17:15:40-06:00",
+  "line_items": [
+    {
+      "id": 10694120734786,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10694120734786",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 184,
+      "name": "THEA TEDDY SHORTS - XL",
+      "origin_location": {
+        "id": 1770244735042,
+        "country_code": "US",
+        "province_code": "TN",
+        "name": "Kittenish",
+        "address1": "1016 Kasper Way",
+        "address2": "",
+        "city": "Goodlettsville",
+        "zip": "37072"
+      },
+      "price": "20.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "20.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "20.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 4706320318530,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "BRP0078-KTN-XL",
+      "taxable": true,
+      "title": "THEA TEDDY SHORTS",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 32505615089730,
+      "variant_inventory_management": "shopify",
+      "variant_title": "XL",
+      "vendor": "Kittenish Pre-Fall",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": []
+    },
+    {
+      "id": 10694120800322,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10694120800322",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 289,
+      "name": "GOLDEN TAN BIKE SHORTS - XL",
+      "origin_location": {
+        "id": 1770244735042,
+        "country_code": "US",
+        "province_code": "TN",
+        "name": "Kittenish",
+        "address1": "1016 Kasper Way",
+        "address2": "",
+        "city": "Goodlettsville",
+        "zip": "37072"
+      },
+      "price": "39.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "39.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "39.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 4745162391618,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "BRP0301-TAN-KTN-XL",
+      "taxable": true,
+      "title": "GOLDEN TAN BIKE SHORTS",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 32580627529794,
+      "variant_inventory_management": "shopify",
+      "variant_title": "XL",
+      "vendor": "Kittenish",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": []
+    },
+    {
+      "id": 10694120833090,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10694120833090",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 289,
+      "name": "BLUE BIKE SHORTS - XL",
+      "origin_location": {
+        "id": 1770244735042,
+        "country_code": "US",
+        "province_code": "TN",
+        "name": "Kittenish",
+        "address1": "1016 Kasper Way",
+        "address2": "",
+        "city": "Goodlettsville",
+        "zip": "37072"
+      },
+      "price": "39.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "39.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "39.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6682086703170,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "BRP0301-BLU-KTN -XL",
+      "taxable": true,
+      "title": "BLUE BIKE SHORTS",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 39620594565186,
+      "variant_inventory_management": "shopify",
+      "variant_title": "XL",
+      "vendor": "Kittenish",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": []
+    },
+    {
+      "id": 10694120865858,
+      "admin_graphql_api_id": "gid://shopify/LineItem/10694120865858",
+      "fulfillable_quantity": 0,
+      "fulfillment_service": "manual",
+      "fulfillment_status": "fulfilled",
+      "gift_card": false,
+      "grams": 289,
+      "name": "PINK BIKE SHORTS - XL",
+      "origin_location": {
+        "id": 1770244735042,
+        "country_code": "US",
+        "province_code": "TN",
+        "name": "Kittenish",
+        "address1": "1016 Kasper Way",
+        "address2": "",
+        "city": "Goodlettsville",
+        "zip": "37072"
+      },
+      "price": "39.00",
+      "price_set": {
+        "shop_money": {
+          "amount": "39.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "39.00",
+          "currency_code": "USD"
+        }
+      },
+      "product_exists": true,
+      "product_id": 6682086015042,
+      "properties": [],
+      "quantity": 1,
+      "requires_shipping": true,
+      "sku": "BRP0301-PNK-KTN -XL",
+      "taxable": true,
+      "title": "PINK BIKE SHORTS",
+      "total_discount": "0.00",
+      "total_discount_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "USD"
+        }
+      },
+      "variant_id": 39620593090626,
+      "variant_inventory_management": "shopify",
+      "variant_title": "XL",
+      "vendor": "Kittenish",
+      "tax_lines": [],
+      "duties": [],
+      "discount_allocations": []
+    }
+  ]
+}

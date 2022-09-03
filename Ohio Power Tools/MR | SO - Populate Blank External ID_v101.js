@@ -34,7 +34,7 @@
         log.debug('result : ', result);
         log.debug('JSON.parse(result) ', JSON.parse(result));
 
-        const id = JSON.parse(result).value;
+        const id = JSON.parse(result).id;
         log.debug('id : ', id);
 
         const customer = record.load({
@@ -82,13 +82,19 @@
       function createSearch() {
         return search.create({
           type: "customer",
-          filters: [
-              ["externalidstring","isempty",""],
-              "AND"
+          filters:
+          [
+              ["externalidstring","isempty",""], 
+              "AND", 
               ["internalid","anyof","4019"]
           ],
           columns:
           [
+              search.createColumn({
+                name: "entityid",
+                sort: search.Sort.ASC,
+                label: "ID"
+              }),
               search.createColumn({name: "altname", label: "Name"}),
               search.createColumn({name: "internalid", label: "Internal ID"}),
               search.createColumn({name: "externalid", label: "External ID"})

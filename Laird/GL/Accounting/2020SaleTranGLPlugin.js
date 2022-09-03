@@ -9,6 +9,7 @@ var srcAccounts = {
     foodservice: 832, //44202 - added for 2020
     direct: 719, //41002
     amazon: 725 //42002
+    
   },
   '230': { // 50091 Cost of Goods Sold-Materials
     isCogs:true,
