@@ -9,6 +9,9 @@ define(["N/record", "N/task", "N/search"],
 
     function afterSubmit(context) {      
       log.debug("newRecord: ", context.newRecord);
+
+      const createOrEdit = context.type === context.UserEventType.CREATE || context.type === context.UserEventType.EDIT;
+      if (!createOrEdit) return
       
       var id = context.newRecord.getValue({
         fieldId: 'id'
@@ -16,20 +19,38 @@ define(["N/record", "N/task", "N/search"],
 
       var customer = record.load({
         type: record.Type.CUSTOMER,
-        id: customer
+        id: id
       });
 
-      customer.getValue({
-        name: 'externalid'
+      var external = customer.getValue({
+        fieldId: 'externalid'
       });
 
-      if (missingExternal) {
+      if (external === "") {
+        log.debug('Externalid was empty, updating to match internalid');
         customer.setValue({
           fieldId: 'externalid',
           value: id,
         });
   
         customer.save();
+      }
+    }
+
+    function isEmpty(stValue) {
+      if ((stValue == "") || (stValue == null) || (stValue == undefined)) {
+        return true;
+      } else {
+        if (stValue instanceof String) {
+          if (stValue == "") {
+            return true;
+          }
+        } else if (stValue instanceof Array) {
+          if (stValue.length == 0) {
+            return true;
+          }
+        }
+        return false;
       }
     }
 
