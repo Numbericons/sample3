@@ -4,18 +4,28 @@
   *@Author  
   */
   /***********************************************************************
-   * File:        MR | SO - Populate Blank External ID.js
+   * File:        Delete Customer Price List Records v100
    * Date:        8/18/2022
    * Summary:
    * Author:       Zachary Oliver
-   * Updates:     
+   * Notes:     Removes all previous custom records to avoid overlap, can update function to target same criteria previous records
    ***********************************************************************/
   define(
-    ["N/record", "N/search", "N/runtime", "N/error"],
-    (record, search, runtime, error) => {
+    ["N/record", "N/search", "N/runtime", "N/error", "N/task"],
+    (record, search, runtime, error, task) => {
       const getInputData = (context) => {
         try {
-          var search = createSearch();
+          var scriptObj = runtime.getCurrentScript();
+          var cusRec = scriptObj.getParameter({ name: "custscript_vel_mr_del_customer" });
+          log.debug('cusRec   ' + cusRec);
+
+          var parsed = JSON.parse(cusRec);
+          log.debug('parsed : ', parsed);
+
+          var id = parsed.id
+          log.debug('id : ', id);
+
+          var search = createSearch(id);
 
           var count = search.runPaged().count;
           log.debug('Count of search results : ' + count);
@@ -31,30 +41,17 @@
 
       const map = (context) => {
         let result = context.value;
-        log.debug('result : ', result);
-        log.debug('JSON.parse(result) ', JSON.parse(result));
+        log.debug('JSON.parse(result) values: ', JSON.parse(result).values);
 
-        const id = JSON.parse(result).id;
+        const id = JSON.parse(result).values["internalid"].value;
         log.debug('id : ', id);
-        
-        record.submitFields({
-          type: customer,
-          fieldId: 'externalid',
-          values: {
-            externalid: id
-          }
-        })
 
-        const customer = record.load({
-          type: "customer",
+        record.delete({
+          type: 'customrecord_vel_customer_pr_rule',
           id: id
-        });
-
-        var newExternal = customer.getValue({
-          fieldId: 'externalid'
         })
 
-        log.debug('newExternal : ', newExternal);
+        log.debug('Deleted id : ', id);
 
         return true;
       };
@@ -84,48 +81,24 @@
           },);
           throw errorObj;
         }
-      };
+      }
 
-      function createSearch() {
+      function createSearch(id) {
         return search.create({
-          type: "customer",
+          type: "customrecord_vel_customer_pr_rule",
           filters:
           [
-            ["isinactive","is","F"],
-            "AND",
-            ["externalidstring","isempty",""],
-            "AND",
-            ["internalid","anyof","5016"]
+            ["custrecord_vel_cust_pl_customer","anyof",id]
           ],
           columns:
           [
-              search.createColumn({
-                name: "entityid",
-                sort: search.Sort.ASC,
-                label: "ID"
-              }),
-              search.createColumn({name: "altname", label: "Name"}),
               search.createColumn({name: "internalid", label: "Internal ID"}),
-              search.createColumn({name: "externalid", label: "External ID"})
+              search.createColumn({
+                name: "name",
+                label: "Name"
+              })
           ]
         });
-      }
-
-      function isEmpty(stValue) {
-        if ((stValue == "") || (stValue == null) || (stValue == undefined)) {
-          return true;
-        } else {
-          if (stValue instanceof String) {
-            if (stValue == "") {
-              return true;
-            }
-          } else if (stValue instanceof Array) {
-            if (stValue.length == 0) {
-              return true;
-            }
-          }
-          return false;
-        }
       }
 
       return {
