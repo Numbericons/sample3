@@ -5,10 +5,16 @@
 
 var srcAccounts = {
   '54' : { //49001 Sales
-    wholesale: 730, //40002
-    foodservice: 832, //44202 - added for 2020
-    direct: 719, //41002
-    amazon: 725 //42002
+    laird: {
+      wholesale: 730, //40002 Sales- wholesale
+      foodservice: 832, //44202 Sales- Other Food Service (added for 2020)
+      direct: 719, //41002 Sales-Direct
+      amazon: 725 //42002 Sales- Amazon
+    },
+    pickyb2b: {
+      wholesale: 730, //40002 Sales- wholesale
+      amazon: 725 //42002 Sales- Amazon
+    }
   },
   '230': { // 50091 Cost of Goods Sold-Materials
     isCogs:true,
@@ -45,7 +51,8 @@ function customizeGlImpact(tran, standardLines, customLines, book){
   var txType = tran.getFieldValue('type');
   var docNum = tran.getFieldValue('tranid');
   var custId = tran.getFieldValue('entity');
-  
+  var store = tran.getFieldValue('custentity_celigo_shopify_store');
+  nlapiLogExecution('DEBUG', 'store is: ', store);
   
   //look to see if orderSrc is present in the createdFrom transaction
   if(!orderSrc) {
@@ -128,12 +135,9 @@ function customizeGlImpact(tran, standardLines, customLines, book){
 
   var isDirect = 'Website' == orderSrc;
   var isAmazon = 'Amazon' == orderSrc;
-
-  var shopifyStore = tran.getFieldValue('custbody_celigo_shopify_store');
-  nlapiLogExecution('DEBUG', 'Shopify store is: ' + shopifyStore);
   //2019 code commented out
   //var isWholesale = !isDirect && 'Wholesale Item' == customerType;
-  var isWholesale = '8' == departmentId || '201' == shopifyStore; //Geoff following same structure as Brett. 201 is 'Picky Bars B2B'
+  var isWholesale = '8' == departmentId; //Geoff following same structure as Brett
   var isFoodService = '9' == departmentId; //Geoff following same structure as Brett
   //fallback if nothing else matches
   isDirect = isDirect || (!orderSrc && !isAmazon && !isWholesale && !isFoodService);
@@ -148,7 +152,10 @@ function customizeGlImpact(tran, standardLines, customLines, book){
 
     for(var i = standardLines.getCount() -1; i>= 0; i--){
       var line = standardLines.getLine(i);
-      var accountMap = srcAccounts[''+line.getAccountId()];
+      var storeKey = setStore(store);
+      nlapiLogExecution('DEBUG', 'storeKey is: ', storeKey);
+      var accountMap = srcAccounts[storeKey][''+line.getAccountId()];
+      nlapiLogExecution('DEBUG', 'accountMap is: ', accountMap);
       if(accountMap){
         if(accountMap.isCogs) {
         //nlapiLogExecution('DEBUG', 'Inside iscogs', '');
@@ -265,6 +272,12 @@ function customizeGlImpact(tran, standardLines, customLines, book){
 
 }
 
+function setStore(store) {
+  if (store === 'Laird Superfood') return 'laird';
+  if (store === 'Picky Bars' || store === 'Picky Bars B2B') return 'picky';
+
+  nlapiLogExecution('ERROR', 'Didnt find a matching store, check customer Shopify Store field');
+}
 
 function transferValues(srcLine, destLine){
   destLine.setLocationId(srcLine.getLocationId());
