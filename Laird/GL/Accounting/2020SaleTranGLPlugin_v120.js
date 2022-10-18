@@ -11,7 +11,7 @@ var srcAccounts = {
       direct: 719, //41002 Sales-Direct
       amazon: 725 //42002 Sales- Amazon
     },
-    picky: {
+    pickyb2b: {
       wholesale: 730, //40002 Sales- wholesale
       amazon: 725 //42002 Sales- Amazon
     }
@@ -51,7 +51,7 @@ function customizeGlImpact(tran, standardLines, customLines, book){
   var txType = tran.getFieldValue('type');
   var docNum = tran.getFieldValue('tranid');
   var custId = tran.getFieldValue('entity');
-  var store = tran.getFieldValue('custentity_celigo_shopify_store');
+  var store = tran.getFieldValue('custbody_celigo_shopify_store_id');
   nlapiLogExecution('DEBUG', 'store is: ', store);
   
   //look to see if orderSrc is present in the createdFrom transaction
@@ -155,10 +155,16 @@ function customizeGlImpact(tran, standardLines, customLines, book){
       var storeKey;
       if (store) {
         storeKey = setStore(store);
-        nlapiLogExecution('DEBUG', 'storeKey is: ', storeKey);
-        var accountMap = srcAccounts[''+line.getAccountId()][storeKey];
       }
-      nlapiLogExecution('DEBUG', 'accountMap is: ', accountMap);
+
+      var lineAcc = line.getAccountId();
+      nlapiLogExecution('DEBUG', 'line.getAccountId() is: ', lineAcc);
+      var accountMap = srcAccounts[''+line.getAccountId()];
+      
+      if (!!storeKey && line.getAccountId() === 54) { //need to key into either laird or pickyb2b within accountMap
+        accountMap = accountMap[storeKey];
+        nlapiLogExecution('DEBUG', 'Shopify accountMap is now: ', JSON.stringify(accountMap));
+      }
       if(accountMap){
         if(accountMap.isCogs) {
         //nlapiLogExecution('DEBUG', 'Inside iscogs', '');
@@ -210,8 +216,9 @@ function customizeGlImpact(tran, standardLines, customLines, book){
           //nlapiLogExecution('DEBUG', 'Inside >0 Value Order', 'i='+i+' account='+line.getAccountId()+' orderDiscountTotal='+orderDiscountTotal);
           
         }
-        //nlapiLogExecution('DEBUG', 'Eval COGS Params', isMarketing ? 'marketing0amount' : isUnclassDiscount ? 'unclass0amount' : isDirect ? 'direct' : isAmazon ? 'amazon' : isFoodService ? 'foodservice' : 'wholesale');
+        nlapiLogExecution('DEBUG', 'Eval bool chain: ', isMarketing ? 'marketing0amount' : isUnclassDiscount ? 'unclass0amount' : isDirect ? 'direct' : isAmazon ? 'amazon' : isFoodService ? 'foodservice' : 'wholesale');
         var targetAccount = accountMap[isMarketing ? 'marketing0amount' : isUnclassDiscount ? 'unclass0amount' : isDirect ? 'direct' : isAmazon ? 'amazon' : isFoodService ? 'foodservice' : 'wholesale']; //CHECK if mapping altered
+        nlapiLogExecution('DEBUG', 'targetAccount: ', targetAccount);
         var srcCredit = (parseFloat(line.getCreditAmount()) || 0) ;
         var srcDebit =  (parseFloat(line.getDebitAmount()) ||0); 
         if(srcCredit || srcDebit){
@@ -227,15 +234,16 @@ function customizeGlImpact(tran, standardLines, customLines, book){
           transferValues(line, reverseLine);
 
           var salesLine = customLines.addNewLine();
-          salesLine.setAccountId(targetAccount);
-          if(srcCredit){
-            salesLine.setCreditAmount(srcCredit.toFixed(2));
+          if (targetAccount) {
+            salesLine.setAccountId(targetAccount);
+            if(srcCredit){
+              salesLine.setCreditAmount(srcCredit.toFixed(2));
+            }
+            if(srcDebit){
+              salesLine.setDebitAmount(srcDebit.toFixed(2));
+            }
+            transferValues(line, salesLine);
           }
-          if(srcDebit){
-            salesLine.setDebitAmount(srcDebit.toFixed(2));
-          }
-          transferValues(line, salesLine);
-
         }
       }
     }
@@ -276,8 +284,12 @@ function customizeGlImpact(tran, standardLines, customLines, book){
 }
 
 function setStore(store) {
-  if (store === 'Laird Superfood') return 'laird';
-  if (store === 'Picky Bars' || store === 'Picky Bars B2B') return 'picky';
+  const lairdId = "13083049";
+  const pickyId = "16315219";
+  const pickyB2BId = "31056904";
+
+  if (store === lairdId || store === pickyId) return 'laird';
+  if (store === pickyB2BId) return 'pickyb2b';
 
   nlapiLogExecution('ERROR', 'Didnt find a matching store, check customer Shopify Store field');
 }

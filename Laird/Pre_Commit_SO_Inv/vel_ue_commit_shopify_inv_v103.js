@@ -6,14 +6,28 @@ define(["N/record", "N/task", "N/search"],
     */
 
     function afterSubmit(context) {
-      var newRec = context.newRecord;
-      
-      var id = newRec.getValue({
-        fieldId: 'id'
-      });
-      log.debug('newRec id : ', id);
+      if (context.type == context.UserEventType.CREATE) {
+        var newRec = context.newRecord;
+        
+        var id = newRec.getValue({
+          fieldId: 'id'
+        });
+        log.debug('newRec id : ', id);
 
-      addNumbers(newRec, id);
+        var storeId = newRec.getValue({
+          fieldId: 'custbody_celigo_shopify_store_id'
+        });
+
+        const pickyStoreId = "16315219";
+        const pickyB2BStoreId = "31056904";
+
+        if (storeId !== pickyStoreId && storeId !== pickyB2BStoreId) {
+          log.debug('Store ID not Picky or Picky B2B!');
+          return; //allocation/commitment of inventory for sales orders is only done for Picky & Picky B2B
+        }
+  
+        addNumbers(newRec, id);
+      }
     }
 
     function setItem(rec, idx) {
@@ -32,11 +46,12 @@ define(["N/record", "N/task", "N/search"],
       log.debug('Current quantity: ', quantity);
 
       var results = searchItem(item);
-      log.debug('Item results count: ', results.runPaged().count);
+      var count = results.runPaged().count;
+      log.debug('Item results count: ', count);
 
       var range = results.run().getRange({
         start: 0,
-        end: 5
+        end: count
       });
 
       var lots = setLots(range, quantity);
@@ -47,8 +62,6 @@ define(["N/record", "N/task", "N/search"],
         log.debug('lots[k] : ', lots[k]);
 
         var lotNum = parseInt(lots[k].invNumberId);
-        log.debug('lotNum : ', lotNum);
-        log.debug('typeof lotNum : ', typeof lotNum);
         var available = lots[k].quantity;
 
         rec.selectLine({ sublistId: 'item', line: idx });
@@ -131,7 +144,7 @@ define(["N/record", "N/task", "N/search"],
           "AND", 
           ["quantityavailable","greaterthan","0"],
           "AND", 
-          ["expirationdate","onorafter","nextonemonth"],
+          ["expirationdate","after","today"],
           "AND", 
           ["location","anyof","31"]
         ],

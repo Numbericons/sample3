@@ -5,16 +5,10 @@
 
 var srcAccounts = {
   '54' : { //49001 Sales
-    laird: {
-      wholesale: 730, //40002 Sales- wholesale
-      foodservice: 832, //44202 Sales- Other Food Service (added for 2020)
-      direct: 719, //41002 Sales-Direct
-      amazon: 725 //42002 Sales- Amazon
-    },
-    picky: {
-      wholesale: 730, //40002 Sales- wholesale
-      amazon: 725 //42002 Sales- Amazon
-    }
+    wholesale: 730, //40002
+    foodservice: 832, //44202 - added for 2020
+    direct: 719, //41002
+    amazon: 725 //42002
   },
   '230': { // 50091 Cost of Goods Sold-Materials
     isCogs:true,
@@ -51,8 +45,7 @@ function customizeGlImpact(tran, standardLines, customLines, book){
   var txType = tran.getFieldValue('type');
   var docNum = tran.getFieldValue('tranid');
   var custId = tran.getFieldValue('entity');
-  var store = tran.getFieldValue('custentity_celigo_shopify_store');
-  nlapiLogExecution('DEBUG', 'store is: ', store);
+  
   
   //look to see if orderSrc is present in the createdFrom transaction
   if(!orderSrc) {
@@ -152,13 +145,7 @@ function customizeGlImpact(tran, standardLines, customLines, book){
 
     for(var i = standardLines.getCount() -1; i>= 0; i--){
       var line = standardLines.getLine(i);
-      var storeKey;
-      if (store) {
-        storeKey = setStore(store);
-        nlapiLogExecution('DEBUG', 'storeKey is: ', storeKey);
-        var accountMap = srcAccounts[''+line.getAccountId()][storeKey];
-      }
-      nlapiLogExecution('DEBUG', 'accountMap is: ', accountMap);
+      var accountMap = srcAccounts[''+line.getAccountId()];
       if(accountMap){
         if(accountMap.isCogs) {
         //nlapiLogExecution('DEBUG', 'Inside iscogs', '');
@@ -275,12 +262,6 @@ function customizeGlImpact(tran, standardLines, customLines, book){
 
 }
 
-function setStore(store) {
-  if (store === 'Laird Superfood') return 'laird';
-  if (store === 'Picky Bars' || store === 'Picky Bars B2B') return 'picky';
-
-  nlapiLogExecution('ERROR', 'Didnt find a matching store, check customer Shopify Store field');
-}
 
 function transferValues(srcLine, destLine){
   destLine.setLocationId(srcLine.getLocationId());
@@ -288,4 +269,5 @@ function transferValues(srcLine, destLine){
   destLine.setDepartmentId(srcLine.getDepartmentId());
   destLine.setClassId(srcLine.getClassId());
   destLine.setMemo(srcLine.getMemo());
+
 }

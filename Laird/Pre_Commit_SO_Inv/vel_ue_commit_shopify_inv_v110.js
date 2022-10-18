@@ -3,17 +3,33 @@ define(["N/record", "N/task", "N/search"],
     /**
     *@NApiVersion 2.1
     *@NScriptType UserEventScript
+    *Author: Zachary Oliver
+    *Version: v110
     */
 
     function afterSubmit(context) {
-      var newRec = context.newRecord;
-      
-      var id = newRec.getValue({
-        fieldId: 'id'
-      });
-      log.debug('newRec id : ', id);
+      if (context.type == context.UserEventType.CREATE || context.type == context.UserEventType.EDIT) {
+        var newRec = context.newRecord;
+        
+        var id = newRec.getValue({
+          fieldId: 'id'
+        });
+        log.debug('newRec id : ', id);
 
-      addNumbers(newRec, id);
+        var storeId = newRec.getValue({
+          fieldId: 'custbody_celigo_shopify_store_id'
+        });
+
+        const pickyStoreId = "16315219";
+        const pickyB2BStoreId = "31056904";
+
+        if (storeId !== pickyStoreId && storeId !== pickyB2BStoreId) {
+          log.debug('Store ID not Picky or Picky B2B!');
+          return; //allocation/commitment of inventory for sales orders is only done for Picky & Picky B2B
+        }
+  
+        addNumbers(newRec, id);
+      }
     }
 
     function setItem(rec, idx) {
@@ -32,23 +48,26 @@ define(["N/record", "N/task", "N/search"],
       log.debug('Current quantity: ', quantity);
 
       var results = searchItem(item);
-      log.debug('Item results count: ', results.runPaged().count);
+      var count = results.runPaged().count;
+      log.debug('Item results count: ', count);
 
       var range = results.run().getRange({
         start: 0,
-        end: 5
+        end: count
       });
 
       var lots = setLots(range, quantity);
       log.debug('lots : ', lots);
-      if (lots === false) return;
+
+      if (lots === false) {
+        log.debug('There were not enough inventory available in a correct bin etc. to fully allocate the order');
+        return false;
+      }
 
       for (var k=0; k < lots.length; k++){
         log.debug('lots[k] : ', lots[k]);
 
         var lotNum = parseInt(lots[k].invNumberId);
-        log.debug('lotNum : ', lotNum);
-        log.debug('typeof lotNum : ', typeof lotNum);
         var available = lots[k].quantity;
 
         rec.selectLine({ sublistId: 'item', line: idx });
@@ -61,6 +80,7 @@ define(["N/record", "N/task", "N/search"],
         invDetail.commitLine('inventoryassignment');
       }
       rec.commitLine('item');
+      return true;
     }
 
     function setLots(arr, targetString) {
@@ -69,6 +89,22 @@ define(["N/record", "N/task", "N/search"],
 
       for (let i=0; i<arr.length; i++){
         var id = arr[i].getValue({ name: 'internalid' });
+
+        var results = searchInvBinNum(id);
+
+        var inventoryBin = results.run().getRange({
+          start: 0,
+          end: 1
+        });
+
+        log.debug('inventoryBin : ', inventoryBin[0]);
+        var invBinAvail = parseInt(inventoryBin[0].getValue({ name: 'quantityavailable' }));
+
+        if (invBinAvail < target) {
+          log.audit('Inventory Bin search showed less available than the needed for the item');
+          return false;
+        }
+        
         var lot = { invNumberId: id };
 
         log.debug('lot : ', lot);
@@ -114,12 +150,33 @@ define(["N/record", "N/task", "N/search"],
         log.debug('Item is Numbered: ', isNumbered);
 
         if (isNumbered === "T") {
-          setItem(rec, i);
+          var result = setItem(rec, i);
+          if (result === false) return;
         }
       }
 
       rec.save({ enableSourcing: false, ignoreMandatoryFields: false });
       log.debug('Record saved');
+    }
+
+    function searchInvBinNum(invId) {
+      return search.create({
+        type: "inventorynumberbin",
+        filters: [
+            ["binnumber","anyof","4641"], 
+            "AND", 
+            ["inventorynumber.internalid","anyof", invId]
+        ],
+        columns: [
+          search.createColumn({
+            name: "binnumber",
+            sort: search.Sort.ASC,
+            label: "Bin Number"
+          }),
+          search.createColumn({name: "inventorynumber", label: "Inventory Number"}),
+          search.createColumn({name: "quantityavailable", label: "Available"})
+        ]
+      });
     }
 
     function searchItem(item) {
@@ -131,7 +188,7 @@ define(["N/record", "N/task", "N/search"],
           "AND", 
           ["quantityavailable","greaterthan","0"],
           "AND", 
-          ["expirationdate","onorafter","nextonemonth"],
+          ["expirationdate","after","today"],
           "AND", 
           ["location","anyof","31"]
         ],

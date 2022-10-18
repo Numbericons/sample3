@@ -6,14 +6,16 @@ define(["N/record", "N/task", "N/search"],
     */
 
     function afterSubmit(context) {
-      var newRec = context.newRecord;
-      
-      var id = newRec.getValue({
-        fieldId: 'id'
-      });
-      log.debug('newRec id : ', id);
-
-      addNumbers(newRec, id);
+      if (context.type == context.UserEventType.CREATE) {
+        var newRec = context.newRecord;
+        
+        var id = newRec.getValue({
+          fieldId: 'id'
+        });
+        log.debug('newRec id : ', id);
+  
+        addNumbers(newRec, id);
+      }
     }
 
     function setItem(rec, idx) {
@@ -47,8 +49,6 @@ define(["N/record", "N/task", "N/search"],
         log.debug('lots[k] : ', lots[k]);
 
         var lotNum = parseInt(lots[k].invNumberId);
-        log.debug('lotNum : ', lotNum);
-        log.debug('typeof lotNum : ', typeof lotNum);
         var available = lots[k].quantity;
 
         rec.selectLine({ sublistId: 'item', line: idx });
@@ -131,7 +131,7 @@ define(["N/record", "N/task", "N/search"],
           "AND", 
           ["quantityavailable","greaterthan","0"],
           "AND", 
-          ["expirationdate","onorafter","nextonemonth"],
+          ["expirationdate","after","today"],
           "AND", 
           ["location","anyof","31"]
         ],
